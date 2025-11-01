@@ -7,7 +7,7 @@
         "ar": "الرياضيات",
         "en": "Mathematics"
       },
-      "backgroundImage": "https://images.unsplash.com/photo-1596495578065-64086e1d6bfb?q=80&w=1920&auto=format&fit=crop",
+      "backgroundImage": "https://images.unsplash.com/photo-1509228468518-180dd4862904?q=80&w=1920&auto=format&fit=crop",
       "primaryColor": "#3498db",
       "levels": [
         {
@@ -17,9 +17,57 @@
             "ar": "الأولى إعدادي",
             "en": "1st Year Middle School"
           },
-          "lessons": [],
-          "exercises": [],
-          "summaries": []
+          "lessons": [
+            {
+              "id": "l1",
+              "title": {
+                "fr": "Les Nombres Décimaux",
+                "ar": "الأعداد العشرية",
+                "en": "Decimal Numbers"
+              },
+              "content": {
+                "fr": "### Introduction aux Nombres Décimaux\n\nUn nombre décimal est un nombre qui peut s'écrire avec une virgule. Il est composé de deux parties : la **partie entière** (avant la virgule) et la **partie décimale** (après la virgule).\n\n**Exemple :** Dans `12,345`, `12` est la partie entière et `345` est la partie décimale.",
+                "ar": "### مقدمة في الأعداد العشرية\n\nالعدد العشري هو عدد يمكن كتابته بفاصلة. يتكون من جزأين: **الجزء الصحيح** (قبل الفاصلة) و **الجزء العشري** (بعد الفاصلة).\n\n**مثال:** في العدد `12,345`، `12` هو الجزء الصحيح و `345` هو الجزء العشري.",
+                "en": "### Introduction to Decimal Numbers\n\nA decimal number is a number that can be written with a decimal point. It consists of two parts: the **integer part** (before the point) and the **decimal part** (after the point).\n\n**Example:** In `12.345`, `12` is the integer part and `345` is the decimal part."
+              },
+              "backgroundImage": "https://images.unsplash.com/photo-1554224324-46969f9a3f2b?q=80&w=1920&auto=format&fit=crop"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "title": {
+                "fr": "Exercice 1: Addition",
+                "ar": "تمرين 1: الجمع",
+                "en": "Exercise 1: Addition"
+              },
+              "content": {
+                "fr": "Calculez la somme suivante : `25,5 + 10,2`.",
+                "ar": "احسب المجموع التالي: `25,5 + 10,2`.",
+                "en": "Calculate the following sum: `25.5 + 10.2`."
+              },
+              "solution": {
+                "fr": "La solution est `35,7`.",
+                "ar": "الحل هو `35,7`.",
+                "en": "The solution is `35.7`."
+              }
+            }
+          ],
+          "summaries": [
+            {
+              "id": "s1",
+              "title": {
+                "fr": "Résumé du Chapitre 1",
+                "ar": "ملخص الفصل 1",
+                "en": "Chapter 1 Summary"
+              },
+              "content": {
+                "fr": "Ceci est un résumé du chapitre...",
+                "ar": "هذا ملخص للفصل...",
+                "en": "This is a summary of the chapter..."
+              }
+            }
+          ]
         },
         {
           "id": "2ac",
@@ -109,109 +157,108 @@
           },
           "lessons": [
             {
-              "id": "l-1762018601367",
+              "id": "l-1762016375096",
               "title": {
                 "fr": "La Cellule : Unité de Base de la Vie",
                 "ar": "الخلية: الوحدة الأساسية للحياة",
                 "en": "The Cell: The Basic Unit of Life"
               },
               "content": {
-                "fr": "### 1. Qu'est-ce qu'une cellule ?\nImagine que les êtres vivants (plantes, animaux, humains) sont comme des maisons. La plus petite brique qui construit cette maison est ce qu'on appelle une **cellule**. C'est l'unité de base de toute forme de vie. Certains êtres vivants, comme la paramécie, sont formés d'une seule cellule. On les appelle **unicellulaires**. D'autres, comme nous ou les arbres, sont faits de milliards de cellules. On les appelle **pluricellulaires**.\n\n### 2. De quoi est faite une cellule ?\nToutes les cellules ont au moins trois parties en commun :\n*   **La membrane plasmique** : C'est comme le mur de la maison. Elle entoure et protège la cellule.\n*   **Le cytoplasme** : C'est un liquide gélatineux qui remplit la cellule, où se trouvent les différents composants.\n*   **Le noyau** : C'est le cerveau de la cellule. Il contient l'information génétique (ADN) et contrôle toutes les activités de la cellule.\n\n### 3. La différence entre la cellule animale et la cellule végétale\nLes cellules des animaux et des plantes se ressemblent, mais elles ont des différences importantes.\n\n**Cellule Animale (Ex: cellule de la joue) :**\n*   Forme souvent arrondie ou irrégulière.\n*   Composants de base : Membrane, cytoplasme, noyau.\n\n**Cellule Végétale (Ex: cellule d'oignon) :**\n*   Forme géométrique, souvent hexagonale.\n*   En plus des composants de base, elle possède :\n    *   Une **paroi cellulaire** rigide à l'extérieur de la membrane, qui lui donne sa forme et la soutient.\n    *   Une grande **vacuole** qui stocke l'eau et les nutriments.\n    *   Des **chloroplastes** (dans les parties vertes des plantes) qui captent la lumière du soleil pour fabriquer de la nourriture (photosynthèse).\n\n![Image comparant une cellule animale et une cellule végétale](https://i.ibb.co/L5B7q1q/cellules.png)\n*Image : Comparaison schématique entre une cellule animale et une cellule végétale.*",
-                "ar": "### 1. ما هي الخلية؟\nتخيل أن الكائنات الحية (النباتات، الحيوانات، الإنسان) تشبه بيوتاً. أصغر طوبة تبني هذا البيت تسمى **الخلية**. إنها الوحدة الأساسية لكل أشكال الحياة. بعض الكائنات الحية، مثل البراميسيوم، تتكون من خلية واحدة فقط. نسميها كائنات **وحيدة الخلية**. كائنات أخرى، مثلنا أو مثل الأشجار، تتكون من مليارات الخلايا. نسميها كائنات **متعددة الخلايا**.\n\n### 2. مم تتكون الخلية؟\nتشترك جميع الخلايا في ثلاثة أجزاء رئيسية على الأقل:\n*   **الغشاء السيتوبلازمي**: يشبه جدار المنزل. يحيط بالخلية ويحميها.\n*   **السيتوبلازم**: سائل هلامي يملأ الخلية، وتسبح فيه مختلف المكونات.\n*   **النواة**: هي عقل الخلية. تحتوي على المعلومات الوراثية (ADN) وتتحكم في جميع أنشطة الخلية.\n\n### 3. الفرق بين الخلية الحيوانية والخلية النباتية\nتتشابه خلايا الحيوانات والنباتات، ولكن بينها فروق هامة.\n\n**الخلية الحيوانية (مثال: خلية باطن الخد):**\n*   شكلها غالباً دائري أو غير منتظم.\n*   المكونات الأساسية: غشاء، سيتوبلازم، نواة.\n\n**الخلية النباتية (مثال: خلية البصل):**\n*   شكلها هندسي، وغالباً سداسي.\n*   بالإضافة إلى المكونات الأساسية، لديها:\n    *   **جدار هيكلي** صلب خارج الغشاء، يعطيها شكلها ويدعمها.\n    *   **فجوة عصارية** كبيرة تخزن الماء والعناصر الغذائية.\n    *   **بلاستيدات خضراء** (في الأجزاء الخضراء من النبات) تلتقط ضوء الشمس لصنع الغذاء (التركيب الضوئي).\n\n![صورة تقارن بين خلية حيوانية وخلية نباتية](https://i.ibb.co/L5B7q1q/cellules.png)\n*صورة: مقارنة تخطيطية بين خلية حيوانية وخلية نباتية.*",
-                "en": "### 1. What is a cell?\nImagine that living things (plants, animals, humans) are like houses. The smallest brick that builds this house is called a **cell**. It is the basic unit of all life forms. Some living organisms, like the paramecium, are made of a single cell. They are called **unicellular**. Others, like us or trees, are made of billions of cells. They are called **multicellular**.\n\n### 2. What is a cell made of?\nAll cells have at least three parts in common:\n*   **The cell membrane**: It's like the wall of the house. It surrounds and protects the cell.\n*   **The cytoplasm**: This is a gel-like liquid that fills the cell, where the different components are located.\n*   **The nucleus**: This is the brain of the cell. It contains the genetic information (DNA) and controls all the cell's activities.\n\n### 3. The difference between animal and plant cells\nAnimal and plant cells are similar, but they have important differences.\n\n**Animal Cell (e.g., cheek cell):**\n*   Often has a round or irregular shape.\n*   Basic components: Membrane, cytoplasm, nucleus.\n\n**Plant Cell (e.g., onion cell):**\n*   Has a geometric shape, often hexagonal.\n*   In addition to the basic components, it has:\n    *   A rigid **cell wall** outside the membrane, which gives it its shape and support.\n    *   A large **vacuole** that stores water and nutrients.\n    *   **Chloroplasts** (in the green parts of plants) that capture sunlight to make food (photosynthesis).\n\n![Image comparing an animal and a plant cell](https://i.ibb.co/L5B7q1q/cellules.png)\n*Image: Schematic comparison between an animal cell and a plant cell.*"
-              },
-              "backgroundImage": "https://images.pexels.com/photos/3049121/pexels-photo-3049121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                "fr": "### 1. Qu'est-ce qu'une cellule ?\nImaginez une maison construite avec des briques. Chaque brique est essentielle pour construire la maison. De la même manière, tous les êtres vivants (plantes, animaux, humains) sont constitués de minuscules \"briques\" appelées **cellules**. La cellule est la plus petite partie vivante d'un organisme. C'est l'unité de base de la structure et de la fonction de tous les êtres vivants.\n\n*   **Organismes unicellulaires** : Certains êtres vivants, comme la paramécie ou la bactérie, sont formés d'une seule cellule.\n*   **Organismes pluricellulaires** : D'autres, comme les humains, les animaux et les plantes, sont formés de milliards de cellules.\n\n### 2. De quoi est composée une cellule ?\nToutes les cellules ont trois parties principales en commun :\n\n*   **La membrane plasmique** : C'est l'enveloppe extérieure de la cellule. Elle la protège et contrôle ce qui entre et sort.\n*   **Le cytoplasme** : C'est une substance gélatineuse qui remplit la cellule. C'est là que se déroulent la plupart des activités de la cellule.\n*   **Le noyau** : C'est le \"cerveau\" de la cellule. Il contrôle toutes les activités de la cellule et contient l'information génétique (ADN).\n\n### 3. La cellule animale et la cellule végétale\nBien qu'elles aient des points communs, il existe des différences importantes entre les cellules animales et végétales.\n\n*   **Cellule Animale** : Elle a souvent une forme arrondie ou irrégulière. Elle possède une membrane plasmique, un noyau et un cytoplasme.\n*   **Cellule Végétale** : En plus des éléments de la cellule animale, elle possède :\n    *   Une **paroi cellulaire** rigide à l'extérieur de la membrane plasmique, qui lui donne une forme géométrique (souvent hexagonale) et la soutient.\n    *   Des **chloroplastes**, qui contiennent la chlorophylle (le pigment vert) et permettent à la plante de fabriquer sa propre nourriture grâce à la photosynthèse.\n    *   Une grande **vacuole**, qui stocke l'eau et les nutriments.",
+                "ar": "### 1. ما هي الخلية؟\nتخيل منزلاً مبنياً من الطوب. كل طوبة ضرورية لبناء المنزل. بنفس الطريقة، كل الكائنات الحية (النباتات، الحيوانات، البشر) تتكون من \"طوب\" صغير جدًا يسمى **الخلايا**. الخلية هي أصغر جزء حي في الكائن الحي. إنها الوحدة الأساسية في تركيب ووظيفة جميع الكائنات الحية.\n\n*   **كائنات وحيدة الخلية**: بعض الكائنات الحية، مثل البراميسيوم أو البكتيريا، تتكون من خلية واحدة فقط.\n*   **كائنات متعددة الخلية**: كائنات أخرى، مثل البشر والحيوانات والنباتات، تتكون من مليارات الخلايا.\n\n### 2. مم تتكون الخلية؟\nتشترك جميع الخلايا في ثلاثة أجزاء رئيسية:\n\n*   **الغشاء السيتوبلازمي**: هو الغلاف الخارجي للخلية. يحميها ويتحكم فيما يدخل ويخرج منها.\n*   **السيتوبلازم**: هو مادة شبيهة بالهلام تملأ الخلية. تحدث فيه معظم أنشطة الخلية.\n*   **النواة**: هي \"عقل\" الخلية. تتحكم في جميع أنشطة الخلية وتحتوي على المعلومات الوراثية (ADN).\n\n### 3. الخلية الحيوانية والخلية النباتية\nعلى الرغم من وجود نقاط مشتركة بينهما، إلا أن هناك اختلافات مهمة بين الخلايا الحيوانية والنباتية.\n\n*   **الخلية الحيوانية**: غالبًا ما يكون شكلها مستديرًا أو غير منتظم. لديها غشاء سيتوبلازمي ونواة وسيتوبلازم.\n*   **الخلية النباتية**: بالإضافة إلى مكونات الخلية الحيوانية، لديها:\n    *   **جدار هيكلي** صلب خارج الغشاء السيتوبلازمي، يمنحها شكلاً هندسياً (غالباً سداسياً) ويدعمها.\n    *   **بلاستيدات خضراء**، تحتوي على الكلوروفيل (الصبغة الخضراء) وتسمح للنبات بصنع غذائه بنفسه من خلال عملية التمثيل الضوئي.\n    *   **فجوة** كبيرة، تخزن الماء والمواد المغذية.",
+                "en": "### 1. What is a cell?\nImagine a house built with bricks. Each brick is essential to build the house. In the same way, all living things (plants, animals, humans) are made of tiny \"bricks\" called **cells**. The cell is the smallest living part of an organism. It is the basic unit of structure and function for all living things.\n\n*   **Unicellular Organisms**: Some living things, like paramecium or bacteria, are made of only one cell.\n*   **Pluricellular (Multicellular) Organisms**: Others, like humans, animals, and plants, are made of billions of cells.\n\n### 2. What is a cell made of?\nAll cells have three main parts in common:\n\n*   **Cell Membrane**: This is the outer envelope of the cell. It protects it and controls what enters and exits.\n*   **Cytoplasm**: This is a gel-like substance that fills the cell. It's where most of the cell's activities happen.\n*   **Nucleus**: This is the \"brain\" of the cell. It controls all the cell's activities and contains the genetic information (DNA).\n\n### 3. Animal Cell vs. Plant Cell\nAlthough they have things in common, there are important differences between animal and plant cells.\n\n*   **Animal Cell**: It often has a round or irregular shape. It has a cell membrane, a nucleus, and cytoplasm.\n*   **Plant Cell**: In addition to the components of an animal cell, it has:\n    *   A rigid **cell wall** outside the cell membrane, which gives it a geometric shape (often hexagonal) and provides support.\n    *   **Chloroplasts**, which contain chlorophyll (the green pigment) and allow the plant to make its own food through photosynthesis.\n    *   A large **vacuole**, which stores water and nutrients."
+              }
             }
           ],
           "exercises": [
             {
-              "id": "e-1762018601368",
+              "id": "e-1762016375099",
               "title": {
-                "fr": "Exercice 1 : Identifier les composants",
-                "ar": "التمرين 1 : تحديد المكونات",
-                "en": "Exercise 1: Identify the Components"
+                "fr": "Exercice 1 : Identifier les composants de la cellule",
+                "ar": "تمرين 1: تحديد مكونات الخلية",
+                "en": "Exercise 1: Identify the Cell Components"
               },
               "content": {
-                "fr": "Légendez le schéma d'une cellule animale avec les termes suivants : Noyau, Cytoplasme, Membrane plasmique.",
-                "ar": "ضع الأسماء على الرسم التخطيطي للخلية الحيوانية باستخدام المصطلحات التالية: نواة، سيتوبلازم، غشاء سيتوبلازمي.",
-                "en": "Label the diagram of an animal cell with the following terms: Nucleus, Cytoplasm, Cell membrane."
+                "fr": "Observez le schéma d'une cellule végétale ci-dessous et identifiez les composants numérotés de 1 à 5.\n\n(Image d'une cellule végétale avec les numéros pointant vers : 1. Paroi cellulaire, 2. Membrane plasmique, 3. Noyau, 4. Cytoplasme, 5. Vacuole)",
+                "ar": "لاحظ الرسم التخطيطي للخلية النباتية أدناه وحدد المكونات المرقمة من 1 إلى 5.\n\n(صورة لخلية نباتية مع أرقام تشير إلى: 1. الجدار الهيكلي، 2. الغشاء السيتوبلازمي، 3. النواة، 4. السيتوبلازم، 5. الفجوة)",
+                "en": "Observe the diagram of a plant cell below and identify the numbered components from 1 to 5.\n\n(Image of a plant cell with numbers pointing to: 1. Cell Wall, 2. Cell Membrane, 3. Nucleus, 4. Cytoplasm, 5. Vacuole)"
               },
               "solution": {
-                "fr": "Le **Noyau** est la structure centrale. Le **Cytoplasme** est la substance qui remplit la cellule. La **Membrane plasmique** est l'enveloppe extérieure.",
-                "ar": "**النواة** هي التركيب المركزي. **السيتوبلازم** هو المادة التي تملأ الخلية. **الغشاء السيتوبلازمي** هو الغلاف الخارجي.",
-                "en": "The **Nucleus** is the central structure. The **Cytoplasm** is the substance that fills the cell. The **Cell membrane** is the outer envelope."
+                "fr": "1. Paroi cellulaire\n2. Membrane plasmique\n3. Noyau\n4. Cytoplasme\n5. Vacuole",
+                "ar": "1. الجدار الهيكلي\n2. الغشاء السيتوبلازمي\n3. النواة\n4. السيتوبلازم\n5. الفجوة",
+                "en": "1. Cell Wall\n2. Cell Membrane\n3. Nucleus\n4. Cytoplasm\n5. Vacuole"
               }
             },
             {
-              "id": "e-1762018601370",
+              "id": "e-1762016375100",
               "title": {
                 "fr": "Exercice 2 : Vrai ou Faux",
-                "ar": "التمرين 2 : صحيح أم خطأ",
+                "ar": "تمرين 2: صحيح أم خطأ",
                 "en": "Exercise 2: True or False"
               },
               "content": {
-                "fr": "Répondez par Vrai ou Faux aux affirmations suivantes :\na) Tous les êtres vivants sont composés de plusieurs cellules.\nb) La cellule végétale a une paroi cellulaire, mais la cellule animale n'en a pas.\nc) Le noyau contrôle les activités de la cellule.",
-                "ar": "أجب بـ \"صحيح\" أو \"خطأ\" على العبارات التالية:\nأ) كل الكائنات الحية تتكون من عدة خلايا.\nب) للخلية النباتية جدار خلوي، لكن الخلية الحيوانية ليس لها جدار.\nج) النواة تتحكم في أنشطة الخلية.",
-                "en": "Answer with True or False for the following statements:\na) All living things are composed of multiple cells.\nb) The plant cell has a cell wall, but the animal cell does not.\nc) The nucleus controls the cell's activities."
+                "fr": "Répondez par Vrai ou Faux aux affirmations suivantes :\n1. Tous les êtres vivants sont constitués de plusieurs cellules.\n2. La cellule animale a une paroi cellulaire rigide.\n3. Le noyau contrôle les activités de la cellule.\n4. La paramécie est un organisme pluricellulaire.",
+                "ar": "أجب بصحيح أو خطأ على العبارات التالية:\n1. كل الكائنات الحية تتكون من عدة خلايا.\n2. للخلية الحيوانية جدار هيكلي صلب.\n3. النواة تتحكم في أنشطة الخلية.\n4. البراميسيوم كائن متعدد الخلايا.",
+                "en": "Answer with True or False to the following statements:\n1. All living things are made of multiple cells.\n2. The animal cell has a rigid cell wall.\n3. The nucleus controls the cell's activities.\n4. Paramecium is a multicellular organism."
               },
               "solution": {
-                "fr": "a) **Faux**. Certains êtres vivants sont unicellulaires (une seule cellule).\nb) **Vrai**. La paroi cellulaire est spécifique aux cellules végétales.\nc) **Vrai**. Le noyau est le centre de commande de la cellule.",
-                "ar": "أ) **خطأ**. بعض الكائنات الحية وحيدة الخلية (خلية واحدة فقط).\nب) **صحيح**. الجدار الخلوي خاص بالخلايا النباتية.\nج) **صحيح**. النواة هي مركز التحكم في الخلية.",
-                "en": "a) **False**. Some living organisms are unicellular (only one cell).\nb) **True**. The cell wall is specific to plant cells.\nc) **True**. The nucleus is the control center of the cell."
+                "fr": "1. Faux (Il existe des organismes unicellulaires).\n2. Faux (C'est la cellule végétale qui a une paroi cellulaire).\n3. Vrai.\n4. Faux (La paramécie est unicellulaire).",
+                "ar": "1. خطأ (توجد كائنات وحيدة الخلية).\n2. خطأ (الخلية النباتية هي التي لديها جدار هيكلي).\n3. صحيح.\n4. خطأ (البراميسيوم وحيد الخلية).",
+                "en": "1. False (There are unicellular organisms).\n2. False (The plant cell has a cell wall).\n3. True.\n4. False (Paramecium is unicellular)."
               }
             },
             {
-              "id": "e-1762018601371",
+              "id": "e-1762016375101",
               "title": {
-                "fr": "Exercice 3 : Comparaison",
-                "ar": "التمرين 3 : مقارنة",
-                "en": "Exercise 3: Comparison"
+                "fr": "Exercice 3 : Comparer les cellules",
+                "ar": "تمرين 3: مقارنة الخلايا",
+                "en": "Exercise 3: Comparing Cells"
               },
               "content": {
-                "fr": "Citez deux différences majeures entre une cellule animale et une cellule végétale.",
-                "ar": "اذكر فرقين رئيسيين بين الخلية الحيوانية والخلية النباتية.",
-                "en": "Name two major differences between an animal cell and a plant cell."
+                "fr": "Citez deux différences entre une cellule animale et une cellule végétale.",
+                "ar": "اذكر اختلافين بين الخلية الحيوانية والخلية النباتية.",
+                "en": "List two differences between an animal cell and a plant cell."
               },
               "solution": {
-                "fr": "1. La cellule végétale possède une **paroi cellulaire** rigide à l'extérieur de sa membrane, ce que la cellule animale n'a pas.\n2. La cellule végétale a généralement une grande **vacuole** centrale, alors que les cellules animales peuvent avoir de petites vacuoles ou pas du tout.\n(Autre réponse possible : La présence de **chloroplastes** dans les cellules végétales pour la photosynthèse).",
-                "ar": "1. تمتلك الخلية النباتية **جداراً خلوياً** صلباً خارج غشائها، وهو ما لا تملكه الخلية الحيوانية.\n2. تحتوي الخلية النباتية عادةً على **فجوة عصارية** مركزية كبيرة، بينما قد تحتوي الخلايا الحيوانية على فجوات صغيرة أو لا تحتوي عليها إطلاقاً.\n(إجابة أخرى ممكنة: وجود **البلاستيدات الخضراء** في الخلايا النباتية للقيام بالتركيب الضوئي).",
-                "en": "1. The plant cell has a rigid **cell wall** outside its membrane, which the animal cell does not have.\n2. The plant cell usually has a large central **vacuole**, while animal cells may have small vacuoles or none at all.\n(Another possible answer: The presence of **chloroplasts** in plant cells for photosynthesis)."
+                "fr": "1. La cellule végétale possède une paroi cellulaire, contrairement à la cellule animale.\n2. La cellule végétale a une forme géométrique/hexagonale tandis que la cellule animale a une forme arrondie/irrégulière.\n(Autres réponses acceptables : La cellule végétale contient des chloroplastes ; La cellule végétale a une grande vacuole).",
+                "ar": "1. الخلية النباتية لها جدار هيكلي، بينما الخلية الحيوانية ليس لها.\n2. الخلية النباتية لها شكل هندسي/سداسي بينما الخلية الحيوانية لها شكل مستدير/غير منتظم.\n(إجابات أخرى مقبولة: الخلية النباتية تحتوي على بلاستيدات خضراء؛ الخلية النباتية لها فجوة كبيرة).",
+                "en": "1. The plant cell has a cell wall, but the animal cell does not.\n2. The plant cell has a geometric/hexagonal shape, while the animal cell has a round/irregular shape.\n(Other acceptable answers: The plant cell contains chloroplasts; The plant cell has a large vacuole)."
               }
             },
             {
-              "id": "e-1762018601372",
+              "id": "e-1762016375102",
               "title": {
-                "fr": "Exercice 4 : Compléter les phrases",
-                "ar": "التمرين 4 : إتمام الجمل",
-                "en": "Exercise 4: Fill in the Blanks"
+                "fr": "Exercice 4 : Définitions",
+                "ar": "تمرين 4: تعاريف",
+                "en": "Exercise 4: Definitions"
               },
               "content": {
-                "fr": "Complétez les phrases avec les mots corrects :\nLa _______ est l'unité de base de la vie. L'enveloppe qui protège la cellule s'appelle la _______. Le liquide à l'intérieur est le _______.",
-                "ar": "أكمل الجمل بالكلمات الصحيحة:\n_______ هي الوحدة الأساسية للحياة. الغلاف الذي يحمي الخلية يسمى _______. السائل بداخله هو _______.",
-                "en": "Complete the sentences with the correct words:\nThe _______ is the basic unit of life. The envelope that protects the cell is called the _______. The liquid inside is the _______."
+                "fr": "Donnez une définition simple pour les termes suivants :\n- Organisme unicellulaire\n- Cytoplasme",
+                "ar": "قدم تعريفًا بسيطًا للمصطلحات التالية:\n- كائن وحيد الخلية\n- السيتوبلازم",
+                "en": "Provide a simple definition for the following terms:\n- Unicellular organism\n- Cytoplasm"
               },
               "solution": {
-                "fr": "La **cellule** est l'unité de base de la vie. L'enveloppe qui protège la cellule s'appelle la **membrane plasmique**. Le liquide à l'intérieur est le **cytoplasme**.",
-                "ar": "**الخلية** هي الوحدة الأساسية للحياة. الغلاف الذي يحمي الخلية يسمى **الغشاء السيتوبلازمي**. السائل بداخله هو **السيتوبلازم**.",
-                "en": "The **cell** is the basic unit of life. The envelope that protects the cell is called the **cell membrane**. The liquid inside is the **cytoplasm**."
+                "fr": "- **Organisme unicellulaire** : Un être vivant qui est formé d'une seule cellule.\n- **Cytoplasme** : La substance gélatineuse à l'intérieur de la cellule, entre le noyau et la membrane plasmique.",
+                "ar": "- **كائن وحيد الخلية**: كائن حي يتكون من خلية واحدة فقط.\n- **السيتوبلازم**: المادة الشبيهة بالهلام داخل الخلية، بين النواة والغشاء السيتوبلازمي.",
+                "en": "- **Unicellular organism**: A living being that is made of only one single cell.\n- **Cytoplasm**: The gel-like substance inside the cell, between the nucleus and the cell membrane."
               }
             },
             {
-              "id": "e-1762018601373",
+              "id": "e-1762016375103",
               "title": {
-                "fr": "Exercice 5 : Question de réflexion",
-                "ar": "التمرين 5 : سؤال للتفكير",
-                "en": "Exercise 5: Thinking Question"
+                "fr": "Exercice 5 : Compléter le texte",
+                "ar": "تمرين 5: إكمال النص",
+                "en": "Exercise 5: Fill in the Blanks"
               },
               "content": {
-                "fr": "Pourquoi les cellules des feuilles d'un arbre sont-elles vertes alors que les cellules d'une racine ou d'un oignon ne le sont généralement pas ?",
-                "ar": "لماذا تكون خلايا أوراق الشجر خضراء اللون بينما خلايا الجذر أو البصل ليست كذلك بشكل عام؟",
-                "en": "Why are the cells in a tree's leaves green, but the cells in a root or an onion are generally not?"
+                "fr": "Complétez les phrases avec les mots suivants : noyau, pluricellulaire, cellule, membrane.\n\nLa ________ est l'unité de base de tous les êtres vivants. L'être humain est un organisme ________ car il est composé de milliards de cellules. Chaque cellule est entourée par une ________ plasmique et contrôlée par un ________.",
+                "ar": "أكمل الجمل بالكلمات التالية: النواة، متعدد الخلايا، الخلية، غشاء.\n\nالـ________ هي الوحدة الأساسية لجميع الكائنات الحية. الإنسان كائن ________ لأنه يتكون من مليارات الخلايا. كل خلية محاطة بـ________ سيتوبلازمي ويتم التحكم فيها بواسطة ________.",
+                "en": "Complete the sentences with the following words: nucleus, multicellular, cell, membrane.\n\nThe ________ is the basic unit of all living things. A human is a ________ organism because it is made of billions of cells. Each cell is surrounded by a cell ________ and controlled by a ________."
               },
               "solution": {
-                "fr": "Les cellules des feuilles sont vertes car elles contiennent des **chloroplastes**, qui sont remplis d'un pigment vert appelé chlorophylle. Les chloroplastes sont nécessaires pour la photosynthèse, le processus où la plante utilise l'énergie solaire pour produire sa nourriture. Comme les racines et les oignons poussent sous terre, ils ne sont pas exposés à la lumière du soleil et n'ont donc pas besoin de chloroplastes. C'est pourquoi leurs cellules ne sont pas vertes.",
-                "ar": "تكون خلايا الأوراق خضراء لأنها تحتوي على **البلاستيدات الخضراء**، المليئة بصبغة خضراء تسمى الكلوروفيل. البلاستيدات الخضراء ضرورية لعملية التركيب الضوئي، وهي العملية التي يستخدم فيها النبات الطاقة الشمسية لصنع غذائه. بما أن الجذور والبصل تنمو تحت الأرض، فهي لا تتعرض لأشعة الشمس وبالتالي لا تحتاج إلى بلاستيدات خضراء. لهذا السبب خلاياها ليست خضراء.",
-                "en": "The cells in the leaves are green because they contain **chloroplasts**, which are filled with a green pigment called chlorophyll. Chloroplasts are necessary for photosynthesis, the process where the plant uses solar energy to make its food. Since roots and onions grow underground, they are not exposed to sunlight and therefore do not need chloroplasts. This is why their cells are not green."
+                "fr": "La **cellule** est l'unité de base de tous les êtres vivants. L'être humain est un organisme **pluricellulaire** car il est composé de milliards de cellules. Chaque cellule est entourée par une **membrane** plasmique et contrôlée par un **noyau**.",
+                "ar": "الـ**خلية** هي الوحدة الأساسية لجميع الكائنات الحية. الإنسان كائن **متعدد الخلايا** لأنه يتكون من مليارات الخلايا. كل خلية محاطة بـ**غشاء** سيتوبلازمي ويتم التحكم فيها بواسطة **النواة**.",
+                "en": "The **cell** is the basic unit of all living things. A human is a **multicellular** organism because it is made of billions of cells. Each cell is surrounded by a cell **membrane** and controlled by a **nucleus**."
               }
             }
           ],

@@ -237,13 +237,13 @@ a:hover {
 }
 
 .home-header h1, .page-header h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
   margin-bottom: 8px;
 }
 
 .home-header p, .page-header p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--text-color-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -284,7 +284,7 @@ a:hover {
 }
 
 .subject-card-title {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: white;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
@@ -292,6 +292,10 @@ a:hover {
 
 
 /* Subject Page */
+#subject-page .page-header h1 {
+  color: var(--subject-primary-color, var(--primary-color));
+}
+
 .level-section {
   background: var(--dark-gray);
   padding: 20px 25px;
@@ -515,10 +519,10 @@ footer p {
   .nav-toggle.active .hamburger::after { transform: rotate(-45deg) translate(5px, -6px); }
 
   .home-header, .page-header { padding: 15px 15px 10px; }
-  .home-header h1, .page-header h1 { font-size: 1.8rem; }
+  .home-header h1, .page-header h1 { font-size: 1.7rem; }
   .home-header p, .page-header p { font-size: 0.95rem; }
 
-  .subject-card-title { font-size: 1.5rem; }
+  .subject-card-title { font-size: 1.4rem; }
   .level-title { font-size: 1.5rem; }
   .content-title { font-size: 1.8rem; }
   .content-bg-header { height: 150px; }

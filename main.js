@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', async () => {
 
   let DB_DATA = {};
@@ -185,10 +184,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function renderContentPage(item, subject, level, type, lang) {
+      const t = translations[lang];
       if (subject.primaryColor) {
         document.body.style.setProperty('--subject-primary-color', subject.primaryColor);
       }
-      const t = translations[lang];
       document.title = `${getTranslated(item.title, lang)} - ${t.pageTitleContent}`;
 
       const bgHeader = document.getElementById('content-bg-header');
@@ -211,10 +210,25 @@ document.addEventListener('DOMContentLoaded', async () => {
       if(contentTitle) contentTitle.textContent = getTranslated(item.title, lang);
 
       const contentMain = document.getElementById('content-main');
-      const contentText = getTranslated(item.content, lang);
-      if(contentMain && contentText && showdownConverter) {
-        contentMain.innerHTML = showdownConverter.makeHtml(contentText);
+      if (contentMain) {
+          const contentText = getTranslated(item.content, lang);
+          if (contentText && typeof contentText === 'string') {
+              if (showdownConverter) {
+                  try {
+                      contentMain.innerHTML = showdownConverter.makeHtml(contentText);
+                  } catch (e) {
+                      console.error("Showdown conversion failed:", e);
+                      contentMain.innerText = contentText; // Fallback to plain text
+                  }
+              } else {
+                  console.error("Showdown converter not available.");
+                  contentMain.innerText = contentText; // Fallback to plain text
+              }
+          } else {
+              contentMain.innerHTML = `<p class="empty-content">${t.emptyContent}</p>`;
+          }
       }
+
 
       const solutionFab = document.getElementById('solution-fab');
       const solutionContainer = document.getElementById('solution-container');
@@ -222,8 +236,11 @@ document.addEventListener('DOMContentLoaded', async () => {
           if (solutionFab) solutionFab.style.display = 'flex';
           const solutionContent = document.getElementById('solution-content');
           const solutionText = getTranslated(item.solution, lang);
+
           if(solutionContent && solutionText && showdownConverter) {
             solutionContent.innerHTML = showdownConverter.makeHtml(solutionText);
+          } else if (solutionContent) {
+            solutionContent.innerText = solutionText || '';
           }
       } else {
           if (solutionFab) solutionFab.style.display = 'none';

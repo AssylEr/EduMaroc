@@ -1,0 +1,15 @@
+
+{
+  "en": {
+    "header_title": "Welcome to EduMaroc",
+    "header_subtitle": "Your digital portal for success in Mathematics, Physics, and Natural Sciences. Explore subjects, find lessons, and master exercises."
+  },
+  "fr": {
+    "header_title": "Bienvenue sur EduMaroc",
+    "header_subtitle": "Votre portail numérique pour la réussite en Mathématiques, Physique et Sciences Naturelles. Explorez les matières, trouvez des leçons et maîtrisez les exercices."
+  },
+  "ar": {
+    "header_title": "مرحبا بك في EduMaroc",
+    "header_subtitle": "بوابتك الرقمية للنجاح في الرياضيات والفيزياء والعلوم الطبيعية. استكشف المواد، اعثر على الدروس، وأتقن التمارين."
+  }
+}

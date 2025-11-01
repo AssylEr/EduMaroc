@@ -1,0 +1,36 @@
+
+{
+  "en": {
+    "page_title": "About Us - EduMaroc",
+    "header_title": "About EduMaroc",
+    "header_subtitle": "Our vision, our mission, and our commitment to students.",
+    "admin_title": "About the Admin",
+    "admin_desc": "EduMaroc is developed and maintained by a passionate and dedicated independent developer, MOHAMED ERRAQQAD, with expertise in creating seamless user experiences. With a focus on clean design, robust functionality, and user privacy, the goal is to build educational applications that are not only powerful but also intuitive and enjoyable to use.",
+    "contact_title": "Contact Information",
+    "contact_admin": "Admin: MOHAMED ERRAQQAD",
+    "contact_email_label": "Email:",
+    "contact_email_address": "assylerr2021@gmail.com"
+  },
+  "fr": {
+    "page_title": "À Propos - EduMaroc",
+    "header_title": "À Propos d'EduMaroc",
+    "header_subtitle": "Notre vision, notre mission et notre engagement envers les étudiants.",
+    "admin_title": "À propos de l'administrateur",
+    "admin_desc": "EduMaroc est développé et maintenu par un développeur indépendant passionné et dévoué, MOHAMED ERRAQQAD, expert dans la création d'expériences utilisateur fluides. En mettant l'accent sur un design épuré, des fonctionnalités robustes et la confidentialité des utilisateurs, l'objectif est de créer des applications éducatives non seulement puissantes, mais aussi intuitives et agréables à utiliser.",
+    "contact_title": "Informations de Contact",
+    "contact_admin": "Admin : MOHAMED ERRAQQAD",
+    "contact_email_label": "Email :",
+    "contact_email_address": "assylerr2021@gmail.com"
+  },
+  "ar": {
+    "page_title": "من نحن - EduMaroc",
+    "header_title": "عن EduMaroc",
+    "header_subtitle": "رؤيتنا، مهمتنا، والتزامنا تجاه الطلاب.",
+    "admin_title": "عن المسؤول",
+    "admin_desc": "تم تطوير وصيانة EduMaroc بواسطة مطور مستقل شغوف ومتفانٍ، محمد الرقاد، يتمتع بخبرة في إنشاء تجارب مستخدم سلسة. مع التركيز على التصميم النظيف والوظائف القوية وخصوصية المستخدم، الهدف هو بناء تطبيقات تعليمية ليست قوية فحسب، بل سهلة الاستخدام وممتعة أيضًا.",
+    "contact_title": "معلومات الاتصال",
+    "contact_admin": "المسؤول: محمد الرقاد",
+    "contact_email_label": "البريد الإلكتروني:",
+    "contact_email_address": "assylerr2021@gmail.com"
+  }
+}

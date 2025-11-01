@@ -1,0 +1,95 @@
+
+{
+  "subjects": [
+    {
+      "id": "math",
+      "name": { "fr": "Mathématiques", "ar": "الرياضيات", "en": "Mathematics" },
+      "backgroundImage": "https://images.unsplash.com/photo-1509228468458-181648483a9e?q=80&w=1920&auto=format&fit=crop",
+      "levels": [
+        {
+          "id": "1ac",
+          "name": { "fr": "1ère Année Collège", "ar": "الأولى إعدادي", "en": "1st Year Middle School" },
+          "lessons": [
+            { "id": "l1", "title": { "fr": "Les Nombres Décimaux", "ar": "الأعداد العشرية", "en": "Decimal Numbers" }, "content": { "fr": "### Introduction aux Nombres Décimaux\n\nUn nombre décimal est un nombre qui peut s'écrire avec une virgule. Il est composé de deux parties : la **partie entière** (avant la virgule) et la **partie décimale** (après la virgule).\n\n**Exemple :** Dans `12,345`, `12` est la partie entière et `345` est la partie décimale.", "ar": "### مقدمة في الأعداد العشرية\n\nالعدد العشري هو عدد يمكن كتابته بفاصلة. يتكون من جزأين: **الجزء الصحيح** (قبل الفاصلة) و **الجزء العشري** (بعد الفاصلة).\n\n**مثال:** في العدد `12,345`، `12` هو الجزء الصحيح و `345` هو الجزء العشري.", "en": "### Introduction to Decimal Numbers\n\nA decimal number is a number that can be written with a decimal point. It consists of two parts: the **integer part** (before the point) and the **decimal part** (after the point).\n\n**Example:** In `12.345`, `12` is the integer part and `345` is the decimal part." } }
+          ],
+          "exercises": [
+             { "id": "e1", "title": { "fr": "Exercice 1: Addition", "ar": "تمرين 1: الجمع", "en": "Exercise 1: Addition" }, "content": { "fr": "Calculez la somme suivante : `25,5 + 10,2`.", "ar": "احسب المجموع التالي: `25,5 + 10,2`.", "en": "Calculate the following sum: `25.5 + 10.2`." }, "solution": { "fr": "La solution est `35,7`.", "ar": "الحل هو `35,7`.", "en": "The solution is `35.7`." } }
+          ],
+          "summaries": [
+            { "id": "s1", "title": { "fr": "Résumé du Chapitre 1", "ar": "ملخص الفصل 1", "en": "Chapter 1 Summary" }, "content": { "fr": "Ceci est un résumé du chapitre...", "ar": "هذا ملخص للفصل...", "en": "This is a summary of the chapter..." } }
+          ]
+        },
+        {
+          "id": "2ac",
+          "name": { "fr": "2ème Année Collège", "ar": "الثانية إعدادي", "en": "2nd Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        },
+        {
+          "id": "3ac",
+          "name": { "fr": "3ème Année Collège", "ar": "الثالثة إعدادي", "en": "3rd Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": { "fr": "Physique-Chimie", "ar": "الفيزياء والكيمياء", "en": "Physics & Chemistry" },
+      "backgroundImage": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?q=80&w=1920&auto=format&fit=crop",
+      "levels": [
+        {
+          "id": "1ac",
+          "name": { "fr": "1ère Année Collège", "ar": "الأولى إعدادي", "en": "1st Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        },
+        {
+          "id": "2ac",
+          "name": { "fr": "2ème Année Collège", "ar": "الثانية إعدادي", "en": "2nd Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        },
+        {
+          "id": "3ac",
+          "name": { "fr": "3ème Année Collège", "ar": "الثالثة إعدادي", "en": "3rd Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": { "fr": "Sciences de la Vie et de la Terre", "ar": "علوم الحياة والأرض", "en": "Life and Earth Sciences" },
+      "backgroundImage": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=1920&auto=format&fit=crop",
+      "levels": [
+        {
+          "id": "1ac",
+          "name": { "fr": "1ère Année Collège", "ar": "الأولى إعدادي", "en": "1st Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        },
+        {
+          "id": "2ac",
+          "name": { "fr": "2ème Année Collège", "ar": "الثانية إعدادي", "en": "2nd Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        },
+        {
+          "id": "3ac",
+          "name": { "fr": "3ème Année Collège", "ar": "الثالثة إعدادي", "en": "3rd Year Middle School" },
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
+        }
+      ]
+    }
+  ]
+}

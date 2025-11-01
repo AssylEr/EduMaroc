@@ -247,6 +247,35 @@ document.addEventListener('DOMContentLoaded', async () => {
           if (solutionContainer) solutionContainer.style.display = 'none';
       }
   }
+  
+  function renderPageForLanguage(lang) {
+    populateStaticTranslations(lang);
+    populatePageContent(lang);
+
+    if (!DB_DATA || !DB_DATA.subjects) return;
+    
+    // Page-specific render functions
+    const bodyId = document.body.id;
+    if (bodyId === 'home-page') {
+      renderHomePage(DB_DATA.subjects, lang);
+    } else if (bodyId === 'subject-page') {
+      const subjectId = new URLSearchParams(window.location.search).get('id');
+      const subject = DB_DATA.subjects.find(s => s.id === subjectId);
+      if (subject) renderSubjectPage(subject, lang);
+    } else if (bodyId === 'content-page') {
+      const params = new URLSearchParams(window.location.search);
+      const subjectId = params.get('subject');
+      const levelId = params.get('level');
+      const type = params.get('type');
+      const itemId = params.get('id');
+      
+      const subject = DB_DATA.subjects.find(s => s.id === subjectId);
+      const level = subject?.levels.find(l => l.id === levelId);
+      const item = level?.[type]?.find(i => i.id === itemId);
+
+      if(item && subject && level) renderContentPage(item, subject, level, type, lang);
+    }
+  }
 
   function setLanguage(lang) {
     currentLang = lang;
@@ -254,7 +283,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
     
-    // Reset any subject-specific theme when changing language globally
+    // Reset subject-specific theme color on language change to avoid persistence across pages
     document.body.style.removeProperty('--subject-primary-color');
 
     const langToggle = document.getElementById('lang-toggle');
@@ -263,35 +292,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         else if (lang === 'ar') langToggle.textContent = 'English';
         else langToggle.textContent = 'Français';
     }
-
-    populateStaticTranslations(lang);
     
-    const bodyId = document.body.id;
-    if (bodyId.endsWith('-page')) populatePageContent(lang);
-    
-    if (!DB_DATA.subjects) return;
-
-    if (bodyId === 'home-page') {
-      renderHomePage(DB_DATA.subjects, lang);
-    }
-    else if (bodyId === 'subject-page') {
-        const subjectId = new URLSearchParams(window.location.search).get('id');
-        const subject = DB_DATA.subjects.find(s => s.id === subjectId);
-        if(subject) renderSubjectPage(subject, lang);
-    }
-    else if (bodyId === 'content-page') {
-        const params = new URLSearchParams(window.location.search);
-        const subjectId = params.get('subject');
-        const levelId = params.get('level');
-        const type = params.get('type');
-        const itemId = params.get('id');
-        
-        const subject = DB_DATA.subjects.find(s => s.id === subjectId);
-        const level = subject?.levels.find(l => l.id === levelId);
-        const item = level?.[type]?.find(i => i.id === itemId);
-
-        if(item && subject && level) renderContentPage(item, subject, level, type, lang);
-    }
+    renderPageForLanguage(lang);
   }
   
   function getNextLang(current) {
@@ -346,7 +348,6 @@ document.addEventListener('DOMContentLoaded', async () => {
           if (!response.ok) throw new Error('Shared components (nav.html) not found');
           const componentsHtml = await response.text();
           document.body.insertAdjacentHTML('afterbegin', componentsHtml);
-          // Initialize showdown converter here to ensure it's available for all rendering functions
           if (window.showdown) {
               showdownConverter = new showdown.Converter({tables: true, simplifiedAutoLink: true, openLinksInNewWindow: true});
           } else {
@@ -368,7 +369,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const [dbData, pageData] = await Promise.all([
         fetchJsonData('database.json'),
-        pageDataPath ? fetchJsonData(pageDataPath) : Promise.resolve({})
+        pageDataPath ? fetchJsonДata(pageDataPath) : Promise.resolve({})
     ]);
 
     if (!dbData) {
@@ -379,9 +380,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     DB_DATA = dbData;
     PAGE_DATA = pageData || {};
 
-    setLanguage(currentLang);
     setActiveNav();
     initializeEventListeners();
+    setLanguage(currentLang);
   }
 
   initializeApp();

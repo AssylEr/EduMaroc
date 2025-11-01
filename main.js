@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const t = translations[lang] || translations.en;
       const errorDiv = document.createElement('div');
       errorDiv.className = 'global-error';
-      errorDiv.innerHTML = `<p><strong>${t.errorTitle}</strong> ${t.errorMessage} ${t.suggestion}</p>`;
+      errorDiv.innerHTML = `<p><strong>${t.errorTitle}</strong> ${t.errorMessage} ${t.errorSuggestion}</p>`;
       document.body.prepend(errorDiv);
   }
 
@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         pageDataPath ? fetchJsonData(pageDataPath) : Promise.resolve({})
     ]);
 
-    if (!dbData) {
+    if (!dbData || !Array.isArray(dbData.subjects)) {
         displayGlobalError(currentLang);
         return;
     }

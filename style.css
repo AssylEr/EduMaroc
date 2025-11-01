@@ -1,6 +1,6 @@
-
 :root {
   --primary-color: #1DB954; /* Sporty green */
+  --subject-primary-color: var(--primary-color); /* Will be overridden by JS */
   --background-color: #121212;
   --text-color: #f1f1f1;
   --text-color-secondary: #b3b3b3;
@@ -33,6 +33,13 @@ body {
   font-size: 15px;
 }
 
+#subject-page, #content-page {
+    background-image: 
+    linear-gradient(rgba(18, 18, 18, 0.96), rgba(18, 18, 18, 0.96)),
+    linear-gradient(to bottom, color-mix(in srgb, var(--subject-primary-color) 15%, transparent), transparent);
+}
+
+
 .container {
   max-width: 960px;
   width: 100%;
@@ -43,6 +50,9 @@ body {
 a {
   color: var(--primary-color);
   text-decoration: none;
+}
+#subject-page a, #content-page a {
+  color: var(--subject-primary-color, var(--primary-color));
 }
 
 a:hover {
@@ -227,13 +237,13 @@ a:hover {
 }
 
 .home-header h1, .page-header h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 800;
   margin-bottom: 8px;
 }
 
 .home-header p, .page-header p {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--text-color-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -274,7 +284,7 @@ a:hover {
 }
 
 .subject-card-title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: white;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
@@ -291,8 +301,8 @@ a:hover {
 }
 
 .level-title {
-  font-size: 1.8rem;
-  color: var(--primary-color);
+  font-size: 1.6rem;
+  color: var(--subject-primary-color, var(--primary-color));
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--light-gray);
@@ -303,7 +313,7 @@ a:hover {
 }
 
 .content-category h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--text-color);
   margin-bottom: 10px;
 }
@@ -322,15 +332,15 @@ a:hover {
   padding: 10px 15px;
   background-color: var(--medium-gray);
   border-radius: 6px;
-  transition: background-color 0.2s, padding-left 0.2s;
+  transition: background-color 0.2s, padding-left 0.2s, color 0.2s;
 }
 
 html[dir="rtl"] .content-category a {
-  transition: background-color 0.2s, padding-right 0.2s;
+  transition: background-color 0.2s, padding-right 0.2s, color 0.2s;
 }
 
 .content-category a:hover {
-  background-color: var(--primary-color);
+  background-color: var(--subject-primary-color, var(--primary-color));
   color: white;
   text-decoration: none;
   padding-left: 25px;
@@ -346,6 +356,21 @@ html[dir="rtl"] .content-category a:hover {
 }
 
 /* Content Page */
+.content-bg-header {
+  height: 200px;
+  margin: -40px -20px 30px -20px;
+  border-radius: 0 0 12px 12px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.content-bg-header::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(18,18,18,1) 0%, rgba(18,18,18,0) 50%);
+  border-radius: 0 0 12px 12px;
+}
 .breadcrumbs {
   margin-bottom: 20px;
   font-size: 0.9rem;
@@ -355,7 +380,7 @@ html[dir="rtl"] .content-category a:hover {
   color: var(--text-color-secondary);
 }
 .breadcrumbs a:hover {
-  color: var(--primary-color);
+  color: var(--subject-primary-color, var(--primary-color));
 }
 .breadcrumbs span {
   color: var(--text-color);
@@ -363,10 +388,12 @@ html[dir="rtl"] .content-category a:hover {
 
 .content-header {
   margin-bottom: 20px;
+  margin-top: -20px;
 }
 .content-title {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
+  color: var(--subject-primary-color, var(--primary-color));
 }
 
 .content-main {
@@ -394,12 +421,12 @@ html[dir="rtl"] .content-category a:hover {
 .solution-container {
   margin-top: 30px;
   padding: 25px;
-  border: 1px dashed var(--primary-color);
+  border: 1px dashed var(--subject-primary-color, var(--primary-color));
   border-radius: 8px;
-  background-color: rgba(29, 185, 84, 0.05);
+  background-color: color-mix(in srgb, var(--subject-primary-color, var(--primary-color)) 5%, transparent);
 }
 .solution-container h2 {
-  color: var(--primary-color);
+  color: var(--subject-primary-color, var(--primary-color));
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -408,7 +435,7 @@ html[dir="rtl"] .content-category a:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--primary-color);
+  background-color: var(--subject-primary-color, var(--primary-color));
   color: white;
   border: none;
   border-radius: 50px;
@@ -435,7 +462,7 @@ html[dir="rtl"] .solution-fab {
 
 .solution-fab:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(29, 185, 84, 0.3);
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--subject-primary-color, var(--primary-color)) 30%, transparent);
 }
 
 .solution-fab .fab-icon {
@@ -494,6 +521,7 @@ footer p {
   .subject-card-title { font-size: 1.5rem; }
   .level-title { font-size: 1.5rem; }
   .content-title { font-size: 1.8rem; }
+  .content-bg-header { height: 150px; }
 }
 
 @media (max-width: 480px) {

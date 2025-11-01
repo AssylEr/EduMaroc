@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const t = translations[lang] || translations.en;
       const errorDiv = document.createElement('div');
       errorDiv.className = 'global-error';
-      errorDiv.innerHTML = `<p><strong>${t.errorTitle}</strong> ${t.errorMessage} ${t.errorSuggestion}</p>`;
+      errorDiv.innerHTML = `<p><strong>${t.errorTitle}</strong> ${t.errorMessage} ${t.suggestion}</p>`;
       document.body.prepend(errorDiv);
   }
 
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.querySelectorAll('[data-page-prop]').forEach(el => {
         const key = el.dataset.pageProp;
         if (content[key] !== undefined) {
-           if(el.dataset.isMarkdown) {
+           if(el.dataset.isMarkdown && showdownConverter) {
              el.innerHTML = showdownConverter.makeHtml(content[key]);
            } else {
              el.innerHTML = content[key];
@@ -142,6 +142,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function renderSubjectPage(subject, lang) {
+      if (subject.primaryColor) {
+        document.body.style.setProperty('--subject-primary-color', subject.primaryColor);
+      }
       const t = translations[lang];
       document.title = `${getTranslated(subject.name, lang)} - ${t.pageTitleSubject}`;
 
@@ -182,8 +185,18 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function renderContentPage(item, subject, level, type, lang) {
+      if (subject.primaryColor) {
+        document.body.style.setProperty('--subject-primary-color', subject.primaryColor);
+      }
       const t = translations[lang];
       document.title = `${getTranslated(item.title, lang)} - ${t.pageTitleContent}`;
+
+      const bgHeader = document.getElementById('content-bg-header');
+      if(bgHeader && item.backgroundImage) {
+          bgHeader.style.backgroundImage = `url('${item.backgroundImage}')`;
+      } else if (bgHeader) {
+          bgHeader.style.display = 'none';
+      }
 
       const breadcrumbsContainer = document.getElementById('breadcrumbs-container');
       if(breadcrumbsContainer) {
@@ -198,14 +211,20 @@ document.addEventListener('DOMContentLoaded', async () => {
       if(contentTitle) contentTitle.textContent = getTranslated(item.title, lang);
 
       const contentMain = document.getElementById('content-main');
-      if(contentMain) contentMain.innerHTML = showdownConverter.makeHtml(getTranslated(item.content, lang));
+      const contentText = getTranslated(item.content, lang);
+      if(contentMain && contentText && showdownConverter) {
+        contentMain.innerHTML = showdownConverter.makeHtml(contentText);
+      }
 
       const solutionFab = document.getElementById('solution-fab');
       const solutionContainer = document.getElementById('solution-container');
       if (type === 'exercises' && item.solution) {
           if (solutionFab) solutionFab.style.display = 'flex';
           const solutionContent = document.getElementById('solution-content');
-          if(solutionContent) solutionContent.innerHTML = showdownConverter.makeHtml(getTranslated(item.solution, lang));
+          const solutionText = getTranslated(item.solution, lang);
+          if(solutionContent && solutionText && showdownConverter) {
+            solutionContent.innerHTML = showdownConverter.makeHtml(solutionText);
+          }
       } else {
           if (solutionFab) solutionFab.style.display = 'none';
           if (solutionContainer) solutionContainer.style.display = 'none';
@@ -217,6 +236,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     localStorage.setItem('userLanguage', lang);
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    
+    // Reset any subject-specific theme when changing language globally
+    document.body.style.removeProperty('--subject-primary-color');
 
     const langToggle = document.getElementById('lang-toggle');
     if (langToggle) {
@@ -307,7 +329,12 @@ document.addEventListener('DOMContentLoaded', async () => {
           if (!response.ok) throw new Error('Shared components (nav.html) not found');
           const componentsHtml = await response.text();
           document.body.insertAdjacentHTML('afterbegin', componentsHtml);
-          showdownConverter = new showdown.Converter({tables: true, simplifiedAutoLink: true, openLinksInNewWindow: true});
+          // Initialize showdown converter here to ensure it's available for all rendering functions
+          if (window.showdown) {
+              showdownConverter = new showdown.Converter({tables: true, simplifiedAutoLink: true, openLinksInNewWindow: true});
+          } else {
+              console.error("Showdown library not loaded.");
+          }
       } catch (error) {
           console.error('Failed to load shared components:', error);
       }

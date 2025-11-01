@@ -7,7 +7,8 @@
         "ar": "الرياضيات",
         "en": "Mathematics"
       },
-      "backgroundImage": "https://images.unsplash.com/photo-1509228468458-181648483a9e?q=80&w=1920&auto=format&fit=crop",
+      "backgroundImage": "https://images.unsplash.com/photo-1596495578065-64086e1d6bfb?q=80&w=1920&auto=format&fit=crop",
+      "primaryColor": "#3498db",
       "levels": [
         {
           "id": "1ac",
@@ -28,7 +29,8 @@
                 "fr": "### Introduction aux Nombres Décimaux\n\nUn nombre décimal est un nombre qui peut s'écrire avec une virgule. Il est composé de deux parties : la **partie entière** (avant la virgule) et la **partie décimale** (après la virgule).\n\n**Exemple :** Dans `12,345`, `12` est la partie entière et `345` est la partie décimale.",
                 "ar": "### مقدمة في الأعداد العشرية\n\nالعدد العشري هو عدد يمكن كتابته بفاصلة. يتكون من جزأين: **الجزء الصحيح** (قبل الفاصلة) و **الجزء العشري** (بعد الفاصلة).\n\n**مثال:** في العدد `12,345`، `12` هو الجزء الصحيح و `345` هو الجزء العشري.",
                 "en": "### Introduction to Decimal Numbers\n\nA decimal number is a number that can be written with a decimal point. It consists of two parts: the **integer part** (before the point) and the **decimal part** (after the point).\n\n**Example:** In `12.345`, `12` is the integer part and `345` is the decimal part."
-              }
+              },
+              "backgroundImage": "https://images.unsplash.com/photo-1554224324-46969f9a3f2b?q=80&w=1920&auto=format&fit=crop"
             }
           ],
           "exercises": [
@@ -99,6 +101,7 @@
         "en": "Physics & Chemistry"
       },
       "backgroundImage": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?q=80&w=1920&auto=format&fit=crop",
+      "primaryColor": "#e74c3c",
       "levels": [
         {
           "id": "1ac",
@@ -143,6 +146,7 @@
         "en": "Life and Earth Sciences"
       },
       "backgroundImage": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=1920&auto=format&fit=crop",
+      "primaryColor": "#2ecc71",
       "levels": [
         {
           "id": "1ac",

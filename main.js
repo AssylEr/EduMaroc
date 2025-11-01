@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const [dbData, pageData] = await Promise.all([
         fetchJsonData('database.json'),
-        pageDataPath ? fetchJsonДata(pageDataPath) : Promise.resolve({})
+        pageDataPath ? fetchJsonData(pageDataPath) : Promise.resolve({})
     ]);
 
     if (!dbData) {

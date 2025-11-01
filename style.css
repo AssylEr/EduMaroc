@@ -422,6 +422,16 @@ html[dir="rtl"] .content-category a:hover {
   text-decoration: underline;
 }
 
+.content-main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--light-gray);
+}
+
 .solution-container {
   margin-top: 30px;
   padding: 25px;

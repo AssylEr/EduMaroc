@@ -1,4 +1,3 @@
-
 {
   "id": "1ac",
   "name": {
@@ -193,30 +192,436 @@
     }
   ],
   "lessons": [
-    { "id": "math-1ac-l1", "topicId": "math-1ac-c1", "status": "pending_review", "title": { "fr": "Opérations sur les nombres entiers et décimaux", "ar": "العمليات على الأعداد الصحيحة والعشرية", "en": "Operations on integers and decimals" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l2", "topicId": "math-1ac-c2", "status": "pending_review", "title": { "fr": "Droites, segments et angles", "ar": "المستقيمات والقطع والزوايا", "en": "Lines, segments, and angles" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l3", "topicId": "math-1ac-c3", "status": "pending_review", "title": { "fr": "Introduction aux nombres fractionnaires", "ar": "مقدمة في الأعداد الكسرية", "en": "Introduction to fractional numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l4", "topicId": "math-1ac-c4", "status": "pending_review", "title": { "fr": "Addition et soustraction des fractions", "ar": "جمع وطرح الكسور", "en": "Adding and subtracting fractions" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l5", "topicId": "math-1ac-c5", "status": "pending_review", "title": { "fr": "Propriétés du triangle et médiatrices", "ar": "خصائص المثلث والواسطات", "en": "Properties of triangles and perpendicular bisectors" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l6", "topicId": "math-1ac-c6", "status": "pending_review", "title": { "fr": "Introduction aux nombres relatifs", "ar": "مقدمة في الأعداد النسبية", "en": "Introduction to relative numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l7", "topicId": "math-1ac-c7", "status": "pending_review", "title": { "fr": "Somme algébrique", "ar": "المجموع الجبري", "en": "Algebraic sum" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l8", "topicId": "math-1ac-c8", "status": "pending_review", "title": { "fr": "Somme des angles d'un triangle", "ar": "مجموع زوايا المثلث", "en": "Sum of angles in a triangle" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l9", "topicId": "math-1ac-c9", "status": "pending_review", "title": { "fr": "Produit et quotient de nombres relatifs", "ar": "جداء وخارج عددين نسبيين", "en": "Product and quotient of relative numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l10", "topicId": "math-1ac-c10", "status": "pending_review", "title": { "fr": "Calcul des puissances", "ar": "حساب القوى", "en": "Calculating powers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l11", "topicId": "math-1ac-c11", "status": "pending_review", "title": { "fr": "Construction des bissectrices et hauteurs", "ar": "إنشاء المنصفات والارتفاعات", "en": "Constructing bisectors and altitudes" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l12", "topicId": "math-1ac-c12", "status": "pending_review", "title": { "fr": "Figures symétriques", "ar": "الأشكال المتماثلة", "en": "Symmetrical figures" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l13", "topicId": "math-1ac-c13", "status": "pending_review", "title": { "fr": "Calcul littéral", "ar": "الحساب الحرفي", "en": "Literal calculation" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l14", "topicId": "math-1ac-c14", "status": "pending_review", "title": { "fr": "Propriétés du parallélogramme", "ar": "خصائص متوازي الأضلاع", "en": "Properties of parallelograms" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l15", "topicId": "math-1ac-c15", "status": "pending_review", "title": { "fr": "Rectangle, losange et carré", "ar": "المستطيل، المعين والمربع", "en": "Rectangle, rhombus, and square" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l16", "topicId": "math-1ac-c16", "status": "pending_review", "title": { "fr": "Résolution d'équations du premier degré", "ar": "حل معادلات من الدرجة الأولى", "en": "Solving first-degree equations" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l17", "topicId": "math-1ac-c17", "status": "pending_review", "title": { "fr": "Angles alternes-internes et correspondants", "ar": "الزوايا المتبادلة داخليا والمتناظرة", "en": "Alternate interior and corresponding angles" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l18", "topicId": "math-1ac-c18", "status": "pending_review", "title": { "fr": "Propriétés du cercle", "ar": "خصائص الدائرة", "en": "Properties of the circle" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l19", "topicId": "math-1ac-c19", "status": "pending_review", "title": { "fr": "Coordonnées dans un repère", "ar": "الإحداثيات في معلم", "en": "Coordinates in a plane" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l20", "topicId": "math-1ac-c20", "status": "pending_review", "title": { "fr": "Tableaux et graphiques de proportionnalité", "ar": "جداول ومبيانات التناسبية", "en": "Proportionality tables and graphs" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l21", "topicId": "math-1ac-c21", "status": "pending_review", "title": { "fr": "Collecte et organisation des données", "ar": "جمع وتنظيم البيانات", "en": "Data collection and organization" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l22", "topicId": "math-1ac-c22", "status": "pending_review", "title": { "fr": "Aires et volumes des solides", "ar": "مساحات وحجوم المجسمات", "en": "Areas and volumes of solids" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l23", "topicId": "math-1ac-c23", "status": "pending_review", "title": { "fr": "Formules de calcul", "ar": "صيغ الحساب", "en": "Calculation formulas" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" }
+    {
+      "id": "math-1ac-l1",
+      "topicId": "math-1ac-c1",
+      "status": "verified",
+      "title": {
+        "fr": "Opérations sur les nombres entiers et décimaux",
+        "ar": "العمليات على الأعداد الصحيحة والعشرية",
+        "en": "Operations on integers and decimals"
+      },
+      "content": {
+        "fr": "### 1. Vocabulaire\n\nPour effectuer des opérations, il est important de connaître le nom des différents éléments.\n\n*   **Addition** : `a + b = c`. Les nombres `a` et `b` sont les **termes**, `c` est la **somme**.\n*   **Soustraction** : `a - b = c`. Les nombres `a` et `b` sont les **termes**, `c` est la **différence**.\n*   **Multiplication** : `a × b = c`. Les nombres `a` et `b` sont les **facteurs**, `c` est le **produit**.\n*   **Division** : `a ÷ b = c`. Le nombre `a` est le **dividende**, `b` est le **diviseur**, `c` est le **quotient**.\n\n![Un tableau simple et clair avec quatre sections, une pour chaque opération (addition, soustraction, multiplication, division), montrant un exemple et étiquetant chaque partie (termes, somme, facteurs, produit, etc.).](img_un_tableau_simple_et_clair_avec_quatre_sections_un_1762104602198.jpg)\n\n### 2. Suite d'opérations sans parenthèses\n\nDans une suite d'opérations sans parenthèses, on effectue :\n1.  Les **multiplications** et les **divisions** de gauche à droite.\n2.  Puis, les **additions** et les **soustractions** de gauche à droite.\n\n**Exemple :**\nCalculer `A = 25 - 3 × 4 + 10 ÷ 2`\n*   Priorité à la multiplication et la division :\n    `A = 25 - 12 + 5`\n*   Ensuite, on calcule de gauche à droite :\n    `A = 13 + 5`\n    `A = 18`\n\n### 3. Suite d'opérations avec parenthèses\n\nDans une suite d'opérations avec des parenthèses, on effectue d'abord les calculs **à l'intérieur des parenthèses**, en respectant les règles de priorité vues précédemment.\n\n**Exemple :**\nCalculer `B = (15 + 5) × 3 - (20 - 10 ÷ 2)`\n*   Calculs dans les parenthèses :\n    *   `15 + 5 = 20`\n    *   `20 - 10 ÷ 2 = 20 - 5 = 15`\n*   On remplace les parenthèses par leurs résultats :\n    `B = 20 × 3 - 15`\n*   On effectue la multiplication prioritaire :\n    `B = 60 - 15`\n*   On termine le calcul :\n    `B = 45`\n\n[IMAGE: Un diagramme coloré montrant les règles de priorité des opérations (PEMDAS/BODMAS) avec des icônes pour les parenthèses, la multiplication, la division, l'addition et la soustraction.]\n\n### 4. Distributivité\n\nLa multiplication est distributive par rapport à l'addition et à la soustraction.\nPour tous nombres `k`, `a` et `b` :\n*   `k × (a + b) = k × a + k × b`\n*   `k × (a - b) = k × a - k × b`\n\n**Développer** une expression, c'est transformer un produit en une somme ou une différence.\n**Factoriser** une expression, c'est transformer une somme ou une différence en un produit.\n\n**Exemple (Développement) :**\n`5 × (7 + 3) = 5 × 7 + 5 × 3 = 35 + 15 = 50`\n\n**Exemple (Factorisation) :**\n`12 × 8 - 12 × 3 = 12 × (8 - 3) = 12 × 5 = 60`",
+        "ar": "### 1. مفردات\n\nلإجراء العمليات، من المهم معرفة أسماء العناصر المختلفة.\n\n*   **الجمع** : `a + b = c`. الأعداد `a` و `b` هما **الحدان**، و `c` هو **المجموع**.\n*   **الطرح** : `a - b = c`. الأعداد `a` و `b` هما **الحدان**، و `c` هو **الفرق**.\n*   **الضرب** : `a × b = c`. الأعداد `a` و `b` هما **العاملان**، و `c` هو **الجداء**.\n*   **القسمة** : `a ÷ b = c`. العدد `a` هو **المقسوم**، و `b` هو **المقسوم عليه**، و `c` هو **الخارج**.\n\n![Un tableau simple et clair avec quatre sections, une pour chaque opération (addition, soustraction, multiplication, division), montrant un exemple et étiquetant chaque partie (termes, somme, facteurs, produit, etc.).](img_un_tableau_simple_et_clair_avec_quatre_sections_un_1762104602198.jpg)\n\n### 2. سلسلة عمليات بدون أقواس\n\nفي سلسلة عمليات بدون أقواس، نقوم بإجراء:\n1.  **الضرب** و **القسمة** من اليسار إلى اليمين.\n2.  ثم **الجمع** و **الطرح** من اليسار إلى اليمين.\n\n**مثال:**\nأحسب `A = 25 - 3 × 4 + 10 ÷ 2`\n*   الأولوية للضرب والقسمة:\n    `A = 25 - 12 + 5`\n*   ثم نحسب من اليسار إلى اليمين:\n    `A = 13 + 5`\n    `A = 18`\n\n### 3. سلسلة عمليات بأقواس\n\nفي سلسلة عمليات بأقواس، نقوم أولاً بإجراء الحسابات **داخل الأقواس**، مع احترام قواعد الأولوية التي رأيناها سابقًا.\n\n**مثال:**\nأحسب `B = (15 + 5) × 3 - (20 - 10 ÷ 2)`\n*   الحسابات داخل الأقواس:\n    *   `15 + 5 = 20`\n    *   `20 - 10 ÷ 2 = 20 - 5 = 15`\n*   نعوض الأقواس بنتائجها:\n    `B = 20 × 3 - 15`\n*   نقوم بعملية الضرب ذات الأولوية:\n    `B = 60 - 15`\n*   ننهي الحساب:\n    `B = 45`\n\n[IMAGE: Un diagramme coloré montrant les règles de priorité des opérations (PEMDAS/BODMAS) avec des icônes pour les parenthèses, la multiplication, la division, l'addition et la soustraction.]\n\n### 4. التوزيعية\n\nالضرب توزيعي بالنسبة للجمع والطرح.\nلجميع الأعداد `k` و `a` و `b` :\n*   `k × (a + b) = k × a + k × b`\n*   `k × (a - b) = k × a - k × b`\n\n**النشر** هو تحويل جداء إلى مجموع أو فرق.\n**التعميل** هو تحويل مجموع أو فرق إلى جداء.\n\n**مثال (النشر):**\n`5 × (7 + 3) = 5 × 7 + 5 × 3 = 35 + 15 = 50`\n\n**مثال (التعميل):**\n`12 × 8 - 12 × 3 = 12 × (8 - 3) = 12 × 5 = 60`",
+        "en": "### 1. Vocabulary\n\nTo perform operations, it is important to know the names of the different elements.\n\n*   **Addition**: `a + b = c`. The numbers `a` and `b` are the **terms**, `c` is the **sum**.\n*   **Subtraction**: `a - b = c`. The numbers `a` and `b` are the **terms**, `c` is the **difference**.\n*   **Multiplication**: `a × b = c`. The numbers `a` and `b` are the **factors**, `c` is the **product**.\n*   **Division**: `a ÷ b = c`. The number `a` is the **dividend**, `b` is the **divisor**, `c` is the **quotient**.\n\n![Un tableau simple et clair avec quatre sections, une pour chaque opération (addition, soustraction, multiplication, division), montrant un exemple et étiquetant chaque partie (termes, somme, facteurs, produit, etc.).](img_un_tableau_simple_et_clair_avec_quatre_sections_un_1762104602198.jpg)\n\n### 2. Sequence of Operations without Parentheses\n\nIn a sequence of operations without parentheses, we perform:\n1.  **Multiplications** and **divisions** from left to right.\n2.  Then, **additions** and **subtractions** from left to right.\n\n**Example:**\nCalculate `A = 25 - 3 × 4 + 10 ÷ 2`\n*   Priority to multiplication and division:\n    `A = 25 - 12 + 5`\n*   Then, we calculate from left to right:\n    `A = 13 + 5`\n    `A = 18`\n\n### 3. Sequence of Operations with Parentheses\n\nIn a sequence of operations with parentheses, we first perform the calculations **inside the parentheses**, respecting the priority rules seen previously.\n\n**Example:**\nCalculate `B = (15 + 5) × 3 - (20 - 10 ÷ 2)`\n*   Calculations inside the parentheses:\n    *   `15 + 5 = 20`\n    *   `20 - 10 ÷ 2 = 20 - 5 = 15`\n*   We replace the parentheses with their results:\n    `B = 20 × 3 - 15`\n*   We perform the priority multiplication:\n    `B = 60 - 15`\n*   We finish the calculation:\n    `B = 45`\n\n[IMAGE: Un diagramme coloré montrant les règles de priorité des opérations (PEMDAS/BODMAS) avec des icônes pour les parenthèses, la multiplication, la division, l'addition et la soustraction.]\n\n### 4. Distributive Property\n\nThe multiplication is distributive over addition and subtraction.\nFor all numbers `k`, `a`, and `b`:\n*   `k × (a + b) = k × a + k × b`\n*   `k × (a - b) = k × a - k × b`\n\n**Expanding** an expression means transforming a product into a sum or a difference.\n**Factoring** an expression means transforming a sum or a difference into a product.\n\n**Example (Expanding):**\n`5 × (7 + 3) = 5 × 7 + 5 × 3 = 35 + 15 = 50`\n\n**Example (Factoring):**\n`12 × 8 - 12 × 3 = 12 × (8 - 3) = 12 × 5 = 60`"
+      },
+      "backgroundImage": "img_background_1762104608548.png"
+    },
+    {
+      "id": "math-1ac-l2",
+      "topicId": "math-1ac-c2",
+      "status": "pending_review",
+      "title": {
+        "fr": "Droites, segments et angles",
+        "ar": "المستقيمات والقطع والزوايا",
+        "en": "Lines, segments, and angles"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l3",
+      "topicId": "math-1ac-c3",
+      "status": "pending_review",
+      "title": {
+        "fr": "Introduction aux nombres fractionnaires",
+        "ar": "مقدمة في الأعداد الكسرية",
+        "en": "Introduction to fractional numbers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l4",
+      "topicId": "math-1ac-c4",
+      "status": "pending_review",
+      "title": {
+        "fr": "Addition et soustraction des fractions",
+        "ar": "جمع وطرح الكسور",
+        "en": "Adding and subtracting fractions"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l5",
+      "topicId": "math-1ac-c5",
+      "status": "pending_review",
+      "title": {
+        "fr": "Propriétés du triangle et médiatrices",
+        "ar": "خصائص المثلث والواسطات",
+        "en": "Properties of triangles and perpendicular bisectors"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l6",
+      "topicId": "math-1ac-c6",
+      "status": "pending_review",
+      "title": {
+        "fr": "Introduction aux nombres relatifs",
+        "ar": "مقدمة في الأعداد النسبية",
+        "en": "Introduction to relative numbers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l7",
+      "topicId": "math-1ac-c7",
+      "status": "pending_review",
+      "title": {
+        "fr": "Somme algébrique",
+        "ar": "المجموع الجبري",
+        "en": "Algebraic sum"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l8",
+      "topicId": "math-1ac-c8",
+      "status": "pending_review",
+      "title": {
+        "fr": "Somme des angles d'un triangle",
+        "ar": "مجموع زوايا المثلث",
+        "en": "Sum of angles in a triangle"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l9",
+      "topicId": "math-1ac-c9",
+      "status": "pending_review",
+      "title": {
+        "fr": "Produit et quotient de nombres relatifs",
+        "ar": "جداء وخارج عددين نسبيين",
+        "en": "Product and quotient of relative numbers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l10",
+      "topicId": "math-1ac-c10",
+      "status": "pending_review",
+      "title": {
+        "fr": "Calcul des puissances",
+        "ar": "حساب القوى",
+        "en": "Calculating powers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l11",
+      "topicId": "math-1ac-c11",
+      "status": "pending_review",
+      "title": {
+        "fr": "Construction des bissectrices et hauteurs",
+        "ar": "إنشاء المنصفات والارتفاعات",
+        "en": "Constructing bisectors and altitudes"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l12",
+      "topicId": "math-1ac-c12",
+      "status": "pending_review",
+      "title": {
+        "fr": "Figures symétriques",
+        "ar": "الأشكال المتماثلة",
+        "en": "Symmetrical figures"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l13",
+      "topicId": "math-1ac-c13",
+      "status": "pending_review",
+      "title": {
+        "fr": "Calcul littéral",
+        "ar": "الحساب الحرفي",
+        "en": "Literal calculation"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l14",
+      "topicId": "math-1ac-c14",
+      "status": "pending_review",
+      "title": {
+        "fr": "Propriétés du parallélogramme",
+        "ar": "خصائص متوازي الأضلاع",
+        "en": "Properties of parallelograms"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l15",
+      "topicId": "math-1ac-c15",
+      "status": "pending_review",
+      "title": {
+        "fr": "Rectangle, losange et carré",
+        "ar": "المستطيل، المعين والمربع",
+        "en": "Rectangle, rhombus, and square"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l16",
+      "topicId": "math-1ac-c16",
+      "status": "pending_review",
+      "title": {
+        "fr": "Résolution d'équations du premier degré",
+        "ar": "حل معادلات من الدرجة الأولى",
+        "en": "Solving first-degree equations"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l17",
+      "topicId": "math-1ac-c17",
+      "status": "pending_review",
+      "title": {
+        "fr": "Angles alternes-internes et correspondants",
+        "ar": "الزوايا المتبادلة داخليا والمتناظرة",
+        "en": "Alternate interior and corresponding angles"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l18",
+      "topicId": "math-1ac-c18",
+      "status": "pending_review",
+      "title": {
+        "fr": "Propriétés du cercle",
+        "ar": "خصائص الدائرة",
+        "en": "Properties of the circle"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l19",
+      "topicId": "math-1ac-c19",
+      "status": "pending_review",
+      "title": {
+        "fr": "Coordonnées dans un repère",
+        "ar": "الإحداثيات في معلم",
+        "en": "Coordinates in a plane"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l20",
+      "topicId": "math-1ac-c20",
+      "status": "pending_review",
+      "title": {
+        "fr": "Tableaux et graphiques de proportionnalité",
+        "ar": "جداول ومبيانات التناسبية",
+        "en": "Proportionality tables and graphs"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l21",
+      "topicId": "math-1ac-c21",
+      "status": "pending_review",
+      "title": {
+        "fr": "Collecte et organisation des données",
+        "ar": "جمع وتنظيم البيانات",
+        "en": "Data collection and organization"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l22",
+      "topicId": "math-1ac-c22",
+      "status": "pending_review",
+      "title": {
+        "fr": "Aires et volumes des solides",
+        "ar": "مساحات وحجوم المجسمات",
+        "en": "Areas and volumes of solids"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l23",
+      "topicId": "math-1ac-c23",
+      "status": "pending_review",
+      "title": {
+        "fr": "Formules de calcul",
+        "ar": "صيغ الحساب",
+        "en": "Calculation formulas"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "id": "e-1762103526891",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "title": {
+        "fr": "Calcul sans parenthèses",
+        "ar": "حساب بدون أقواس",
+        "en": "Calculation without Parentheses"
+      },
+      "content": {
+        "fr": "Calculez l'expression suivante en détaillant les étapes :\nA = 45 - 2 × 5 + 36 ÷ 4",
+        "ar": "أحسب التعبير التالي مع تفصيل الخطوات :\nA = 45 - 2 × 5 + 36 ÷ 4",
+        "en": "Calculate the following expression, detailing the steps:\nA = 45 - 2 × 5 + 36 ÷ 4"
+      },
+      "solution": {
+        "fr": "On respecte la priorité des opérations : multiplication et division d'abord, de gauche à droite.\n1.  `A = 45 - (2 × 5) + (36 ÷ 4)`\n2.  `A = 45 - 10 + 9`\n3.  On calcule ensuite de gauche à droite :\n    `A = 35 + 9`\n4.  `A = 44`",
+        "ar": "نحترم أولوية العمليات: الضرب والقسمة أولاً، من اليسار إلى اليمين.\n1.  `A = 45 - (2 × 5) + (36 ÷ 4)`\n2.  `A = 45 - 10 + 9`\n3.  ثم نحسب من اليسار إلى اليمين:\n    `A = 35 + 9`\n4.  `A = 44`",
+        "en": "We respect the order of operations: multiplication and division first, from left to right.\n1.  `A = 45 - (2 × 5) + (36 ÷ 4)`\n2.  `A = 45 - 10 + 9`\n3.  Then we calculate from left to right:\n    `A = 35 + 9`\n4.  `A = 44`"
+      }
+    },
+    {
+      "id": "e-1762103526892",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "title": {
+        "fr": "Calcul avec parenthèses",
+        "ar": "حساب بأقواس",
+        "en": "Calculation with Parentheses"
+      },
+      "content": {
+        "fr": "Calculez l'expression suivante en détaillant les étapes :\nB = (7.5 + 2.5) × (12 - 2 × 3)",
+        "ar": "أحسب التعبير التالي مع تفصيل الخطوات :\nB = (7.5 + 2.5) × (12 - 2 × 3)",
+        "en": "Calculate the following expression, detailing the steps:\nB = (7.5 + 2.5) × (12 - 2 × 3)"
+      },
+      "solution": {
+        "fr": "On commence par les calculs à l'intérieur des parenthèses.\n1.  Dans la première parenthèse : `7.5 + 2.5 = 10`\n2.  Dans la deuxième parenthèse, on respecte la priorité de la multiplication : `12 - 2 × 3 = 12 - 6 = 6`\n3.  On remplace les parenthèses par leurs résultats :\n    `B = 10 × 6`\n4.  `B = 60`",
+        "ar": "نبدأ بالحسابات داخل الأقواس.\n1.  في القوس الأول: `7.5 + 2.5 = 10`\n2.  في القوس الثاني، نحترم أولوية الضرب: `12 - 2 × 3 = 12 - 6 = 6`\n3.  نعوض الأقواس بنتائجها:\n    `B = 10 × 6`\n4.  `B = 60`",
+        "en": "We start with the calculations inside the parentheses.\n1.  In the first parenthesis: `7.5 + 2.5 = 10`\n2.  In the second parenthesis, we respect the priority of multiplication: `12 - 2 × 3 = 12 - 6 = 6`\n3.  We replace the parentheses with their results:\n    `B = 10 × 6`\n4.  `B = 60`"
+      }
+    },
+    {
+      "id": "e-1762103526893",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "title": {
+        "fr": "Utilisation de la distributivité",
+        "ar": "استخدام التوزيعية",
+        "en": "Using the Distributive Property"
+      },
+      "content": {
+        "fr": "Calculez de deux manières différentes l'expression suivante :\nC = 15 × (10 + 4)",
+        "ar": "أحسب بطريقتين مختلفتين التعبير التالي :\nC = 15 × (10 + 4)",
+        "en": "Calculate the following expression in two different ways:\nC = 15 × (10 + 4)"
+      },
+      "solution": {
+        "fr": "**Méthode 1 : Priorité aux parenthèses**\n1.  On calcule ce qui est dans la parenthèse : `10 + 4 = 14`\n2.  `C = 15 × 14`\n3.  `C = 210`\n\n**Méthode 2 : En utilisant la distributivité (développement)**\n1.  On distribue le 15 : `C = 15 × 10 + 15 × 4`\n2.  On calcule les produits : `C = 150 + 60`\n3.  On calcule la somme : `C = 210`\n\nLes deux méthodes donnent le même résultat.",
+        "ar": "**الطريقة الأولى: الأولوية للأقواس**\n1.  نحسب ما بداخل القوس: `10 + 4 = 14`\n2.  `C = 15 × 14`\n3.  `C = 210`\n\n**الطريقة الثانية: باستخدام التوزيعية (النشر)**\n1.  ننشر العدد 15: `C = 15 × 10 + 15 × 4`\n2.  نحسب الجداءات: `C = 150 + 60`\n3.  نحسب المجموع: `C = 210`\n\nالطريقتان تعطيان نفس النتيجة.",
+        "en": "**Method 1: Priority to parentheses**\n1.  Calculate what is inside the parenthesis: `10 + 4 = 14`\n2.  `C = 15 × 14`\n3.  `C = 210`\n\n**Method 2: Using the distributive property (expanding)**\n1.  We distribute the 15: `C = 15 × 10 + 15 × 4`\n2.  We calculate the products: `C = 150 + 60`\n3.  We calculate the sum: `C = 210`\n\nBoth methods give the same result."
+      }
+    }
+  ],
   "summaries": []
 }

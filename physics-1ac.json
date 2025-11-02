@@ -1,4 +1,3 @@
-
 {
   "id": "1ac",
   "name": {
@@ -9,92 +8,476 @@
   "chapters": [
     {
       "id": "phys-1ac-c1",
-      "title": { "fr": "L'eau", "ar": "الماء", "en": "Water" }
+      "title": {
+        "fr": "L'eau",
+        "ar": "الماء",
+        "en": "Water"
+      }
     },
     {
       "id": "phys-1ac-c2",
-      "title": { "fr": "Les trois états de la matière", "ar": "الحالات الثلاث للمادة", "en": "The three states of matter" }
+      "title": {
+        "fr": "Les trois états de la matière",
+        "ar": "الحالات الثلاث للمادة",
+        "en": "The three states of matter"
+      }
     },
     {
       "id": "phys-1ac-c3",
-      "title": { "fr": "Le volume, la masse et la masse volumique", "ar": "الحجم والكتلة والكتلة الحجمية", "en": "Volume, mass, and density" }
+      "title": {
+        "fr": "Le volume, la masse et la masse volumique",
+        "ar": "الحجم والكتلة والكتلة الحجمية",
+        "en": "Volume, mass, and density"
+      }
     },
     {
       "id": "phys-1ac-c4",
-      "title": { "fr": "La notion de pression et de pression atmosphérique", "ar": "مفهوم الضغط والضغط الجوي", "en": "The concept of pressure and atmospheric pressure" }
+      "title": {
+        "fr": "La notion de pression et de pression atmosphérique",
+        "ar": "مفهوم الضغط والضغط الجوي",
+        "en": "The concept of pressure and atmospheric pressure"
+      }
     },
     {
       "id": "phys-1ac-c5",
-      "title": { "fr": "Le modèle particulaire de la matière", "ar": "النموذج الدقائقي للمادة", "en": "The particulate model of matter" }
+      "title": {
+        "fr": "Le modèle particulaire de la matière",
+        "ar": "النموذج الدقائقي للمادة",
+        "en": "The particulate model of matter"
+      }
     },
     {
       "id": "phys-1ac-c6",
-      "title": { "fr": "Les transformations physiques de la matière", "ar": "التحولات الفيزيائية للمادة", "en": "Physical transformations of matter" }
+      "title": {
+        "fr": "Les transformations physiques de la matière",
+        "ar": "التحولات الفيزيائية للمادة",
+        "en": "Physical transformations of matter"
+      }
     },
     {
       "id": "phys-1ac-c7",
-      "title": { "fr": "Les mélanges", "ar": "الخلائط", "en": "Mixtures" }
+      "title": {
+        "fr": "Les mélanges",
+        "ar": "الخلائط",
+        "en": "Mixtures"
+      }
     },
     {
       "id": "phys-1ac-c8",
-      "title": { "fr": "Séparation des constituants d'un mélange", "ar": "فصل مكونات خليط", "en": "Separation of the components of a mixture" }
+      "title": {
+        "fr": "Séparation des constituants d'un mélange",
+        "ar": "فصل مكونات خليط",
+        "en": "Separation of the components of a mixture"
+      }
     },
     {
       "id": "phys-1ac-c9",
-      "title": { "fr": "Traitements des eaux", "ar": "معالجة المياه", "en": "Water treatment" }
+      "title": {
+        "fr": "Traitements des eaux",
+        "ar": "معالجة المياه",
+        "en": "Water treatment"
+      }
     },
     {
       "id": "phys-1ac-c10",
-      "title": { "fr": "L'électricité autour de nous", "ar": "الكهرباء من حولنا", "en": "Electricity around us" }
+      "title": {
+        "fr": "L'électricité autour de nous",
+        "ar": "الكهرباء من حولنا",
+        "en": "Electricity around us"
+      }
     },
     {
       "id": "phys-1ac-c11",
-      "title": { "fr": "Le circuit électrique simple", "ar": "الدارة الكهربائية البسيطة", "en": "The simple electrical circuit" }
+      "title": {
+        "fr": "Le circuit électrique simple",
+        "ar": "الدارة الكهربائية البسيطة",
+        "en": "The simple electrical circuit"
+      }
     },
     {
       "id": "phys-1ac-c12",
-      "title": { "fr": "Matériaux conducteurs et isolants-sécurité électrique", "ar": "المواد الموصلة والعازلة والسلامة الكهربائية", "en": "Conductors, insulators, and electrical safety" }
+      "title": {
+        "fr": "Matériaux conducteurs et isolants-sécurité électrique",
+        "ar": "المواد الموصلة والعازلة والسلامة الكهربائية",
+        "en": "Conductors, insulators, and electrical safety"
+      }
     },
     {
       "id": "phys-1ac-c13",
-      "title": { "fr": "Les différents types de montages", "ar": "أنواع التراكيب الكهربائية", "en": "Types of electrical circuits" }
+      "title": {
+        "fr": "Les différents types de montages",
+        "ar": "أنواع التراكيب الكهربائية",
+        "en": "Types of electrical circuits"
+      }
     },
     {
       "id": "phys-1ac-c14",
-      "title": { "fr": "Le courant électrique continu", "ar": "التيار الكهربائي المستمر", "en": "Direct current" }
+      "title": {
+        "fr": "Le courant électrique continu",
+        "ar": "التيار الكهربائي المستمر",
+        "en": "Direct current"
+      }
     },
     {
       "id": "phys-1ac-c15",
-      "title": { "fr": "Effet de la résistance sur l'intensité du courant électrique", "ar": "تأثير المقاومة على شدة التيار الكهربائي", "en": "Effect of resistance on the intensity of electric current" }
+      "title": {
+        "fr": "Effet de la résistance sur l'intensité du courant électrique",
+        "ar": "تأثير المقاومة على شدة التيار الكهربائي",
+        "en": "Effect of resistance on the intensity of electric current"
+      }
     },
     {
       "id": "phys-1ac-c16",
-      "title": { "fr": "Loi des nœuds et loi d'additivité des tensions", "ar": "قانون العقد وقانون إضافية التوترات", "en": "Junction rule and loop rule" }
+      "title": {
+        "fr": "Loi des nœuds et loi d'additivité des tensions",
+        "ar": "قانون العقد وقانون إضافية التوترات",
+        "en": "Junction rule and loop rule"
+      }
     },
     {
       "id": "phys-1ac-c17",
-      "title": { "fr": "Protection contre les dangers du courant électrique", "ar": "الوقاية من أخطار التيار الكهربائي", "en": "Protection against the dangers of electric current" }
+      "title": {
+        "fr": "Protection contre les dangers du courant électrique",
+        "ar": "الوقاية من أخطار التيار الكهربائي",
+        "en": "Protection against the dangers of electric current"
+      }
     }
   ],
   "lessons": [
-    { "id": "phys-1ac-l1", "topicId": "phys-1ac-c1", "status": "pending_review", "title": { "fr": "Propriétés de l'eau", "ar": "خصائص الماء", "en": "Properties of water" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l2", "topicId": "phys-1ac-c2", "status": "pending_review", "title": { "fr": "Caractéristiques des états de la matière", "ar": "مميزات حالات المادة", "en": "Characteristics of the states of matter" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l3", "topicId": "phys-1ac-c3", "status": "pending_review", "title": { "fr": "Mesure du volume et de la masse", "ar": "قياس الحجم والكتلة", "en": "Measuring volume and mass" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l4", "topicId": "phys-1ac-c4", "status": "pending_review", "title": { "fr": "Pression et forces pressantes", "ar": "الضغط والقوى الضاغطة", "en": "Pressure and pressing forces" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l5", "topicId": "phys-1ac-c5", "status": "pending_review", "title": { "fr": "Interprétation des états physiques", "ar": "تفسير الحالات الفيزيائية", "en": "Interpretation of physical states" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l6", "topicId": "phys-1ac-c6", "status": "pending_review", "title": { "fr": "Changements d'état", "ar": "تغيرات الحالة", "en": "Changes of state" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l7", "topicId": "phys-1ac-c7", "status": "pending_review", "title": { "fr": "Types de mélanges", "ar": "أنواع الخلائط", "en": "Types of mixtures" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l8", "topicId": "phys-1ac-c8", "status": "pending_review", "title": { "fr": "Techniques de séparation", "ar": "تقنيات الفصل", "en": "Separation techniques" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l9", "topicId": "phys-1ac-c9", "status": "pending_review", "title": { "fr": "Sources et traitement de l'eau", "ar": "مصادر ومعالجة الماء", "en": "Sources and treatment of water" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l10", "topicId": "phys-1ac-c10", "status": "pending_review", "title": { "fr": "Sources et production de l'électricité", "ar": "مصادر وإنتاج الكهرباء", "en": "Sources and production of electricity" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l11", "topicId": "phys-1ac-c11", "status": "pending_review", "title": { "fr": "Éléments d'un circuit", "ar": "عناصر دارة كهربائية", "en": "Elements of a circuit" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l12", "topicId": "phys-1ac-c12", "status": "pending_review", "title": { "fr": "Conducteurs et isolants", "ar": "الموصلات والعوازل", "en": "Conductors and insulators" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l13", "topicId": "phys-1ac-c13", "status": "pending_review", "title": { "fr": "Montage en série et en dérivation", "ar": "التركيب على التوالي وعلى التوازي", "en": "Series and parallel circuits" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l14", "topicId": "phys-1ac-c14", "status": "pending_review", "title": { "fr": "Mesure de l'intensité et de la tension", "ar": "قياس شدة التيار والتوتر", "en": "Measuring current and voltage" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l15", "topicId": "phys-1ac-c15", "status": "pending_review", "title": { "fr": "Loi d'Ohm", "ar": "قانون أوم", "en": "Ohm's Law" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l16", "topicId": "phys-1ac-c16", "status": "pending_review", "title": { "fr": "Lois du courant électrique", "ar": "قوانين التيار الكهربائي", "en": "Laws of electric current" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "phys-1ac-l17", "topicId": "phys-1ac-c17", "status": "pending_review", "title": { "fr": "Fusibles et disjoncteurs", "ar": "الصهيرة والفاصل التفاضلي", "en": "Fuses and circuit breakers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" }
+    {
+      "id": "phys-1ac-l1",
+      "topicId": "phys-1ac-c1",
+      "status": "pending_review",
+      "title": {
+        "fr": "Propriétés de l'eau",
+        "ar": "خصائص الماء",
+        "en": "Properties of water"
+      },
+      "content": {
+        "fr": "### Introduction\nL'eau est une substance essentielle à la vie sur Terre. On la trouve partout dans notre environnement : dans les océans, les rivières, l'air et même dans notre corps. L'une des particularités de l'eau est qu'elle peut exister sous trois états physiques différents : solide, liquide et gazeux.\n\n### I. Les trois états physiques de l'eau\n\n#### 1. L'état solide\n- **Exemples :** Glace, neige, givre.\n- **Propriétés :** L'eau à l'état solide a une **forme propre** et un **volume propre**. On peut la saisir.\n- **Modèle moléculaire :** Les molécules d'eau sont très proches les unes des autres et bien ordonnées. Elles sont liées et vibrent sur place.\n![Molécules d'eau dans la glace, montrant une structure cristalline ordonnée et rigide](img_mol_cules_d_eau_dans_la_glace_montrant_une_structu_1762106205748.png)\n\n#### 2. L'état liquide\n- **Exemples :** Eau de pluie, eau du robinet, eau des rivières.\n- **Propriétés :** L'eau à l'état liquide n'a **pas de forme propre** ; elle prend la forme du récipient qui la contient. Son **volume est propre** (défini). Sa surface libre au repos est plane et horizontale.\n- **Modèle moléculaire :** Les molécules d'eau sont proches mais désordonnées. Elles peuvent glisser les unes sur les autres.\n![Molécules d'eau à l'état liquide, désordonnées et se déplaçant les unes par rapport aux autres dans un bécher](img_mol_cules_d_eau_l_tat_liquide_d_sordonn_es_et_se_d_1762106210000.png)\n\n#### 3. L'état gazeux\n- **Exemples :** Vapeur d'eau (invisible) dans l'air.\n- **Propriétés :** L'eau à l'état gazeux n'a **ni forme propre, ni volume propre**. Elle occupe tout l'espace disponible. Elle est compressible et expansive.\n- **Modèle moléculaire :** Les molécules d'eau sont très éloignées les unes des autres et se déplacent rapidement et de manière désordonnée dans toutes les directions.\n![Molécules d'eau à l'état gazeux (vapeur), très espacées et se déplaçant de manière chaotique dans un récipient fermé](img_mol_cules_d_eau_l_tat_gazeux_vapeur_tr_s_espac_es__1762106213799.png)\n\n### II. Les changements d'état de l'eau\nL'eau peut passer d'un état physique à un autre sous l'effet d'un changement de température.\n\n![Diagramme complet des changements d'état de l'eau (fusion, solidification, vaporisation, liquéfaction, sublimation, condensation) avec les noms des transitions clairement étiquetés](img_diagramme_complet_des_changements_d_tat_de_l_eau_f_1762106217671.png)\n\n- **Fusion :** Passage de l'état solide à l'état liquide (Ex: la glace fond). Se produit à 0°C.\n- **Solidification :** Passage de l'état liquide à l'état solide (Ex: l'eau gèle). Se produit à 0°C.\n- **Vaporisation :** Passage de l'état liquide à l'état gazeux. Elle peut se faire par **ébullition** (à 100°C) ou par **évaporation** (à toute température, à la surface du liquide).\n- **Liquéfaction (ou Condensation) :** Passage de l'état gazeux à l'état liquide (Ex: buée sur une vitre froide).\n\n### III. Le cycle de l'eau dans la nature\nLe cycle de l'eau est un processus naturel où l'eau circule continuellement entre la Terre et l'atmosphère. Il comprend plusieurs étapes :\n1.  **Évaporation :** L'eau des mers, des lacs et des rivières s'évapore sous l'effet du soleil et se transforme en vapeur d'eau.\n2.  **Condensation :** En altitude, la vapeur d'eau se refroidit et se condense pour former des nuages.\n3.  **Précipitations :** Lorsque les gouttes d'eau dans les nuages deviennent trop lourdes, elles tombent sous forme de pluie, de neige ou de grêle.\n4.  **Ruissellement et Infiltration :** L'eau des précipitations ruisselle à la surface pour rejoindre les cours d'eau ou s'infiltre dans le sol pour former des nappes phréatiques.\n\n![Illustration détaillée du cycle de l'eau dans la nature montrant l'évaporation des océans, la condensation en nuages, les précipitations (pluie/neige), et le ruissellement vers les rivières et les lacs](img_illustration_d_taill_e_du_cycle_de_l_eau_dans_la_n_1762106221195.png)\n\n### IV. L'eau, un solvant\nL'eau a la capacité de dissoudre de nombreuses substances. C'est pourquoi on l'appelle souvent le \"solvant universel\".\n- **Soluté :** La substance qui est dissoute (ex: le sel, le sucre).\n- **Solvant :** La substance qui dissout (ex: l'eau).\n- **Solution :** Le mélange homogène obtenu (ex: l'eau salée).\n\nQuand on mélange un soluté et un solvant, on obtient une solution. Si tout le soluté se dissout, la solution est dite **non saturée**. Si on ne peut plus dissoudre de soluté, elle est **saturée**.",
+        "ar": "### مقدمة\nالماء مادة أساسية للحياة على الأرض. يوجد في كل مكان في بيئتنا: في المحيطات والأنهار والهواء وحتى في أجسامنا. إحدى خصائص الماء المميزة هي أنه يمكن أن يوجد في ثلاث حالات فيزيائية مختلفة: صلبة، سائلة، وغازية.\n\n### I. الحالات الفيزيائية الثلاث للماء\n\n#### 1. الحالة الصلبة\n- **أمثلة:** جليد، ثلج، صقيع.\n- **خصائص:** الماء في الحالة الصلبة له **شكل خاص** و **حجم خاص**. يمكن الإمساك به.\n- **النموذج الجزيئي:** تكون جزيئات الماء قريبة جدًا من بعضها البعض ومنظمة جيدًا. هي مترابطة وتهتز في مكانها.\n![Molécules d'eau dans la glace, montrant une structure cristalline ordonnée et rigide](img_mol_cules_d_eau_dans_la_glace_montrant_une_structu_1762106205748.png)\n\n#### 2. الحالة السائلة\n- **أمثلة:** ماء المطر، ماء الصنبور، مياه الأنهار.\n- **خصائص:** الماء في الحالة السائلة **ليس له شكل خاص**؛ فهو يأخذ شكل الإناء الذي يحتويه. **حجمه خاص** (محدد). سطحه الحر في حالة السكون يكون مستويًا وأفقيًا.\n- **النموذج الجزيئي:** تكون جزيئات الماء قريبة ولكنها غير منظمة. يمكنها الانزلاق فوق بعضها البعض.\n![Molécules d'eau à l'état liquide, désordonnées et se déplaçant les unes par rapport aux autres dans un bécher](img_mol_cules_d_eau_l_tat_liquide_d_sordonn_es_et_se_d_1762106210000.png)\n\n#### 3. الحالة الغازية\n- **أمثلة:** بخار الماء (غير مرئي) في الهواء.\n- **خصائص:** الماء في الحالة الغازية **ليس له شكل خاص ولا حجم خاص**. فهو يشغل كل المساحة المتاحة. وهو قابل للضغط والتمدد.\n- **النموذج الجزيئي:** تكون جزيئات الماء متباعدة جدًا عن بعضها البعض وتتحرك بسرعة وبشكل عشوائي في جميع الاتجاهات.\n![Molécules d'eau à l'état gazeux (vapeur), très espacées et se déplaçant de manière chaotique dans un récipient fermé](img_mol_cules_d_eau_l_tat_gazeux_vapeur_tr_s_espac_es__1762106213799.png)\n\n### II. تغيرات حالات الماء\nيمكن للماء أن ينتقل من حالة فيزيائية إلى أخرى تحت تأثير تغير درجة الحرارة.\n\n![Diagramme complet des changements d'état de l'eau (fusion, solidification, vaporisation, liquéfaction, sublimation, condensation) avec les noms des transitions clairement étiquetés](img_diagramme_complet_des_changements_d_tat_de_l_eau_f_1762106217671.png)\n\n- **الانصهار:** الانتقال من الحالة الصلبة إلى الحالة السائلة (مثال: ذوبان الجليد). يحدث عند 0 درجة مئوية.\n- **التجمد:** الانتقال من الحالة السائلة إلى الحالة الصلبة (مثال: تجمد الماء). يحدث عند 0 درجة مئوية.\n- **التبخر:** الانتقال من الحالة السائلة إلى الحالة الغازية. يمكن أن يحدث عن طريق **الغليان** (عند 100 درجة مئوية) أو عن طريق **التبخر** (عند أي درجة حرارة، على سطح السائل).\n- **الإسالة (أو التكاثف):** الانتقال من الحالة الغازية إلى الحالة السائلة (مثال: تكاثف البخار على زجاج بارد).\n\n### III. دورة الماء في الطبيعة\nدورة الماء هي عملية طبيعية يتدفق فيها الماء باستمرار بين الأرض والغلاف الجوي. وتشمل عدة مراحل:\n1.  **التبخر:** تتبخر مياه البحار والبحيرات والأنهار بفعل حرارة الشمس وتتحول إلى بخار ماء.\n2.  **التكاثف:** في الأعالي، يبرد بخار الماء ويتكاثف ليشكل السحب.\n3.  **الهطول:** عندما تصبح قطرات الماء في السحب ثقيلة جدًا، تسقط على شكل مطر أو ثلج أو بَرَد.\n4.  **الجريان السطحي والتسرب:** تتدفق مياه الهطول على السطح لتصل إلى المجاري المائية أو تتسرب إلى التربة لتشكل المياه الجوفية.\n\n![Illustration détaillée du cycle de l'eau dans la nature montrant l'évaporation des océans, la condensation en nuages, les précipitations (pluie/neige), et le ruissellement vers les rivières et les lacs](img_illustration_d_taill_e_du_cycle_de_l_eau_dans_la_n_1762106221195.png)\n\n### IV. الماء كمذيب\nللماء القدرة على إذابة العديد من المواد. لهذا السبب غالبًا ما يطلق عليه \"المذيب العالمي\".\n- **المذاب:** المادة التي يتم إذابتها (مثال: الملح، السكر).\n- **المذيب:** المادة التي تقوم بالإذابة (مثال: الماء).\n- **المحلول:** الخليط المتجانس الذي يتم الحصول عليه (مثال: الماء المالح).\n\nعندما نخلط مذابًا ومذيبًا، نحصل على محلول. إذا ذاب كل المذاب، يقال إن المحلول **غير مشبع**. إذا لم يعد بالإمكان إذابة المزيد من المذاب، فهو **مشبع**.",
+        "en": "### Introduction\nWater is a substance essential for life on Earth. It is found everywhere in our environment: in oceans, rivers, the air, and even in our bodies. One of the unique features of water is that it can exist in three different physical states: solid, liquid, and gas.\n\n### I. The Three Physical States of Water\n\n#### 1. The Solid State\n- **Examples:** Ice, snow, frost.\n- **Properties:** Water in the solid state has its **own shape** and its **own volume**. It can be held.\n- **Molecular Model:** Water molecules are very close to each other and well-ordered. They are bonded and vibrate in place.\n![Molécules d'eau dans la glace, montrant une structure cristalline ordonnée et rigide](img_mol_cules_d_eau_dans_la_glace_montrant_une_structu_1762106205748.png)\n\n#### 2. The Liquid State\n- **Examples:** Rainwater, tap water, river water.\n- **Properties:** Water in the liquid state has **no specific shape**; it takes the shape of the container it is in. Its **volume is definite**. Its free surface at rest is flat and horizontal.\n- **Molecular Model:** Water molecules are close but disordered. They can slide past one another.\n![Molécules d'eau à l'état liquide, désordonnées et se déplaçant les unes par rapport aux autres dans un bécher](img_mol_cules_d_eau_l_tat_liquide_d_sordonn_es_et_se_d_1762106210000.png)\n\n#### 3. The Gaseous State\n- **Examples:** Water vapor (invisible) in the air.\n- **Properties:** Water in the gaseous state has **neither a specific shape nor a specific volume**. It occupies all the available space. It is compressible and expandable.\n- **Molecular Model:** Water molecules are very far apart and move rapidly and randomly in all directions.\n![Molécules d'eau à l'état gazeux (vapeur), très espacées et se déplaçant de manière chaotique dans un récipient fermé](img_mol_cules_d_eau_l_tat_gazeux_vapeur_tr_s_espac_es__1762106213799.png)\n\n### II. Changes of State of Water\nWater can change from one physical state to another due to a change in temperature.\n\n![Diagramme complet des changements d'état de l'eau (fusion, solidification, vaporisation, liquéfaction, sublimation, condensation) avec les noms des transitions clairement étiquetés](img_diagramme_complet_des_changements_d_tat_de_l_eau_f_1762106217671.png)\n\n- **Melting (Fusion):** The change from the solid state to the liquid state (Ex: ice melts). Occurs at 0°C.\n- **Freezing (Solidification):** The change from the liquid state to the solid state (Ex: water freezes). Occurs at 0°C.\n- **Vaporization:** The change from the liquid state to the gaseous state. It can occur through **boiling** (at 100°C) or **evaporation** (at any temperature, at the surface of the liquid).\n- **Liquefaction (or Condensation):** The change from the gaseous state to the liquid state (Ex: dew on a cold window).\n\n### III. The Water Cycle in Nature\nThe water cycle is a natural process where water continuously circulates between the Earth and the atmosphere. It includes several stages:\n1.  **Evaporation:** Water from seas, lakes, and rivers evaporates due to the sun's heat and turns into water vapor.\n2.  **Condensation:** At high altitudes, the water vapor cools and condenses to form clouds.\n3.  **Precipitation:** When the water droplets in the clouds become too heavy, they fall as rain, snow, or hail.\n4.  **Runoff and Infiltration:** Precipitation water flows over the surface to join watercourses or seeps into the ground to form groundwater.\n\n![Illustration détaillée du cycle de l'eau dans la nature montrant l'évaporation des océans, la condensation en nuages, les précipitations (pluie/neige), et le ruissellement vers les rivières et les lacs](img_illustration_d_taill_e_du_cycle_de_l_eau_dans_la_n_1762106221195.png)\n\n### IV. Water as a Solvent\nWater has the ability to dissolve many substances. That is why it is often called the \"universal solvent.\"\n- **Solute:** The substance that is dissolved (e.g., salt, sugar).\n- **Solvent:** The substance that does the dissolving (e.g., water).\n- **Solution:** The homogeneous mixture obtained (e.g., saltwater).\n\nWhen a solute and a solvent are mixed, a solution is formed. If all the solute dissolves, the solution is said to be **unsaturated**. If no more solute can be dissolved, it is **saturated**."
+      },
+      "backgroundImage": "img_background_1762106191867.png"
+    },
+    {
+      "id": "phys-1ac-l2",
+      "topicId": "phys-1ac-c2",
+      "status": "pending_review",
+      "title": {
+        "fr": "Caractéristiques des états de la matière",
+        "ar": "مميزات حالات المادة",
+        "en": "Characteristics of the states of matter"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l3",
+      "topicId": "phys-1ac-c3",
+      "status": "pending_review",
+      "title": {
+        "fr": "Mesure du volume et de la masse",
+        "ar": "قياس الحجم والكتلة",
+        "en": "Measuring volume and mass"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l4",
+      "topicId": "phys-1ac-c4",
+      "status": "pending_review",
+      "title": {
+        "fr": "Pression et forces pressantes",
+        "ar": "الضغط والقوى الضاغطة",
+        "en": "Pressure and pressing forces"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l5",
+      "topicId": "phys-1ac-c5",
+      "status": "pending_review",
+      "title": {
+        "fr": "Interprétation des états physiques",
+        "ar": "تفسير الحالات الفيزيائية",
+        "en": "Interpretation of physical states"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l6",
+      "topicId": "phys-1ac-c6",
+      "status": "pending_review",
+      "title": {
+        "fr": "Changements d'état",
+        "ar": "تغيرات الحالة",
+        "en": "Changes of state"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l7",
+      "topicId": "phys-1ac-c7",
+      "status": "pending_review",
+      "title": {
+        "fr": "Types de mélanges",
+        "ar": "أنواع الخلائط",
+        "en": "Types of mixtures"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l8",
+      "topicId": "phys-1ac-c8",
+      "status": "pending_review",
+      "title": {
+        "fr": "Techniques de séparation",
+        "ar": "تقنيات الفصل",
+        "en": "Separation techniques"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l9",
+      "topicId": "phys-1ac-c9",
+      "status": "pending_review",
+      "title": {
+        "fr": "Sources et traitement de l'eau",
+        "ar": "مصادر ومعالجة الماء",
+        "en": "Sources and treatment of water"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l10",
+      "topicId": "phys-1ac-c10",
+      "status": "pending_review",
+      "title": {
+        "fr": "Sources et production de l'électricité",
+        "ar": "مصادر وإنتاج الكهرباء",
+        "en": "Sources and production of electricity"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l11",
+      "topicId": "phys-1ac-c11",
+      "status": "pending_review",
+      "title": {
+        "fr": "Éléments d'un circuit",
+        "ar": "عناصر دارة كهربائية",
+        "en": "Elements of a circuit"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l12",
+      "topicId": "phys-1ac-c12",
+      "status": "pending_review",
+      "title": {
+        "fr": "Conducteurs et isolants",
+        "ar": "الموصلات والعوازل",
+        "en": "Conductors and insulators"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l13",
+      "topicId": "phys-1ac-c13",
+      "status": "pending_review",
+      "title": {
+        "fr": "Montage en série et en dérivation",
+        "ar": "التركيب على التوالي وعلى التوازي",
+        "en": "Series and parallel circuits"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l14",
+      "topicId": "phys-1ac-c14",
+      "status": "pending_review",
+      "title": {
+        "fr": "Mesure de l'intensité et de la tension",
+        "ar": "قياس شدة التيار والتوتر",
+        "en": "Measuring current and voltage"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l15",
+      "topicId": "phys-1ac-c15",
+      "status": "pending_review",
+      "title": {
+        "fr": "Loi d'Ohm",
+        "ar": "قانون أوم",
+        "en": "Ohm's Law"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l16",
+      "topicId": "phys-1ac-c16",
+      "status": "pending_review",
+      "title": {
+        "fr": "Lois du courant électrique",
+        "ar": "قوانين التيار الكهربائي",
+        "en": "Laws of electric current"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "phys-1ac-l17",
+      "topicId": "phys-1ac-c17",
+      "status": "pending_review",
+      "title": {
+        "fr": "Fusibles et disjoncteurs",
+        "ar": "الصهيرة والفاصل التفاضلي",
+        "en": "Fuses and circuit breakers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    }
   ],
-  "exercises": [],
+  "exercises": [
+    {
+      "id": "e-1762105156292",
+      "status": "pending_review",
+      "topicId": "phys-1ac-c1",
+      "title": {
+        "fr": "Exercice 1 : Vrai ou Faux",
+        "ar": "تمرين 1 : صحيح أم خطأ",
+        "en": "Exercise 1: True or False"
+      },
+      "content": {
+        "fr": "Indiquez si les affirmations suivantes sont vraies ou fausses, et corrigez les fausses.\n1. L'eau à l'état liquide a une forme propre.\n2. La vaporisation de l'eau se produit uniquement à 100°C.\n3. La vapeur d'eau est visible à l'œil nu.\n4. Dans le modèle moléculaire de la glace, les molécules sont très désordonnées.\n5. La surface libre de l'eau au repos est toujours horizontale.",
+        "ar": "حدد ما إذا كانت العبارات التالية صحيحة أم خاطئة، وصحح الخاطئة منها.\n1. الماء في الحالة السائلة له شكل خاص.\n2. تبخر الماء يحدث فقط عند 100 درجة مئوية.\n3. بخار الماء مرئي بالعين المجردة.\n4. في النموذج الجزيئي للجليد، تكون الجزيئات غير منظمة للغاية.\n5. السطح الحر للماء في حالة السكون يكون دائمًا أفقيًا.",
+        "en": "Indicate whether the following statements are true or false, and correct the false ones.\n1. Water in the liquid state has its own shape.\n2. The vaporization of water only occurs at 100°C.\n3. Water vapor is visible to the naked eye.\n4. In the molecular model of ice, the molecules are very disordered.\n5. The free surface of water at rest is always horizontal."
+      },
+      "solution": {
+        "fr": "1. **Faux.** L'eau à l'état liquide n'a pas de forme propre, elle prend la forme de son contenant.\n2. **Faux.** La vaporisation peut se produire à toute température (évaporation) ou à 100°C (ébullition).\n3. **Faux.** La vapeur d'eau est un gaz invisible. Ce que l'on voit (comme la \"vapeur\" d'une bouilloire) est en fait de la buée, de minuscules gouttelettes d'eau liquide.\n4. **Faux.** Dans la glace, les molécules d'eau sont très bien ordonnées et forment une structure cristalline.\n5. **Vrai.**",
+        "ar": "1. **خطأ.** الماء في الحالة السائلة ليس له شكل خاص، بل يأخذ شكل الإناء الذي يحتويه.\n2. **خطأ.** يمكن أن يحدث التبخر عند أي درجة حرارة (تبخر) أو عند 100 درجة مئوية (غليان).\n3. **خطأ.** بخار الماء هو غاز غير مرئي. ما نراه (مثل \"بخار\" الغلاية) هو في الواقع ضباب، أي قطرات صغيرة جدًا من الماء السائل.\n4. **خطأ.** في الجليد، تكون جزيئات الماء منظمة بشكل جيد جدًا وتشكل بنية بلورية.\n5. **صحيح.**",
+        "en": "1. **False.** Water in the liquid state does not have its own shape; it takes the shape of its container.\n2. **False.** Vaporization can occur at any temperature (evaporation) or at 100°C (boiling).\n3. **False.** Water vapor is an invisible gas. What we see (like the \"steam\" from a kettle) is actually mist, tiny droplets of liquid water.\n4. **False.** In ice, water molecules are very well-ordered and form a crystal structure.\n5. **True.**"
+      }
+    },
+    {
+      "id": "e-1762105156293",
+      "status": "pending_review",
+      "topicId": "phys-1ac-c1",
+      "title": {
+        "fr": "Exercice 2 : Nommer les changements d'état",
+        "ar": "تمرين 2 : تسمية تغيرات الحالة",
+        "en": "Exercise 2: Naming State Changes"
+      },
+      "content": {
+        "fr": "Complétez les phrases suivantes avec le nom correct du changement d'état :\n1. Le passage de l'état solide à l'état liquide est la ______.\n2. Le passage de l'état gazeux à l'état liquide est la ______.\n3. Le passage de l'état liquide à l'état solide est la ______.\n4. Le passage de l'état liquide à l'état gazeux est la ______.",
+        "ar": "أكمل الجمل التالية بالاسم الصحيح لتغير الحالة:\n1. الانتقال من الحالة الصلبة إلى الحالة السائلة هو ______.\n2. الانتقال من الحالة الغازية إلى الحالة السائلة هو ______.\n3. الانتقال من الحالة السائلة إلى الحالة الصلبة هو ______.\n4. الانتقال من الحالة السائلة إلى الحالة الغازية هو ______.",
+        "en": "Complete the following sentences with the correct name for the change of state:\n1. The change from the solid state to the liquid state is ______.\n2. The change from the gaseous state to the liquid state is ______.\n3. The change from the liquid state to the solid state is ______.\n4. The change from the liquid state to the gaseous state is ______."
+      },
+      "solution": {
+        "fr": "1. Le passage de l'état solide à l'état liquide est la **fusion**.\n2. Le passage de l'état gazeux à l'état liquide est la **liquéfaction** (ou condensation).\n3. Le passage de l'état liquide à l'état solide est la **solidification**.\n4. Le passage de l'état liquide à l'état gazeux est la **vaporisation**.",
+        "ar": "1. الانتقال من الحالة الصلبة إلى الحالة السائلة هو **الانصهار**.\n2. الانتقال من الحالة الغازية إلى الحالة السائلة هو **الإسالة** (أو التكاثف).\n3. الانتقال من الحالة السائلة إلى الحالة الصلبة هو **التجمد**.\n4. الانتقال من الحالة السائلة إلى الحالة الغازية هو **التبخر**.",
+        "en": "1. The change from the solid state to the liquid state is **melting** (fusion).\n2. The change from the gaseous state to the liquid state is **liquefaction** (or condensation).\n3. The change from the liquid state to the solid state is **freezing** (solidification).\n4. The change from the liquid state to the gaseous state is **vaporization**."
+      }
+    },
+    {
+      "id": "e-1762105156294",
+      "status": "pending_review",
+      "topicId": "phys-1ac-c1",
+      "title": {
+        "fr": "Exercice 3 : Solvant et Soluté",
+        "ar": "تمرين 3 : المذيب والمذاب",
+        "en": "Exercise 3: Solvent and Solute"
+      },
+      "content": {
+        "fr": "Fatima prépare une boisson en dissolvant 20 grammes de sucre dans 250 millilitres d'eau.\n1. Qu'est-ce que le solvant dans cette préparation ?\n2. Qu'est-ce que le soluté ?\n3. Comment appelle-t-on le mélange final obtenu ?\n4. Si Fatima ajoute encore 100 grammes de sucre et qu'une partie ne se dissout pas, comment qualifie-t-on la solution ?",
+        "ar": "تحضر فاطمة مشروبًا عن طريق إذابة 20 جرامًا من السكر في 250 مليلترًا من الماء.\n1. ما هو المذيب في هذا التحضير؟\n2. ما هو المذاب؟\n3. ماذا يسمى الخليط النهائي الذي تم الحصول عليه؟\n4. إذا أضافت فاطمة 100 جرام أخرى من السكر ولم يذب جزء منه، فكيف يوصف المحلول؟",
+        "en": "Fatima is preparing a drink by dissolving 20 grams of sugar in 250 milliliters of water.\n1. What is the solvent in this preparation?\n2. What is the solute?\n3. What is the final mixture obtained called?\n4. If Fatima adds another 100 grams of sugar and some of it does not dissolve, how is the solution described?"
+      },
+      "solution": {
+        "fr": "1. Le solvant est l'**eau**.\n2. Le soluté est le **sucre**.\n3. Le mélange final est une **solution** (spécifiquement, une solution sucrée).\n4. La solution est devenue **saturée**, car elle ne peut plus dissoudre de soluté supplémentaire.",
+        "ar": "1. المذيب هو **الماء**.\n2. المذاب هو **السكر**.\n3. الخليط النهائي يسمى **محلولًا** (تحديدًا، محلول سكري).\n4. أصبح المحلول **مشبعًا**، لأنه لم يعد قادرًا على إذابة المزيد من المذاب.",
+        "en": "1. The solvent is **water**.\n2. The solute is **sugar**.\n3. The final mixture is called a **solution** (specifically, a sugar solution).\n4. The solution has become **saturated**, because it can no longer dissolve additional solute."
+      }
+    }
+  ],
   "summaries": []
 }

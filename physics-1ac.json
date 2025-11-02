@@ -147,7 +147,7 @@
     {
       "id": "phys-1ac-l1",
       "topicId": "phys-1ac-c1",
-      "status": "pending_review",
+      "status": "verified",
       "title": {
         "fr": "Propriétés de l'eau",
         "ar": "خصائص الماء",
@@ -420,7 +420,7 @@
   "exercises": [
     {
       "id": "e-1762105156292",
-      "status": "pending_review",
+      "status": "verified",
       "topicId": "phys-1ac-c1",
       "title": {
         "fr": "Exercice 1 : Vrai ou Faux",
@@ -440,7 +440,7 @@
     },
     {
       "id": "e-1762105156293",
-      "status": "pending_review",
+      "status": "verified",
       "topicId": "phys-1ac-c1",
       "title": {
         "fr": "Exercice 2 : Nommer les changements d'état",
@@ -460,7 +460,7 @@
     },
     {
       "id": "e-1762105156294",
-      "status": "pending_review",
+      "status": "verified",
       "topicId": "phys-1ac-c1",
       "title": {
         "fr": "Exercice 3 : Solvant et Soluté",

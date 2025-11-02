@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           showSolutionBtn: "Solution",
           hideSolutionBtn: "Hide Solution",
           emptyContent: "Content for this section will be added soon.",
+          noContentForSubject: "Content for this subject will be added soon. Please check back later.",
           noResults: "No results found."
       },
       fr: {
@@ -49,6 +50,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           showSolutionBtn: "Solution",
           hideSolutionBtn: "Cacher la Solution",
           emptyContent: "Le contenu de cette section sera bientôt ajouté.",
+          noContentForSubject: "Le contenu de cette matière sera bientôt ajouté. Veuillez revenir plus tard.",
           noResults: "Aucun résultat trouvé."
       },
       ar: {
@@ -71,6 +73,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           showSolutionBtn: "الحل",
           hideSolutionBtn: "إخفاء الحل",
           emptyContent: "سيتم إضافة المحتوى لهذا القسم قريبا.",
+          noContentForSubject: "سيتم إضافة محتوى لهذه المادة قريبا. يرجى المراجعة لاحقا.",
           noResults: "لا توجد نتائج."
       }
   };
@@ -157,7 +160,21 @@ document.addEventListener('DOMContentLoaded', async () => {
       const container = document.getElementById('levels-container');
       if (!container) return;
       
-      container.innerHTML = subject.levels.map(level => {
+      const levelHasVisibleContent = (level) => {
+        const contentTypes = ['lessons', 'exercises', 'summaries'];
+        return contentTypes.some(type => 
+            level[type] && level[type].some(item => item.status === 'verified' || item.status === undefined)
+        );
+      };
+
+      const visibleLevels = subject.levels.filter(levelHasVisibleContent);
+
+      if (visibleLevels.length === 0) {
+          container.innerHTML = `<p class="empty-content" style="text-align: center; font-size: 1.1rem; padding: 40px 20px;">${t.noContentForSubject}</p>`;
+          return;
+      }
+
+      container.innerHTML = visibleLevels.map(level => {
           const createList = (items, type) => {
               if (!items || items.length === 0) return '';
               const visibleItems = items.filter(item => item.status === 'verified' || item.status === undefined);
@@ -291,14 +308,31 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
   }
 
+  function normalizeText(text, lang) {
+    if (!text) return '';
+    text = text.toLowerCase(); // Basic normalization for all
+    if (lang === 'ar') {
+        // Remove diacritics, normalize Alef, Yaa, and Teh marbuta
+        return text
+            .replace(/[\u064B-\u0652]/g, "") 
+            .replace(/[أإآ]/g, "ا")
+            .replace(/ى/g, "ي")
+            .replace(/ة/g, "ه");
+    }
+    return text;
+  }
+
   function searchContent(query, lang) {
     const results = {};
     if (!DB_DATA.subjects) return results;
+
+    const normalizedQuery = normalizeText(query, lang);
 
     DB_DATA.subjects.forEach(subject => {
         if (!subject.levels) return;
         
         const subjectMatches = [];
+        const addedItems = new Set(); // Use a Set to track added item IDs to prevent duplicates
         const contentTypes = ['lessons', 'exercises', 'summaries'];
         
         subject.levels.forEach(level => {
@@ -306,9 +340,24 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (!level[type]) return;
                 
                 level[type].forEach(item => {
-                    const title = getTranslated(item.title, lang).toLowerCase();
-                    if ((item.status === 'verified' || item.status === undefined) && title.includes(query)) {
+                    if (addedItems.has(item.id)) return; // Skip if already added
+
+                    const title = getTranslated(item.title, lang);
+                    const content = getTranslated(item.content, lang);
+                    const solution = (type === 'exercises') ? getTranslated(item.solution, lang) : '';
+
+                    const normalizedTitle = normalizeText(title, lang);
+                    const normalizedContent = normalizeText(content, lang);
+                    const normalizedSolution = normalizeText(solution, lang);
+                    
+                    const isVerified = item.status === 'verified' || item.status === undefined;
+                    const queryFound = normalizedTitle.includes(normalizedQuery) ||
+                                        normalizedContent.includes(normalizedQuery) ||
+                                        normalizedSolution.includes(normalizedQuery);
+
+                    if (isVerified && queryFound) {
                         subjectMatches.push({ ...item, type, levelId: level.id, subjectId: subject.id });
+                        addedItems.add(item.id); // Mark as added
                     }
                 });
             });
@@ -446,7 +495,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       if (searchInput && searchResultsContainer) {
           searchInput.addEventListener('input', () => {
-              const query = searchInput.value.trim().toLowerCase();
+              const query = searchInput.value.trim();
 
               if (query.length < 2) {
                   searchResultsContainer.innerHTML = '';

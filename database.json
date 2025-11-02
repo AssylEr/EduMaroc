@@ -161,43 +161,349 @@
           "chapters": [
             {
               "id": "svt-1ac-c1",
-              "title": { "fr": "Chapitre 1 : Observation des milieux naturels", "ar": "الفصل 1: ملاحظة الأوساط الطبيعية", "en": "Chapter 1: Observation of natural environments" }
+              "title": {
+                "fr": "Chapitre 1 : Observation des milieux naturels",
+                "ar": "الفصل 1: ملاحظة الأوساط الطبيعية",
+                "en": "Chapter 1: Observation of natural environments"
+              }
             },
             {
               "id": "svt-1ac-c2",
-              "title": { "fr": "Chapitre 2 : Respiration dans différents milieux", "ar": "الفصل 2: التنفس في أوساط مختلفة", "en": "Chapter 2: Respiration in different environments" }
+              "title": {
+                "fr": "Chapitre 2 : Respiration dans différents milieux",
+                "ar": "الفصل 2: التنفس في أوساط مختلفة",
+                "en": "Chapter 2: Respiration in different environments"
+              }
             },
             {
               "id": "svt-1ac-c3",
-              "title": { "fr": "Chapitre 3 : Alimentation chez les êtres vivants", "ar": "الفصل 3: التغذية عند الكائنات الحية", "en": "Chapter 3: Nutrition in living beings" }
+              "title": {
+                "fr": "Chapitre 3 : Alimentation chez les êtres vivants",
+                "ar": "الفصل 3: التغذية عند الكائنات الحية",
+                "en": "Chapter 3: Nutrition in living beings"
+              }
             },
             {
               "id": "svt-1ac-c4",
-              "title": { "fr": "Chapitre 4 : Relations alimentaires et flux de matière et d'énergie", "ar": "الفصل 4: العلاقات الغذائية وتدفق المادة والطاقة", "en": "Chapter 4: Food relationships and flow of matter and energy" }
+              "title": {
+                "fr": "Chapitre 4 : Relations alimentaires et flux de matière et d'énergie",
+                "ar": "الفصل 4: العلاقات الغذائية وتدفق المادة والطاقة",
+                "en": "Chapter 4: Food relationships and flow of matter and energy"
+              }
             },
             {
               "id": "svt-1ac-c5",
-              "title": { "fr": "Chapitre 5 : Classification des êtres vivants et les équilibres naturels", "ar": "الفصل 5: تصنيف الكائنات الحية والتوازنات الطبيعية", "en": "Chapter 5: Classification of living beings and natural balances" }
+              "title": {
+                "fr": "Chapitre 5 : Classification des êtres vivants et les équilibres naturels",
+                "ar": "الفصل 5: تصنيف الكائنات الحية والتوازنات الطبيعية",
+                "en": "Chapter 5: Classification of living beings and natural balances"
+              }
             }
           ],
           "lessons": [
-            { "id": "svt-1ac-l1", "topicId": "svt-1ac-c1", "status": "pending_review", "title": { "fr": "Séquence 1 : Diversité des milieux naturels", "ar": "التسلسل 1: تنوع الأوساط الطبيعية", "en": "Sequence 1: Diversity of natural environments" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l2", "topicId": "svt-1ac-c1", "status": "pending_review", "title": { "fr": "Séquence 2 : Diversité des constituants des milieux naturels", "ar": "التسلسل 2: تنوع مكونات الأوساط الطبيعية", "en": "Sequence 2: Diversity of the components of natural environments" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l3", "topicId": "svt-1ac-c1", "status": "pending_review", "title": { "fr": "Séquence 3 : La cellule en tant qu'unité structurelle de l'être vivant", "ar": "التسلسل 3: الخلية كوحدة بنيوية للكائن الحي", "en": "Sequence 3: The cell as a structural unit of the living being" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l4", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 1 : Respiration chez certains êtres vivants", "ar": "التسلسل 1: التنفس عند بعض الكائنات الحية", "en": "Sequence 1: Respiration in certain living beings" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l5", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 2 : Adaptation de la respiration au milieu aérien chez les animaux", "ar": "التسلسل 2: تكيف التنفس مع الوسط الهوائي عند الحيوانات", "en": "Sequence 2: Adaptation of respiration to the aerial environment in animals" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l6", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 3 : Adaptation de la respiration des insectes et des plantes au milieu aérien", "ar": "التسلسل 3: تكيف تنفس الحشرات والنباتات مع الوسط الهوائي", "en": "Sequence 3: Adaptation of respiration in insects and plants to the aerial environment" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l7", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 4 : Adaptation de la respiration des êtres vivants au milieu aquatique", "ar": "التسلسل 4: تكيف تنفس الكائنات الحية مع الوسط المائي", "en": "Sequence 4: Adaptation of respiration of living beings to the aquatic environment" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l8", "topicId": "svt-1ac-c3", "status": "pending_review", "title": { "fr": "Séquence 1 : Régime alimentaire omnivore chez l'Homme", "ar": "التسلسل 1: النظام الغذائي القارت عند الإنسان", "en": "Sequence 1: Omnivorous diet in humans" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l9", "topicId": "svt-1ac-c3", "status": "pending_review", "title": { "fr": "Séquence 2 : Étude comparative de deux régimes alimentaires : herbivore et carnivore", "ar": "التسلسل 2: دراسة مقارنة لنظامين غذائيين: العاشب واللاحم", "en": "Sequence 2: Comparative study of two diets: herbivore and carnivore" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l10", "topicId": "svt-1ac-c3", "status": "pending_review", "title": { "fr": "Séquence 3 : La nutrition chez les plantes", "ar": "التسلسل 3: التغذية عند النباتات", "en": "Sequence 3: Nutrition in plants" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l11", "topicId": "svt-1ac-c4", "status": "pending_review", "title": { "fr": "Séquence 1 : Les chaînes et réseaux alimentaires", "ar": "التسلسل 1: السلاسل والشبكات الغذائية", "en": "Sequence 1: Food chains and webs" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l12", "topicId": "svt-1ac-c4", "status": "pending_review", "title": { "fr": "Séquence 2 : La production de la matière et le flux d'énergie", "ar": "التسلسل 2: إنتاج المادة وتدفق الطاقة", "en": "Sequence 2: Production of matter and energy flow" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l13", "topicId": "svt-1ac-c5", "status": "pending_review", "title": { "fr": "Séquence 1 : Classification des végétaux", "ar": "التسلسل 1: تصنيف النباتات", "en": "Sequence 1: Classification of plants" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l14", "topicId": "svt-1ac-c5", "status": "pending_review", "title": { "fr": "Séquence 2 : Classification des animaux", "ar": "التسلسل 2: تصنيف الحيوانات", "en": "Sequence 2: Classification of animals" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-            { "id": "svt-1ac-l15", "topicId": "svt-1ac-c5", "status": "pending_review", "title": { "fr": "Séquence 3 : Les équilibres naturels", "ar": "التسلسل 3: التوازنات الطبيعية", "en": "Sequence 3: Natural balances" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" }
+            {
+              "id": "svt-1ac-l1",
+              "topicId": "svt-1ac-c1",
+              "status": "verified",
+              "title": {
+                "fr": "Séquence 1 : Diversité des milieux naturels",
+                "ar": "التسلسل 1: تنوع الأوساط الطبيعية",
+                "en": "Sequence 1: Diversity of natural environments"
+              },
+              "content": {
+                "fr": "# Introduction\nUn milieu naturel est un lieu de vie où des êtres vivants (animaux, végétaux...) et des éléments non-vivants (eau, air, sol...) coexistent et interagissent. Notre planète regorge d'une grande variété de ces milieux.\n\n## I. Les composantes d'un milieu naturel\nUn milieu naturel est constitué de deux types de composantes :\n\n### 1. Les composantes vivantes (La biocénose)\nCe sont tous les êtres vivants qui peuplent le milieu. On distingue :\n*   **La faune :** l'ensemble des animaux (insectes, oiseaux, mammifères...).\n*   **La flore :** l'ensemble des végétaux (arbres, herbes, algues...).\n*   **Les micro-organismes :** êtres vivants invisibles à l'œil nu (bactéries, champignons...).\n\n![Diagramme montrant les composantes vivantes et non-vivantes d'un écosystème forestier, avec des flèches indiquant les interactions entre un chêne, un écureuil, le soleil, l'eau et le sol](img_diagramme_montrant_les_composantes_vivantes_et_non_1762090038849.png)\n\n### 2. Les composantes non-vivantes (Le biotope)\nCe sont les éléments physiques et chimiques du milieu. Par exemple :\n*   **Le substrat :** le sol, les roches.\n*   **L'eau :** sous forme liquide, solide ou gazeuse.\n*   **L'air :** avec ses gaz (oxygène, dioxyde de carbone...).\n*   **Les facteurs climatiques :** la température, la lumière (ensoleillement), le vent.\n\n## II. Exemples de milieux naturels\nLes caractéristiques du biotope (climat, nature du sol) déterminent le type d'êtres vivants (la biocénose) qui peuvent y vivre. Il existe donc une grande diversité de milieux.\n*   **La forêt :** Milieu caractérisé par une forte présence d'arbres, une humidité élevée et un sol riche en matière organique. On y trouve des animaux comme les cerfs, les sangliers et de nombreux oiseaux.\n*   **Le désert :** Milieu très sec (faibles pluies) avec de grands écarts de température entre le jour et la nuit. La végétation est rare et adaptée à la sécheresse (cactus), tout comme les animaux (dromadaire, fennec).\n*   **Le lac :** Milieu aquatique d'eau douce. La vie y est dépendante de la qualité de l'eau, de la lumière et de la température. On y trouve des poissons, des algues, des plantes aquatiques et des amphibiens.\n\n![Collage de trois milieux naturels différents côte à côte : une forêt de chênes luxuriante en automne, un désert de dunes de sable au coucher du soleil, et un lac de montagne clair et calme avec des montagnes enneigées en arrière-plan](img_collage_de_trois_milieux_naturels_diff_rents_c_te__1762090047239.png)\n\n# Conclusion\nChaque milieu naturel possède des composantes vivantes et non-vivantes spécifiques qui sont en équilibre. La diversité de ces milieux constitue la richesse de notre planète.",
+                "ar": "# مقدمة\nالوسط الطبيعي هو مكان تعيش فيه كائنات حية (حيوانات، نباتات...) وعناصر غير حية (ماء، هواء، تربة...) وتتفاعل فيما بينها. كوكبنا يزخر بتنوع كبير من هذه الأوساط.\n\n## I. مكونات الوسط الطبيعي\nيتكون الوسط الطبيعي من نوعين من المكونات:\n\n### 1. المكونات الحية (العشيرة الإحيائية)\nهي جميع الكائنات الحية التي تعيش في الوسط. نميز بين:\n*   **الوحيش:** مجموع الحيوانات (حشرات، طيور، ثدييات...).\n*   **النبيت:** مجموع النباتات (أشجار، أعشاب، طحالب...).\n*   **الكائنات المجهرية:** كائنات حية لا ترى بالعين المجردة (بكتيريا، فطريات...).\n\n![رسم تخطيطي يوضح المكونات الحية وغير الحية لنظام بيئي في غابة، مع أسهم تشير إلى التفاعلات بين شجرة بلوط، وسنجاب، والشمس، والماء، والتربة](img___1762090056299.jpg)\n\n### 2. المكونات غير الحية (المحيا)\nهي العناصر الفيزيائية والكيميائية للوسط. على سبيل المثال:\n*   **الركيزة:** التربة، الصخور.\n*   **الماء:** في حالته السائلة، أو الصلبة، أو الغازية.\n*   **الهواء:** بغازاته (الأكسجين، ثاني أكسيد الكربون...).\n*   **العوامل المناخية:** درجة الحرارة، الضوء (أشعة الشمس)، الرياح.\n\n## II. أمثلة على الأوساط الطبيعية\nتحدد خصائص المحيا (المناخ، طبيعة التربة) نوع الكائنات الحية (العشيرة الإحيائية) التي يمكن أن تعيش فيه. لذلك يوجد تنوع كبير في الأوساط.\n*   **الغابة:** وسط يتميز بوجود كثيف للأشجار، ورطوبة عالية، وتربة غنية بالمواد العضوية. نجد فيها حيوانات مثل الغزلان والخنازير البرية والعديد من الطيور.\n*   **الصحراء:** وسط جاف جداً (أمطار قليلة) مع فروق كبيرة في درجات الحرارة بين النهار والليل. الغطاء النباتي نادر ومكيف مع الجفاف (الصبار)، وكذلك الحيوانات (الجمل، الفنك).\n*   **البحيرة:** وسط مائي عذب. تعتمد الحياة فيه على جودة الماء والضوء ودرجة الحرارة. نجد فيه الأسماك والطحالب والنباتات المائية والبرمائيات.\n\n[IMAGE: صورة مجمعة لثلاثة أوساط طبيعية مختلفة جنبًا إلى جنب: غابة بلوط مورقة في الخريف، صحراء من الكثبان الرملية عند غروب الشمس، وبحيرة جبلية صافية وهادئة مع جبال مغطاة بالثلوج في الخلفية]\n\n# خاتمة\nلكل وسط طبيعي مكونات حية وغير حية خاصة به تكون في حالة توازن. تنوع هذه الأوساط يشكل ثروة كوكبنا.",
+                "en": "# Introduction\nA natural environment is a place where living beings (animals, plants...) and non-living elements (water, air, soil...) coexist and interact. Our planet is full of a wide variety of these environments.\n\n## I. Components of a Natural Environment\nA natural environment consists of two types of components:\n\n### 1. Living Components (Biocenosis)\nThese are all the living beings that inhabit the environment. We can distinguish:\n*   **Fauna:** all the animals (insects, birds, mammals...).\n*   **Flora:** all the plants (trees, grasses, algae...).\n*   **Microorganisms:** living beings invisible to the naked eye (bacteria, fungi...).\n\n[IMAGE: Diagram showing the living and non-living components of a forest ecosystem, with arrows indicating interactions between an oak tree, a squirrel, the sun, water, and the soil]\n\n### 2. Non-living Components (Biotope)\nThese are the physical and chemical elements of the environment. For example:\n*   **The substrate:** soil, rocks.\n*   **Water:** in liquid, solid, or gaseous form.\n*   **Air:** with its gases (oxygen, carbon dioxide...).\n*   **Climatic factors:** temperature, light (sunlight), wind.\n\n## II. Examples of Natural Environments\nThe characteristics of the biotope (climate, soil type) determine the type of living beings (the biocenosis) that can live there. Therefore, there is a great diversity of environments.\n*   **The Forest:** An environment characterized by a high density of trees, high humidity, and soil rich in organic matter. Animals such as deer, wild boars, and many birds are found here.\n*   **The Desert:** A very dry environment (low rainfall) with large temperature differences between day and night. Vegetation is scarce and adapted to drought (cacti), as are the animals (camel, fennec fox).\n*   **The Lake:** A freshwater aquatic environment. Life here depends on water quality, light, and temperature. Fish, algae, aquatic plants, and amphibians are found here.\n\n[IMAGE: Collage of three different natural environments side-by-side: a lush oak forest in autumn, a sand dune desert at sunset, and a clear, calm mountain lake with snowy mountains in the background]\n\n# Conclusion\nEach natural environment has specific living and non-living components that are in balance. The diversity of these environments constitutes the richness of our planet."
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l2",
+              "topicId": "svt-1ac-c1",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 2 : Diversité des constituants des milieux naturels",
+                "ar": "التسلسل 2: تنوع مكونات الأوساط الطبيعية",
+                "en": "Sequence 2: Diversity of the components of natural environments"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l3",
+              "topicId": "svt-1ac-c1",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 3 : La cellule en tant qu'unité structurelle de l'être vivant",
+                "ar": "التسلسل 3: الخلية كوحدة بنيوية للكائن الحي",
+                "en": "Sequence 3: The cell as a structural unit of the living being"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l4",
+              "topicId": "svt-1ac-c2",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 1 : Respiration chez certains êtres vivants",
+                "ar": "التسلسل 1: التنفس عند بعض الكائنات الحية",
+                "en": "Sequence 1: Respiration in certain living beings"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l5",
+              "topicId": "svt-1ac-c2",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 2 : Adaptation de la respiration au milieu aérien chez les animaux",
+                "ar": "التسلسل 2: تكيف التنفس مع الوسط الهوائي عند الحيوانات",
+                "en": "Sequence 2: Adaptation of respiration to the aerial environment in animals"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l6",
+              "topicId": "svt-1ac-c2",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 3 : Adaptation de la respiration des insectes et des plantes au milieu aérien",
+                "ar": "التسلسل 3: تكيف تنفس الحشرات والنباتات مع الوسط الهوائي",
+                "en": "Sequence 3: Adaptation of respiration in insects and plants to the aerial environment"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l7",
+              "topicId": "svt-1ac-c2",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 4 : Adaptation de la respiration des êtres vivants au milieu aquatique",
+                "ar": "التسلسل 4: تكيف تنفس الكائنات الحية مع الوسط المائي",
+                "en": "Sequence 4: Adaptation of respiration of living beings to the aquatic environment"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l8",
+              "topicId": "svt-1ac-c3",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 1 : Régime alimentaire omnivore chez l'Homme",
+                "ar": "التسلسل 1: النظام الغذائي القارت عند الإنسان",
+                "en": "Sequence 1: Omnivorous diet in humans"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l9",
+              "topicId": "svt-1ac-c3",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 2 : Étude comparative de deux régimes alimentaires : herbivore et carnivore",
+                "ar": "التسلسل 2: دراسة مقارنة لنظامين غذائيين: العاشب واللاحم",
+                "en": "Sequence 2: Comparative study of two diets: herbivore and carnivore"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l10",
+              "topicId": "svt-1ac-c3",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 3 : La nutrition chez les plantes",
+                "ar": "التسلسل 3: التغذية عند النباتات",
+                "en": "Sequence 3: Nutrition in plants"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l11",
+              "topicId": "svt-1ac-c4",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 1 : Les chaînes et réseaux alimentaires",
+                "ar": "التسلسل 1: السلاسل والشبكات الغذائية",
+                "en": "Sequence 1: Food chains and webs"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l12",
+              "topicId": "svt-1ac-c4",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 2 : La production de la matière et le flux d'énergie",
+                "ar": "التسلسل 2: إنتاج المادة وتدفق الطاقة",
+                "en": "Sequence 2: Production of matter and energy flow"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l13",
+              "topicId": "svt-1ac-c5",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 1 : Classification des végétaux",
+                "ar": "التسلسل 1: تصنيف النباتات",
+                "en": "Sequence 1: Classification of plants"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l14",
+              "topicId": "svt-1ac-c5",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 2 : Classification des animaux",
+                "ar": "التسلسل 2: تصنيف الحيوانات",
+                "en": "Sequence 2: Classification of animals"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            },
+            {
+              "id": "svt-1ac-l15",
+              "topicId": "svt-1ac-c5",
+              "status": "pending_review",
+              "title": {
+                "fr": "Séquence 3 : Les équilibres naturels",
+                "ar": "التسلسل 3: التوازنات الطبيعية",
+                "en": "Sequence 3: Natural balances"
+              },
+              "content": {
+                "fr": "",
+                "ar": "",
+                "en": ""
+              },
+              "backgroundImage": ""
+            }
           ],
-          "exercises": [],
+          "exercises": [
+            {
+              "id": "e-1762089965472",
+              "status": "verified",
+              "topicId": "svt-1ac-c1",
+              "title": {
+                "fr": "Exercice 1 : Identifier les composantes",
+                "ar": "تمرين 1 : تحديد المكونات",
+                "en": "Exercise 1: Identifying Components"
+              },
+              "content": {
+                "fr": "Classez les éléments suivants dans le tableau ci-dessous : Chêne, Roche, Eau, Escargot, Lumière du soleil, Champignon, Air, Sable, Bactérie, Température.\n\n| Composante Vivante | Composante Non-Vivante |\n|--------------------|------------------------|\n|                    |                        |\n|                    |                        |\n|                    |                        |\n|                    |                        |\n|                    |                        |",
+                "ar": "صنف العناصر التالية في الجدول أدناه: شجرة بلوط، صخرة، ماء، حلزون، ضوء الشمس، فطر، هواء، رمل، بكتيريا، درجة الحرارة.\n\n| مكونات حية | مكونات غير حية |\n|------------|----------------|\n|            |                |\n|            |                |\n|            |                |\n|            |                |\n|            |                |",
+                "en": "Classify the following items in the table below: Oak tree, Rock, Water, Snail, Sunlight, Mushroom, Air, Sand, Bacterium, Temperature.\n\n| Living Component | Non-living Component |\n|------------------|---------------------|\n|                  |                     |\n|                  |                     |\n|                  |                     |\n|                  |                     |\n|                  |                     |"
+              },
+              "solution": {
+                "fr": "Voici le tableau complété :\n\n| Composante Vivante | Composante Non-Vivante |\n|--------------------|------------------------|\n| Chêne              | Roche                  |\n| Escargot           | Eau                    |\n| Champignon         | Lumière du soleil      |\n| Bactérie           | Air                    |\n|                    | Sable                  |\n|                    | Température            |",
+                "ar": "إليك الجدول بعد تعبئته:\n\n| مكونات حية  | مكونات غير حية |\n|-------------|----------------|\n| شجرة بلوط   | صخرة           |\n| حلزون       | ماء            |\n| فطر         | ضوء الشمس      |\n| بكتيريا     | هواء           |\n|             | رمل            |\n|             | درجة الحرارة  |",
+                "en": "Here is the completed table:\n\n| Living Component | Non-living Component |\n|------------------|---------------------|\n| Oak tree         | Rock                |\n| Snail            | Water               |\n| Mushroom         | Sunlight            |\n| Bacterium        | Air                 |\n|                  | Sand                |\n|                  | Temperature         |"
+              }
+            },
+            {
+              "id": "e-1762089965477",
+              "status": "verified",
+              "topicId": "svt-1ac-c1",
+              "title": {
+                "fr": "Exercice 2 : Analyse d'un milieu naturel",
+                "ar": "تمرين 2 : تحليل وسط طبيعي",
+                "en": "Exercise 2: Analysis of a Natural Environment"
+              },
+              "content": {
+                "fr": "Observez l'image ci-dessous qui représente une mare.\n\n[IMAGE: Illustration détaillée d'une mare avec des nénuphars, des roseaux, une grenouille sur une feuille, une libellule en vol, des poissons sous l'eau et un canard nageant]\n\n1.  Listez trois composantes vivantes présentes dans cette mare.\n2.  Listez trois composantes non-vivantes présentes ou influençant cette mare.",
+                "ar": "لاحظ الصورة أدناه التي تمثل بركة ماء.\n\n[IMAGE: رسم توضيحي مفصل لبركة ماء مع زنابق الماء، والقصب، وضفدع على ورقة، ويعسوب يطير، وأسماك تحت الماء، وبطة تسبح]\n\n1. اذكر ثلاثة مكونات حية موجودة في هذه البركة.\n2. اذكر ثلاثة مكونات غير حية موجودة أو تؤثر في هذه البركة.",
+                "en": "Observe the image below, which represents a pond.\n\n[IMAGE: Detailed illustration of a pond with water lilies, reeds, a frog on a leaf, a dragonfly in flight, fish underwater, and a duck swimming]\n\n1. List three living components present in this pond.\n2. List three non-living components present in or influencing this pond."
+              },
+              "solution": {
+                "fr": "1.  **Composantes vivantes :** Grenouille, libellule, poissons, nénuphars, roseaux, canard (trois au choix).\n2.  **Composantes non-vivantes :** Eau, lumière du soleil, air, roches au fond de la mare (trois au choix).",
+                "ar": "1. **مكونات حية:** ضفدع، يعسوب، أسماك، زنابق الماء، قصب، بطة (اختر ثلاثة).\n2. **مكونات غير حية:** ماء، ضوء الشمس، هواء، صخور في قاع البركة (اختر ثلاثة).",
+                "en": "1. **Living components:** Frog, dragonfly, fish, water lilies, reeds, duck (choose any three).\n2. **Non-living components:** Water, sunlight, air, rocks at the bottom of the pond (choose any three)."
+              }
+            },
+            {
+              "id": "e-1762089965478",
+              "status": "verified",
+              "topicId": "svt-1ac-c1",
+              "title": {
+                "fr": "Exercice 3 : Comparer deux milieux",
+                "ar": "تمرين 3 : مقارنة وسطين",
+                "en": "Exercise 3: Comparing two Environments"
+              },
+              "content": {
+                "fr": "Remplissez le tableau suivant pour comparer la forêt et le désert.\n\n| Caractéristique | Forêt | Désert |\n|-----------------|-------|--------|\n| Humidité        |       |        |\n| Végétation     |       |        |\n| Exemple d'animal|       |        |",
+                "ar": "املأ الجدول التالي لمقارنة الغابة والصحراء.\n\n| الخاصية | الغابة | الصحراء |\n|-----------|--------|---------|\n| الرطوبة    |        |         |\n| الغطاء النباتي|        |         |\n| مثال لحيوان|        |         |",
+                "en": "Fill in the following table to compare the forest and the desert.\n\n| Characteristic | Forest | Desert |\n|----------------|--------|--------|\n| Humidity       |        |        |\n| Vegetation     |        |        |\n| Animal Example |        |        |"
+              },
+              "solution": {
+                "fr": "Voici le tableau complété :\n\n| Caractéristique | Forêt            | Désert              |\n|-----------------|------------------|---------------------|\n| Humidité        | Élevée           | Faible              |\n| Végétation     | Abondante (arbres) | Rare (plantes adaptées) |\n| Exemple d'animal| Écureuil, cerf   | Dromadaire, fennec  |",
+                "ar": "إليك الجدول بعد تعبئته:\n\n| الخاصية | الغابة           | الصحراء            |\n|-----------|-----------------|--------------------|\n| الرطوبة    | مرتفعة          | منخفضة             |\n| الغطاء النباتي| كثيف (أشجار)    | نادر (نباتات متكيفة) |\n| مثال لحيوان| سنجاب، غزال     | جمل، فنك           |",
+                "en": "Here is the completed table:\n\n| Characteristic | Forest                 | Desert                    |\n|----------------|------------------------|---------------------------|\n| Humidity       | High                   | Low                       |\n| Vegetation     | Abundant (trees)       | Scarce (adapted plants)   |\n| Animal Example | Squirrel, deer         | Camel, fennec fox         |"
+              }
+            }
+          ],
           "summaries": []
         },
         {

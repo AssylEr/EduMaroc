@@ -17,9 +17,60 @@
             "ar": "الأولى إعدادي",
             "en": "1st Year Middle School"
           },
-          "lessons": [],
-          "exercises": [],
-          "summaries": []
+          "lessons": [
+            {
+              "id": "l1",
+              "status": "verified",
+              "title": {
+                "fr": "Les Nombres Décimaux",
+                "ar": "الأعداد العشرية",
+                "en": "Decimal Numbers"
+              },
+              "content": {
+                "fr": "### Introduction aux Nombres Décimaux\n\nUn nombre décimal est un nombre qui peut s'écrire avec une virgule. Il est composé de deux parties : la **partie entière** (avant la virgule) et la **partie décimale** (après la virgule).\n\n**Exemple :** Dans `12,345`, `12` est la partie entière et `345` est la partie décimale.",
+                "ar": "### مقدمة في الأعداد العشرية\n\nالعدد العشري هو عدد يمكن كتابته بفاصلة. يتكون من جزأين: **الجزء الصحيح** (قبل الفاصلة) و **الجزء العشري** (بعد الفاصلة).\n\n**مثال:** في العدد `12,345`، `12` هو الجزء الصحيح و `345` هو الجزء العشري.",
+                "en": "### Introduction to Decimal Numbers\n\nA decimal number is a number that can be written with a decimal point. It consists of two parts: the **integer part** (before the point) and the **decimal part** (after the point).\n\n**Example:** In `12.345`, `12` is the integer part and `345` is the decimal part."
+              },
+              "backgroundImage": "https://images.unsplash.com/photo-1554224324-46969f9a3f2b?q=80&w=1920&auto=format&fit=crop"
+            }
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "status": "verified",
+              "title": {
+                "fr": "Exercice 1: Addition",
+                "ar": "تمرين 1: الجمع",
+                "en": "Exercise 1: Addition"
+              },
+              "content": {
+                "fr": "Calculez la somme suivante : `25,5 + 10,2`.",
+                "ar": "احسب المجموع التالي: `25,5 + 10,2`.",
+                "en": "Calculate the following sum: `25.5 + 10.2`."
+              },
+              "solution": {
+                "fr": "La solution est `35,7`.",
+                "ar": "الحل هو `35,7`.",
+                "en": "The solution is `35.7`."
+              }
+            }
+          ],
+          "summaries": [
+            {
+              "id": "s1",
+              "status": "verified",
+              "title": {
+                "fr": "Résumé du Chapitre 1",
+                "ar": "ملخص الفصل 1",
+                "en": "Chapter 1 Summary"
+              },
+              "content": {
+                "fr": "Ceci est un résumé du chapitre...",
+                "ar": "هذا ملخص للفصل...",
+                "en": "This is a summary of the chapter..."
+              }
+            }
+          ]
         },
         {
           "id": "2ac",
@@ -107,63 +158,46 @@
             "ar": "الأولى إعدادي",
             "en": "1st Year Middle School"
           },
-          "lessons": [
+          "chapters": [
             {
-              "id": "l-1762029728981",
-              "topicId": "topic-1762029651988",
-              "title": {
-                "fr": "Les Cellules",
-                "ar": "الخلايا",
-                "en": "Cells"
-              },
-              "content": {
-                "fr": "## Qu'est-ce qu'une cellule ?\n\nLa cellule est la plus petite unité de base de tous les êtres vivants. C'est comme une brique pour une maison : tout comme les maisons sont faites de briques, tous les organismes vivants, comme les plantes, les animaux et les humains, sont faits de cellules. La plupart des cellules sont si petites qu'on ne peut les voir qu'avec un microscope.\n\n## La structure d'une cellule\n\nBien qu'il existe de nombreux types de cellules, elles partagent des composants de base. Examinons les deux types les plus courants : la cellule animale et la cellule végétale.\n\n### 1. La cellule animale\n\nC'est le type de cellule qui compose les animaux et les humains.\n\n![Schéma simple et clair d'une cellule animale typique avec des étiquettes pointant vers la membrane cellulaire, le cytoplasme et le noyau. Style diagramme éducatif coloré.](img_sch_ma_simple_et_clair_d_une_cellule_animale_typiq_1762030172379.png)\n\nSes principaux composants sont :\n*   **La membrane cellulaire** : C'est l'enveloppe extérieure de la cellule. Elle contrôle ce qui entre et sort de la cellule.\n*   **Le cytoplasme** : Une substance gélatineuse qui remplit la cellule et où se trouvent les autres composants.\n*   **Le noyau** : C'est le 'cerveau' de la cellule. Il contient l'information génétique (ADN) et contrôle toutes les activités de la cellule.\n\n### 2. La cellule végétale\n\nC'est le type de cellule qui compose les plantes.\n\n![Schéma simple et clair d'une cellule végétale typique avec des étiquettes pointant vers la paroi cellulaire, la membrane cellulaire, le cytoplasme, le noyau, la grande vacuole et les chloroplastes. Style diagramme éducatif coloré.](img_sch_ma_simple_et_clair_d_une_cellule_v_g_tale_typi_1762030231085.png)\n\nElle possède les mêmes composants que la cellule animale, plus quelques extras :\n*   **La paroi cellulaire** : Une couche rigide à l'extérieur de la membrane cellulaire. Elle donne à la cellule végétale sa forme fixe et la protège.\n*   **Les chloroplastes** : Ce sont les organites où se déroule la photosynthèse. Ils contiennent la chlorophylle, qui donne aux plantes leur couleur verte et capte l'énergie lumineuse.\n*   **Une grande vacuole** : Un grand sac rempli d'eau et de nutriments. Elle aide à maintenir la pression à l'intérieur de la cellule.\n\n## Comparaison entre cellule animale et végétale\n\n![Comparaison côte à côte d'une cellule animale et d'une cellule végétale, mettant en évidence les différences structurelles. Les légendes indiquent clairement la paroi cellulaire, les chloroplastes et la grande vacuole dans la cellule végétale. Style infographie éducative.](img_comparaison_c_te_c_te_d_une_cellule_animale_et_d_u_1762030287682.png)\n\nVoici un tableau récapitulatif des différences :\n\n| Caractéristique | Cellule Animale | Cellule Végétale |\n|---|---|---|\n| Membrane cellulaire | Oui | Oui |\n| Cytoplasme | Oui | Oui |\n| Noyau | Oui | Oui |\n| Paroi cellulaire | Non | Oui |\n| Chloroplastes | Non | Oui |\n| Grande vacuole | Non | Oui |\n\n## Organismes Unicellulaires et Pluricellulaires\n\n*   **Organismes unicellulaires** : Ils sont constitués d'une seule cellule qui effectue toutes les fonctions vitales (ex: amibe, bactérie).\n*   **Organismes pluricellulaires** : Ils sont constitués de nombreuses cellules qui travaillent ensemble (ex: humains, arbres, chats).",
-                "ar": "## ما هي الخلية؟\n\nالخلية هي أصغر وحدة أساسية لجميع الكائنات الحية. إنها مثل الطوبة في بناء المنزل: فكما أن المنازل مبنية من الطوب، فإن جميع الكائنات الحية، مثل النباتات والحيوانات والبشر، مكونة من خلايا. معظم الخلايا صغيرة جدًا لدرجة أنه لا يمكن رؤيتها إلا بالمجهر.\n\n## بنية الخلية\n\nعلى الرغم من وجود أنواع عديدة من الخلايا، إلا أنها تشترك في مكونات أساسية. لنتعرف على النوعين الأكثر شيوعًا: الخلية الحيوانية والخلية النباتية.\n\n### 1. الخلية الحيوانية\n\nهذا هو نوع الخلية الذي تتكون منه أجسام الحيوانات والبشر.\n\n![Schéma simple et clair d'une cellule animale typique avec des étiquettes pointant vers la membrane cellulaire, le cytoplasme et le noyau. Style diagramme éducatif coloré.](img_sch_ma_simple_et_clair_d_une_cellule_animale_typiq_1762030172379.png)\n\nمكوناتها الرئيسية هي:\n*   **الغشاء الخلوي**: هو الغلاف الخارجي للخلية. يتحكم فيما يدخل إلى الخلية وما يخرج منها.\n*   **السيتوبلازم**: مادة شبيهة بالهلام تملأ الخلية وتوجد فيها المكونات الأخرى.\n*   **النواة**: هي 'عقل' الخلية. تحتوي على المعلومات الوراثية (ADN) وتتحكم في جميع أنشطة الخلية.\n\n### 2. الخلية النباتية\n\nهذا هو نوع الخلية الذي تتكون منه النباتات.\n\n![Schéma simple et clair d'une cellule végétale typique avec des étiquettes pointant vers la paroi cellulaire, la membrane cellulaire, le cytoplasme, le noyau, la grande vacuole et les chloroplastes. Style diagramme éducatif coloré.](img_sch_ma_simple_et_clair_d_une_cellule_v_g_tale_typi_1762030231085.png)\n\nلديها نفس مكونات الخلية الحيوانية، بالإضافة إلى بعض المكونات الإضافية:\n*   **الجدار الخلوي**: طبقة صلبة توجد خارج الغشاء الخلوي. يمنح الخلية النباتية شكلها الثابت ويحميها.\n*   **البلاستيدات الخضراء**: هي العضيات التي تتم فيها عملية التركيب الضوئي. تحتوي على الكلوروفيل، الذي يعطي النباتات لونها الأخضر ويلتقط الطاقة الضوئية.\n*   **فجوة عصارية كبيرة**: كيس كبير مملوء بالماء والمواد الغذائية. تساعد في الحفاظ على الضغط داخل الخلية.\n\n## مقارنة بين الخلية الحيوانية والنباتية\n\n![Comparaison côte à côte d'une cellule animale et d'une cellule végétale, mettant en évidence les différences structurelles. Les légendes indiquent clairement la paroi cellulaire, les chloroplastes et la grande vacuole dans la cellule végétale. Style infographie éducative.](img_comparaison_c_te_c_te_d_une_cellule_animale_et_d_u_1762030287682.png)\n\nإليك جدول يلخص الاختلافات:\n\n| المكون | الخلية الحيوانية | الخلية النباتية |\n|---|---|---|\n| غشاء خلوي | نعم | نعم |\n| سيتوبلازم | نعم | نعم |\n| نواة | نعم | نعم |\n| جدار خلوي | لا | نعم |\n| بلاستيدات خضراء | لا | نعم |\n| فجوة عصارية كبيرة | لا | نعم |\n\n## الكائنات وحيدة الخلية ومتعددة الخلايا\n\n*   **الكائنات وحيدة الخلية**: تتكون من خلية واحدة تقوم بجميع الوظائف الحيوية (مثال: الأميبا، البكتيريا).\n*   **الكائنات متعددة الخلايا**: تتكون من العديد من الخلايا التي تعمل معًا (مثال: البشر، الأشجار، القطط).",
-                "en": "## What is a cell?\n\nThe cell is the smallest basic unit of all living things. It's like a brick for a house: just as houses are made of bricks, all living organisms, like plants, animals, and humans, are made of cells. Most cells are so small that they can only be seen with a microscope.\n\n## The structure of a cell\n\nAlthough there are many types of cells, they share basic components. Let's look at the two most common types: the animal cell and the plant cell.\n\n### 1. The Animal Cell\n\nThis is the type of cell that makes up animals and humans.\n\n![Schéma simple et clair d'une cellule animale typique avec des étiquettes pointant vers la membrane cellulaire, le cytoplasme et le noyau. Style diagramme éducatif coloré.](img_sch_ma_simple_et_clair_d_une_cellule_animale_typiq_1762030172379.png)\n\nIts main components are:\n*   **Cell membrane**: This is the outer envelope of the cell. It controls what enters and exits the cell.\n*   **Cytoplasm**: A jelly-like substance that fills the cell and where the other components are located.\n*   **Nucleus**: This is the 'brain' of the cell. It contains the genetic information (DNA) and controls all the cell's activities.\n\n### 2. The Plant Cell\n\nThis is the type of cell that makes up plants.\n\n![Schéma simple et clair d'une cellule végétale typique avec des étiquettes pointant vers la paroi cellulaire, la membrane cellulaire, le cytoplasme, le noyau, la grande vacuole et les chloroplastes. Style diagramme éducatif coloré.](img_sch_ma_simple_et_clair_d_une_cellule_v_g_tale_typi_1762030231085.png)\n\nIt has the same components as the animal cell, plus a few extras:\n*   **Cell wall**: A rigid layer outside the cell membrane. It gives the plant cell its fixed shape and protects it.\n*   **Chloroplasts**: These are the organelles where photosynthesis takes place. They contain chlorophyll, which gives plants their green color and captures light energy.\n*   **A large vacuole**: A large sac filled with water and nutrients. It helps maintain pressure inside the cell.\n\n## Comparison between Animal and Plant Cells\n\n![Comparaison côte à côte d'une cellule animale et d'une cellule végétale, mettant en évidence les différences structurelles. Les légendes indiquent clairement la paroi cellulaire, les chloroplastes et la grande vacuole dans la cellule végétale. Style infographie éducative.](img_comparaison_c_te_c_te_d_une_cellule_animale_et_d_u_1762030287682.png)\n\nHere is a summary table of the differences:\n\n| Feature | Animal Cell | Plant Cell |\n|---|---|---|\n| Cell membrane | Yes | Yes |\n| Cytoplasm | Yes | Yes |\n| Nucleus | Yes | Yes |\n| Cell wall | No | Yes |\n| Chloroplasts | No | Yes |\n| Large vacuole | No | Yes |\n\n## Unicellular and Multicellular Organisms\n\n*   **Unicellular organisms**: They are made of a single cell that performs all life functions (e.g., amoeba, bacteria).\n*   **Multicellular organisms**: They are made of many cells that work together (e.g., humans, trees, cats)."
-              },
-              "backgroundImage": "img_background_1762029771555.png"
-            }
-          ],
-          "exercises": [
-            {
-              "id": "e-1762029728988",
-              "topicId": "topic-1762029651988",
-              "title": {
-                "fr": "Identifier les composants de la cellule",
-                "ar": "تحديد مكونات الخلية",
-                "en": "Identify the Cell Components"
-              },
-              "content": {
-                "fr": "Observez le schéma de la cellule végétale ci-dessous et identifiez les composants indiqués par les numéros 1 à 6.\n\n![Schéma d'une cellule végétale avec des numéros pointant vers la paroi cellulaire, la membrane cellulaire, le cytoplasme, le noyau, la grande vacuole et les chloroplastes, destiné à un exercice d'étiquetage.](img_sch_ma_d_une_cellule_v_g_tale_avec_des_num_ros_poi_1762030404352.png)",
-                "ar": "لاحظ الرسم التخطيطي للخلية النباتية أدناه وحدد المكونات المشار إليها بالأرقام من 1 إلى 6.\n\n![Schéma d'une cellule végétale avec des numéros pointant vers la paroi cellulaire, la membrane cellulaire, le cytoplasme, le noyau, la grande vacuole et les chloroplastes, destiné à un exercice d'étiquetage.](img_sch_ma_d_une_cellule_v_g_tale_avec_des_num_ros_poi_1762030404352.png)",
-                "en": "Observe the diagram of the plant cell below and identify the components indicated by the numbers 1 to 6.\n\n![Schéma d'une cellule végétale avec des numéros pointant vers la paroi cellulaire, la membrane cellulaire, le cytoplasme, le noyau, la grande vacuole et les chloroplastes, destiné à un exercice d'étiquetage.](img_sch_ma_d_une_cellule_v_g_tale_avec_des_num_ros_poi_1762030404352.png)"
-              },
-              "solution": {
-                "fr": "Voici les noms corrects pour chaque numéro :\n1. Paroi cellulaire\n2. Membrane cellulaire\n3. Cytoplasme\n4. Noyau\n5. Grande vacuole\n6. Chloroplaste",
-                "ar": "إليك الأسماء الصحيحة لكل رقم:\n1. الجدار الخلوي\n2. الغشاء الخلوي\n3. السيتوبلازم\n4. النواة\n5. الفجوة العصارية الكبيرة\n6. البلاستيدة الخضراء",
-                "en": "Here are the correct names for each number:\n1. Cell wall\n2. Cell membrane\n3. Cytoplasm\n4. Nucleus\n5. Large vacuole\n6. Chloroplast"
-              }
+              "id": "svt-1ac-c1",
+              "title": { "fr": "Chapitre 1 : Observation des milieux naturels", "ar": "الفصل 1: ملاحظة الأوساط الطبيعية", "en": "Chapter 1: Observation of natural environments" }
             },
             {
-              "id": "e-1762029728989",
-              "topicId": "topic-1762029651988",
-              "title": {
-                "fr": "Vrai ou Faux ?",
-                "ar": "صحيح أم خطأ؟",
-                "en": "True or False?"
-              },
-              "content": {
-                "fr": "Indiquez si les affirmations suivantes sur les cellules sont vraies ou fausses.\n1. Seules les cellules végétales ont une membrane cellulaire.\n2. Le noyau contrôle les activités de la cellule.\n3. Les cellules animales effectuent la photosynthèse grâce aux chloroplastes.\n4. La paroi cellulaire donne sa rigidité à la cellule végétale.\n5. Les animaux sont des organismes unicellulaires.",
-                "ar": "حدد ما إذا كانت العبارات التالية حول الخلايا صحيحة أم خاطئة.\n1. الخلايا النباتية فقط هي التي تمتلك غشاءً خلويًا.\n2. النواة تتحكم في أنشطة الخلية.\n3. تقوم الخلايا الحيوانية بعملية التركيب الضوئي بفضل البلاستيدات الخضراء.\n4. الجدار الخلوي يمنح الخلية النباتية صلابتها.\n5. الحيوانات كائنات وحيدة الخلية.",
-                "en": "Indicate whether the following statements about cells are true or false.\n1. Only plant cells have a cell membrane.\n2. The nucleus controls the cell's activities.\n3. Animal cells perform photosynthesis using chloroplasts.\n4. The cell wall gives rigidity to the plant cell.\n5. Animals are unicellular organisms."
-              },
-              "solution": {
-                "fr": "1. **Faux**. Les cellules animales et végétales ont une membrane cellulaire.\n2. **Vrai**. Le noyau est le centre de contrôle de la cellule.\n3. **Faux**. Seules les cellules végétales ont des chloroplastes pour la photosynthèse.\n4. **Vrai**. La paroi cellulaire est une structure rigide qui soutient la cellule végétale.\n5. **Faux**. Les animaux sont des organismes pluricellulaires, composés de nombreuses cellules.",
-                "ar": "1. **خطأ**. كل من الخلايا الحيوانية والنباتية لديها غشاء خلوي.\n2. **صحيح**. النواة هي مركز التحكم في الخلية.\n3. **خطأ**. الخلايا النباتية فقط هي التي تحتوي على بلاستيدات خضراء للقيام بالتركيب الضوئي.\n4. **صحيح**. الجدار الخلوي هو بنية صلبة تدعم الخلية النباتية.\n5. **خطأ**. الحيوانات كائنات متعددة الخلايا، تتكون من العديد من الخلايا.",
-                "en": "1. **False**. Both animal and plant cells have a cell membrane.\n2. **True**. The nucleus is the control center of the cell.\n3. **False**. Only plant cells have chloroplasts for photosynthesis.\n4. **True**. The cell wall is a rigid structure that supports the plant cell.\n5. **False**. Animals are multicellular organisms, composed of many cells."
-              }
+              "id": "svt-1ac-c2",
+              "title": { "fr": "Chapitre 2 : Respiration dans différents milieux", "ar": "الفصل 2: التنفس في أوساط مختلفة", "en": "Chapter 2: Respiration in different environments" }
+            },
+            {
+              "id": "svt-1ac-c3",
+              "title": { "fr": "Chapitre 3 : Alimentation chez les êtres vivants", "ar": "الفصل 3: التغذية عند الكائنات الحية", "en": "Chapter 3: Nutrition in living beings" }
+            },
+            {
+              "id": "svt-1ac-c4",
+              "title": { "fr": "Chapitre 4 : Relations alimentaires et flux de matière et d'énergie", "ar": "الفصل 4: العلاقات الغذائية وتدفق المادة والطاقة", "en": "Chapter 4: Food relationships and flow of matter and energy" }
+            },
+            {
+              "id": "svt-1ac-c5",
+              "title": { "fr": "Chapitre 5 : Classification des êtres vivants et les équilibres naturels", "ar": "الفصل 5: تصنيف الكائنات الحية والتوازنات الطبيعية", "en": "Chapter 5: Classification of living beings and natural balances" }
             }
           ],
+          "lessons": [
+            { "id": "svt-1ac-l1", "topicId": "svt-1ac-c1", "status": "pending_review", "title": { "fr": "Séquence 1 : Diversité des milieux naturels", "ar": "التسلسل 1: تنوع الأوساط الطبيعية", "en": "Sequence 1: Diversity of natural environments" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l2", "topicId": "svt-1ac-c1", "status": "pending_review", "title": { "fr": "Séquence 2 : Diversité des constituants des milieux naturels", "ar": "التسلسل 2: تنوع مكونات الأوساط الطبيعية", "en": "Sequence 2: Diversity of the components of natural environments" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l3", "topicId": "svt-1ac-c1", "status": "pending_review", "title": { "fr": "Séquence 3 : La cellule en tant qu'unité structurelle de l'être vivant", "ar": "التسلسل 3: الخلية كوحدة بنيوية للكائن الحي", "en": "Sequence 3: The cell as a structural unit of the living being" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l4", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 1 : Respiration chez certains êtres vivants", "ar": "التسلسل 1: التنفس عند بعض الكائنات الحية", "en": "Sequence 1: Respiration in certain living beings" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l5", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 2 : Adaptation de la respiration au milieu aérien chez les animaux", "ar": "التسلسل 2: تكيف التنفس مع الوسط الهوائي عند الحيوانات", "en": "Sequence 2: Adaptation of respiration to the aerial environment in animals" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l6", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 3 : Adaptation de la respiration des insectes et des plantes au milieu aérien", "ar": "التسلسل 3: تكيف تنفس الحشرات والنباتات مع الوسط الهوائي", "en": "Sequence 3: Adaptation of respiration in insects and plants to the aerial environment" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l7", "topicId": "svt-1ac-c2", "status": "pending_review", "title": { "fr": "Séquence 4 : Adaptation de la respiration des êtres vivants au milieu aquatique", "ar": "التسلسل 4: تكيف تنفس الكائنات الحية مع الوسط المائي", "en": "Sequence 4: Adaptation of respiration of living beings to the aquatic environment" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l8", "topicId": "svt-1ac-c3", "status": "pending_review", "title": { "fr": "Séquence 1 : Régime alimentaire omnivore chez l'Homme", "ar": "التسلسل 1: النظام الغذائي القارت عند الإنسان", "en": "Sequence 1: Omnivorous diet in humans" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l9", "topicId": "svt-1ac-c3", "status": "pending_review", "title": { "fr": "Séquence 2 : Étude comparative de deux régimes alimentaires : herbivore et carnivore", "ar": "التسلسل 2: دراسة مقارنة لنظامين غذائيين: العاشب واللاحم", "en": "Sequence 2: Comparative study of two diets: herbivore and carnivore" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l10", "topicId": "svt-1ac-c3", "status": "pending_review", "title": { "fr": "Séquence 3 : La nutrition chez les plantes", "ar": "التسلسل 3: التغذية عند النباتات", "en": "Sequence 3: Nutrition in plants" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l11", "topicId": "svt-1ac-c4", "status": "pending_review", "title": { "fr": "Séquence 1 : Les chaînes et réseaux alimentaires", "ar": "التسلسل 1: السلاسل والشبكات الغذائية", "en": "Sequence 1: Food chains and webs" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l12", "topicId": "svt-1ac-c4", "status": "pending_review", "title": { "fr": "Séquence 2 : La production de la matière et le flux d'énergie", "ar": "التسلسل 2: إنتاج المادة وتدفق الطاقة", "en": "Sequence 2: Production of matter and energy flow" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l13", "topicId": "svt-1ac-c5", "status": "pending_review", "title": { "fr": "Séquence 1 : Classification des végétaux", "ar": "التسلسل 1: تصنيف النباتات", "en": "Sequence 1: Classification of plants" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l14", "topicId": "svt-1ac-c5", "status": "pending_review", "title": { "fr": "Séquence 2 : Classification des animaux", "ar": "التسلسل 2: تصنيف الحيوانات", "en": "Sequence 2: Classification of animals" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+            { "id": "svt-1ac-l15", "topicId": "svt-1ac-c5", "status": "pending_review", "title": { "fr": "Séquence 3 : Les équilibres naturels", "ar": "التسلسل 3: التوازنات الطبيعية", "en": "Sequence 3: Natural balances" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" }
+          ],
+          "exercises": [],
           "summaries": []
         },
         {

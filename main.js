@@ -155,33 +155,72 @@ document.addEventListener('DOMContentLoaded', async () => {
       
       container.innerHTML = subject.levels.map(level => {
           const createList = (items, type) => {
-              if (!items || items.length === 0) {
-                  return `<p class="empty-content">${t.emptyContent}</p>`;
-              }
-              return `<ul>${items.map(item => `
-                  <li><a href="./content.html?subject=${subject.id}&level=${level.id}&type=${type}&id=${item.id}">${getTranslated(item.title, lang)}</a></li>
-              `).join('')}</ul>`;
+              if (!items || items.length === 0) return '';
+              const visibleItems = items.filter(item => item.status === 'verified' || item.status === undefined);
+              if (visibleItems.length === 0) return '';
+
+              return `
+                  <h4 class="content-list-title">${t[type]}</h4>
+                  <ul>${visibleItems.map(item => `
+                      <li><a href="./content.html?subject=${subject.id}&level=${level.id}&type=${type}&id=${item.id}">${getTranslated(item.title, lang)}</a></li>
+                  `).join('')}</ul>`;
           };
 
+          const hasChapters = level.chapters && level.chapters.length > 0;
+
+          if (hasChapters) {
+            return `
+              <section class="level-section">
+                  <h2 class="level-title">${getTranslated(level.name, lang)}</h2>
+                  ${level.chapters.map((chapter, index) => {
+                      const chapterLessons = (level.lessons || []).filter(l => l.topicId === chapter.id);
+                      const chapterExercises = (level.exercises || []).filter(e => e.topicId === chapter.id);
+                      const chapterSummaries = (level.summaries || []).filter(s => s.topicId === chapter.id);
+                      
+                      const lessonsList = createList(chapterLessons, 'lessons');
+                      const exercisesList = createList(chapterExercises, 'exercises');
+                      const summariesList = createList(chapterSummaries, 'summaries');
+
+                      if (!lessonsList && !exercisesList && !summariesList) return '';
+
+                      return `
+                        <details class="chapter-accordion" ${index === 0 ? 'open' : ''}>
+                          <summary class="chapter-title">
+                            <h3>${getTranslated(chapter.title, lang)}</h3>
+                          </summary>
+                          <div class="chapter-content">
+                            ${lessonsList}
+                            ${exercisesList}
+                            ${summariesList}
+                          </div>
+                        </details>
+                      `;
+                  }).join('')}
+              </section>
+            `;
+          }
+
+          // Fallback for subjects without a chapter structure
           return `
               <section class="level-section">
                   <h2 class="level-title">${getTranslated(level.name, lang)}</h2>
-                  <div class="content-category">
+                  <div class="content-category-legacy">
                       <h3>${t.lessons}</h3>
-                      ${createList(level.lessons, 'lessons')}
+                      ${createList(level.lessons, 'lessons') || `<p class="empty-content">${t.emptyContent}</p>`}
                   </div>
-                  <div class="content-category">
+                  <div class="content-category-legacy">
                       <h3>${t.exercises}</h3>
-                      ${createList(level.exercises, 'exercises')}
+                      ${createList(level.exercises, 'exercises') || `<p class="empty-content">${t.emptyContent}</p>`}
                   </div>
-                   <div class="content-category">
+                   <div class="content-category-legacy">
                       <h3>${t.summaries}</h3>
-                      ${createList(level.summaries, 'summaries')}
+                      ${createList(level.summaries, 'summaries') || `<p class="empty-content">${t.emptyContent}</p>`}
                   </div>
               </section>
           `;
       }).join('');
   }
+
 
   function renderContentPage(item, subject, level, type, lang) {
       const t = translations[lang];

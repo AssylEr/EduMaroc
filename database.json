@@ -7,7 +7,7 @@
         "ar": "الرياضيات",
         "en": "Mathematics"
       },
-      "backgroundImage": "https://images.unsplash.com/photo-1509228468518-180dd4862904?q=80&w=1920&auto=format&fit=crop",
+      "backgroundImage": "img_background_1762093247066.jpg",
       "primaryColor": "#3498db",
       "levels": [
         {
@@ -17,60 +17,9 @@
             "ar": "الأولى إعدادي",
             "en": "1st Year Middle School"
           },
-          "lessons": [
-            {
-              "id": "l1",
-              "status": "verified",
-              "title": {
-                "fr": "Les Nombres Décimaux",
-                "ar": "الأعداد العشرية",
-                "en": "Decimal Numbers"
-              },
-              "content": {
-                "fr": "### Introduction aux Nombres Décimaux\n\nUn nombre décimal est un nombre qui peut s'écrire avec une virgule. Il est composé de deux parties : la **partie entière** (avant la virgule) et la **partie décimale** (après la virgule).\n\n**Exemple :** Dans `12,345`, `12` est la partie entière et `345` est la partie décimale.",
-                "ar": "### مقدمة في الأعداد العشرية\n\nالعدد العشري هو عدد يمكن كتابته بفاصلة. يتكون من جزأين: **الجزء الصحيح** (قبل الفاصلة) و **الجزء العشري** (بعد الفاصلة).\n\n**مثال:** في العدد `12,345`، `12` هو الجزء الصحيح و `345` هو الجزء العشري.",
-                "en": "### Introduction to Decimal Numbers\n\nA decimal number is a number that can be written with a decimal point. It consists of two parts: the **integer part** (before the point) and the **decimal part** (after the point).\n\n**Example:** In `12.345`, `12` is the integer part and `345` is the decimal part."
-              },
-              "backgroundImage": "https://images.unsplash.com/photo-1554224324-46969f9a3f2b?q=80&w=1920&auto=format&fit=crop"
-            }
-          ],
-          "exercises": [
-            {
-              "id": "e1",
-              "status": "verified",
-              "title": {
-                "fr": "Exercice 1: Addition",
-                "ar": "تمرين 1: الجمع",
-                "en": "Exercise 1: Addition"
-              },
-              "content": {
-                "fr": "Calculez la somme suivante : `25,5 + 10,2`.",
-                "ar": "احسب المجموع التالي: `25,5 + 10,2`.",
-                "en": "Calculate the following sum: `25.5 + 10.2`."
-              },
-              "solution": {
-                "fr": "La solution est `35,7`.",
-                "ar": "الحل هو `35,7`.",
-                "en": "The solution is `35.7`."
-              }
-            }
-          ],
-          "summaries": [
-            {
-              "id": "s1",
-              "status": "verified",
-              "title": {
-                "fr": "Résumé du Chapitre 1",
-                "ar": "ملخص الفصل 1",
-                "en": "Chapter 1 Summary"
-              },
-              "content": {
-                "fr": "Ceci est un résumé du chapitre...",
-                "ar": "هذا ملخص للفصل...",
-                "en": "This is a summary of the chapter..."
-              }
-            }
-          ]
+          "lessons": [],
+          "exercises": [],
+          "summaries": []
         },
         {
           "id": "2ac",
@@ -103,7 +52,7 @@
         "ar": "الفيزياء والكيمياء",
         "en": "Physics & Chemistry"
       },
-      "backgroundImage": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?q=80&w=1920&auto=format&fit=crop",
+      "backgroundImage": "img_background_1762093257755.jpg",
       "primaryColor": "#e74c3c",
       "levels": [
         {
@@ -148,7 +97,7 @@
         "ar": "علوم الحياة والأرض",
         "en": "Life and Earth Sciences"
       },
-      "backgroundImage": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=1920&auto=format&fit=crop",
+      "backgroundImage": "img_background_1762093264208.jpg",
       "primaryColor": "#2ecc71",
       "levels": [
         {
@@ -204,16 +153,16 @@
             {
               "id": "svt-1ac-l1",
               "topicId": "svt-1ac-c1",
-              "status": "verified",
+              "status": "pending_review",
               "title": {
                 "fr": "Séquence 1 : Diversité des milieux naturels",
                 "ar": "التسلسل 1: تنوع الأوساط الطبيعية",
                 "en": "Sequence 1: Diversity of natural environments"
               },
               "content": {
-                "fr": "# Introduction\nUn milieu naturel est un lieu de vie où des êtres vivants (animaux, végétaux...) et des éléments non-vivants (eau, air, sol...) coexistent et interagissent. Notre planète regorge d'une grande variété de ces milieux.\n\n## I. Les composantes d'un milieu naturel\nUn milieu naturel est constitué de deux types de composantes :\n\n### 1. Les composantes vivantes (La biocénose)\nCe sont tous les êtres vivants qui peuplent le milieu. On distingue :\n*   **La faune :** l'ensemble des animaux (insectes, oiseaux, mammifères...).\n*   **La flore :** l'ensemble des végétaux (arbres, herbes, algues...).\n*   **Les micro-organismes :** êtres vivants invisibles à l'œil nu (bactéries, champignons...).\n\n![Diagramme montrant les composantes vivantes et non-vivantes d'un écosystème forestier, avec des flèches indiquant les interactions entre un chêne, un écureuil, le soleil, l'eau et le sol](img_diagramme_montrant_les_composantes_vivantes_et_non_1762090038849.png)\n\n### 2. Les composantes non-vivantes (Le biotope)\nCe sont les éléments physiques et chimiques du milieu. Par exemple :\n*   **Le substrat :** le sol, les roches.\n*   **L'eau :** sous forme liquide, solide ou gazeuse.\n*   **L'air :** avec ses gaz (oxygène, dioxyde de carbone...).\n*   **Les facteurs climatiques :** la température, la lumière (ensoleillement), le vent.\n\n## II. Exemples de milieux naturels\nLes caractéristiques du biotope (climat, nature du sol) déterminent le type d'êtres vivants (la biocénose) qui peuvent y vivre. Il existe donc une grande diversité de milieux.\n*   **La forêt :** Milieu caractérisé par une forte présence d'arbres, une humidité élevée et un sol riche en matière organique. On y trouve des animaux comme les cerfs, les sangliers et de nombreux oiseaux.\n*   **Le désert :** Milieu très sec (faibles pluies) avec de grands écarts de température entre le jour et la nuit. La végétation est rare et adaptée à la sécheresse (cactus), tout comme les animaux (dromadaire, fennec).\n*   **Le lac :** Milieu aquatique d'eau douce. La vie y est dépendante de la qualité de l'eau, de la lumière et de la température. On y trouve des poissons, des algues, des plantes aquatiques et des amphibiens.\n\n![Collage de trois milieux naturels différents côte à côte : une forêt de chênes luxuriante en automne, un désert de dunes de sable au coucher du soleil, et un lac de montagne clair et calme avec des montagnes enneigées en arrière-plan](img_collage_de_trois_milieux_naturels_diff_rents_c_te__1762090047239.png)\n\n# Conclusion\nChaque milieu naturel possède des composantes vivantes et non-vivantes spécifiques qui sont en équilibre. La diversité de ces milieux constitue la richesse de notre planète.",
-                "ar": "# مقدمة\nالوسط الطبيعي هو مكان تعيش فيه كائنات حية (حيوانات، نباتات...) وعناصر غير حية (ماء، هواء، تربة...) وتتفاعل فيما بينها. كوكبنا يزخر بتنوع كبير من هذه الأوساط.\n\n## I. مكونات الوسط الطبيعي\nيتكون الوسط الطبيعي من نوعين من المكونات:\n\n### 1. المكونات الحية (العشيرة الإحيائية)\nهي جميع الكائنات الحية التي تعيش في الوسط. نميز بين:\n*   **الوحيش:** مجموع الحيوانات (حشرات، طيور، ثدييات...).\n*   **النبيت:** مجموع النباتات (أشجار، أعشاب، طحالب...).\n*   **الكائنات المجهرية:** كائنات حية لا ترى بالعين المجردة (بكتيريا، فطريات...).\n\n![رسم تخطيطي يوضح المكونات الحية وغير الحية لنظام بيئي في غابة، مع أسهم تشير إلى التفاعلات بين شجرة بلوط، وسنجاب، والشمس، والماء، والتربة](img___1762090056299.jpg)\n\n### 2. المكونات غير الحية (المحيا)\nهي العناصر الفيزيائية والكيميائية للوسط. على سبيل المثال:\n*   **الركيزة:** التربة، الصخور.\n*   **الماء:** في حالته السائلة، أو الصلبة، أو الغازية.\n*   **الهواء:** بغازاته (الأكسجين، ثاني أكسيد الكربون...).\n*   **العوامل المناخية:** درجة الحرارة، الضوء (أشعة الشمس)، الرياح.\n\n## II. أمثلة على الأوساط الطبيعية\nتحدد خصائص المحيا (المناخ، طبيعة التربة) نوع الكائنات الحية (العشيرة الإحيائية) التي يمكن أن تعيش فيه. لذلك يوجد تنوع كبير في الأوساط.\n*   **الغابة:** وسط يتميز بوجود كثيف للأشجار، ورطوبة عالية، وتربة غنية بالمواد العضوية. نجد فيها حيوانات مثل الغزلان والخنازير البرية والعديد من الطيور.\n*   **الصحراء:** وسط جاف جداً (أمطار قليلة) مع فروق كبيرة في درجات الحرارة بين النهار والليل. الغطاء النباتي نادر ومكيف مع الجفاف (الصبار)، وكذلك الحيوانات (الجمل، الفنك).\n*   **البحيرة:** وسط مائي عذب. تعتمد الحياة فيه على جودة الماء والضوء ودرجة الحرارة. نجد فيه الأسماك والطحالب والنباتات المائية والبرمائيات.\n\n[IMAGE: صورة مجمعة لثلاثة أوساط طبيعية مختلفة جنبًا إلى جنب: غابة بلوط مورقة في الخريف، صحراء من الكثبان الرملية عند غروب الشمس، وبحيرة جبلية صافية وهادئة مع جبال مغطاة بالثلوج في الخلفية]\n\n# خاتمة\nلكل وسط طبيعي مكونات حية وغير حية خاصة به تكون في حالة توازن. تنوع هذه الأوساط يشكل ثروة كوكبنا.",
-                "en": "# Introduction\nA natural environment is a place where living beings (animals, plants...) and non-living elements (water, air, soil...) coexist and interact. Our planet is full of a wide variety of these environments.\n\n## I. Components of a Natural Environment\nA natural environment consists of two types of components:\n\n### 1. Living Components (Biocenosis)\nThese are all the living beings that inhabit the environment. We can distinguish:\n*   **Fauna:** all the animals (insects, birds, mammals...).\n*   **Flora:** all the plants (trees, grasses, algae...).\n*   **Microorganisms:** living beings invisible to the naked eye (bacteria, fungi...).\n\n[IMAGE: Diagram showing the living and non-living components of a forest ecosystem, with arrows indicating interactions between an oak tree, a squirrel, the sun, water, and the soil]\n\n### 2. Non-living Components (Biotope)\nThese are the physical and chemical elements of the environment. For example:\n*   **The substrate:** soil, rocks.\n*   **Water:** in liquid, solid, or gaseous form.\n*   **Air:** with its gases (oxygen, carbon dioxide...).\n*   **Climatic factors:** temperature, light (sunlight), wind.\n\n## II. Examples of Natural Environments\nThe characteristics of the biotope (climate, soil type) determine the type of living beings (the biocenosis) that can live there. Therefore, there is a great diversity of environments.\n*   **The Forest:** An environment characterized by a high density of trees, high humidity, and soil rich in organic matter. Animals such as deer, wild boars, and many birds are found here.\n*   **The Desert:** A very dry environment (low rainfall) with large temperature differences between day and night. Vegetation is scarce and adapted to drought (cacti), as are the animals (camel, fennec fox).\n*   **The Lake:** A freshwater aquatic environment. Life here depends on water quality, light, and temperature. Fish, algae, aquatic plants, and amphibians are found here.\n\n[IMAGE: Collage of three different natural environments side-by-side: a lush oak forest in autumn, a sand dune desert at sunset, and a clear, calm mountain lake with snowy mountains in the background]\n\n# Conclusion\nEach natural environment has specific living and non-living components that are in balance. The diversity of these environments constitutes the richness of our planet."
+                "fr": "",
+                "ar": "",
+                "en": ""
               },
               "backgroundImage": ""
             },
@@ -442,68 +391,7 @@
               "backgroundImage": ""
             }
           ],
-          "exercises": [
-            {
-              "id": "e-1762089965472",
-              "status": "verified",
-              "topicId": "svt-1ac-c1",
-              "title": {
-                "fr": "Exercice 1 : Identifier les composantes",
-                "ar": "تمرين 1 : تحديد المكونات",
-                "en": "Exercise 1: Identifying Components"
-              },
-              "content": {
-                "fr": "Classez les éléments suivants dans le tableau ci-dessous : Chêne, Roche, Eau, Escargot, Lumière du soleil, Champignon, Air, Sable, Bactérie, Température.\n\n| Composante Vivante | Composante Non-Vivante |\n|--------------------|------------------------|\n|                    |                        |\n|                    |                        |\n|                    |                        |\n|                    |                        |\n|                    |                        |",
-                "ar": "صنف العناصر التالية في الجدول أدناه: شجرة بلوط، صخرة، ماء، حلزون، ضوء الشمس، فطر، هواء، رمل، بكتيريا، درجة الحرارة.\n\n| مكونات حية | مكونات غير حية |\n|------------|----------------|\n|            |                |\n|            |                |\n|            |                |\n|            |                |\n|            |                |",
-                "en": "Classify the following items in the table below: Oak tree, Rock, Water, Snail, Sunlight, Mushroom, Air, Sand, Bacterium, Temperature.\n\n| Living Component | Non-living Component |\n|------------------|---------------------|\n|                  |                     |\n|                  |                     |\n|                  |                     |\n|                  |                     |\n|                  |                     |"
-              },
-              "solution": {
-                "fr": "Voici le tableau complété :\n\n| Composante Vivante | Composante Non-Vivante |\n|--------------------|------------------------|\n| Chêne              | Roche                  |\n| Escargot           | Eau                    |\n| Champignon         | Lumière du soleil      |\n| Bactérie           | Air                    |\n|                    | Sable                  |\n|                    | Température            |",
-                "ar": "إليك الجدول بعد تعبئته:\n\n| مكونات حية  | مكونات غير حية |\n|-------------|----------------|\n| شجرة بلوط   | صخرة           |\n| حلزون       | ماء            |\n| فطر         | ضوء الشمس      |\n| بكتيريا     | هواء           |\n|             | رمل            |\n|             | درجة الحرارة  |",
-                "en": "Here is the completed table:\n\n| Living Component | Non-living Component |\n|------------------|---------------------|\n| Oak tree         | Rock                |\n| Snail            | Water               |\n| Mushroom         | Sunlight            |\n| Bacterium        | Air                 |\n|                  | Sand                |\n|                  | Temperature         |"
-              }
-            },
-            {
-              "id": "e-1762089965477",
-              "status": "verified",
-              "topicId": "svt-1ac-c1",
-              "title": {
-                "fr": "Exercice 2 : Analyse d'un milieu naturel",
-                "ar": "تمرين 2 : تحليل وسط طبيعي",
-                "en": "Exercise 2: Analysis of a Natural Environment"
-              },
-              "content": {
-                "fr": "Observez l'image ci-dessous qui représente une mare.\n\n[IMAGE: Illustration détaillée d'une mare avec des nénuphars, des roseaux, une grenouille sur une feuille, une libellule en vol, des poissons sous l'eau et un canard nageant]\n\n1.  Listez trois composantes vivantes présentes dans cette mare.\n2.  Listez trois composantes non-vivantes présentes ou influençant cette mare.",
-                "ar": "لاحظ الصورة أدناه التي تمثل بركة ماء.\n\n[IMAGE: رسم توضيحي مفصل لبركة ماء مع زنابق الماء، والقصب، وضفدع على ورقة، ويعسوب يطير، وأسماك تحت الماء، وبطة تسبح]\n\n1. اذكر ثلاثة مكونات حية موجودة في هذه البركة.\n2. اذكر ثلاثة مكونات غير حية موجودة أو تؤثر في هذه البركة.",
-                "en": "Observe the image below, which represents a pond.\n\n[IMAGE: Detailed illustration of a pond with water lilies, reeds, a frog on a leaf, a dragonfly in flight, fish underwater, and a duck swimming]\n\n1. List three living components present in this pond.\n2. List three non-living components present in or influencing this pond."
-              },
-              "solution": {
-                "fr": "1.  **Composantes vivantes :** Grenouille, libellule, poissons, nénuphars, roseaux, canard (trois au choix).\n2.  **Composantes non-vivantes :** Eau, lumière du soleil, air, roches au fond de la mare (trois au choix).",
-                "ar": "1. **مكونات حية:** ضفدع، يعسوب، أسماك، زنابق الماء، قصب، بطة (اختر ثلاثة).\n2. **مكونات غير حية:** ماء، ضوء الشمس، هواء، صخور في قاع البركة (اختر ثلاثة).",
-                "en": "1. **Living components:** Frog, dragonfly, fish, water lilies, reeds, duck (choose any three).\n2. **Non-living components:** Water, sunlight, air, rocks at the bottom of the pond (choose any three)."
-              }
-            },
-            {
-              "id": "e-1762089965478",
-              "status": "verified",
-              "topicId": "svt-1ac-c1",
-              "title": {
-                "fr": "Exercice 3 : Comparer deux milieux",
-                "ar": "تمرين 3 : مقارنة وسطين",
-                "en": "Exercise 3: Comparing two Environments"
-              },
-              "content": {
-                "fr": "Remplissez le tableau suivant pour comparer la forêt et le désert.\n\n| Caractéristique | Forêt | Désert |\n|-----------------|-------|--------|\n| Humidité        |       |        |\n| Végétation     |       |        |\n| Exemple d'animal|       |        |",
-                "ar": "املأ الجدول التالي لمقارنة الغابة والصحراء.\n\n| الخاصية | الغابة | الصحراء |\n|-----------|--------|---------|\n| الرطوبة    |        |         |\n| الغطاء النباتي|        |         |\n| مثال لحيوان|        |         |",
-                "en": "Fill in the following table to compare the forest and the desert.\n\n| Characteristic | Forest | Desert |\n|----------------|--------|--------|\n| Humidity       |        |        |\n| Vegetation     |        |        |\n| Animal Example |        |        |"
-              },
-              "solution": {
-                "fr": "Voici le tableau complété :\n\n| Caractéristique | Forêt            | Désert              |\n|-----------------|------------------|---------------------|\n| Humidité        | Élevée           | Faible              |\n| Végétation     | Abondante (arbres) | Rare (plantes adaptées) |\n| Exemple d'animal| Écureuil, cerf   | Dromadaire, fennec  |",
-                "ar": "إليك الجدول بعد تعبئته:\n\n| الخاصية | الغابة           | الصحراء            |\n|-----------|-----------------|--------------------|\n| الرطوبة    | مرتفعة          | منخفضة             |\n| الغطاء النباتي| كثيف (أشجار)    | نادر (نباتات متكيفة) |\n| مثال لحيوان| سنجاب، غزال     | جمل، فنك           |",
-                "en": "Here is the completed table:\n\n| Characteristic | Forest                 | Desert                    |\n|----------------|------------------------|---------------------------|\n| Humidity       | High                   | Low                       |\n| Vegetation     | Abundant (trees)       | Scarce (adapted plants)   |\n| Animal Example | Squirrel, deer         | Camel, fennec fox         |"
-              }
-            }
-          ],
+          "exercises": [],
           "summaries": []
         },
         {

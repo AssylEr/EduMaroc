@@ -1,0 +1,222 @@
+
+{
+  "id": "1ac",
+  "name": {
+    "fr": "1ère Année Collège",
+    "ar": "الأولى إعدادي",
+    "en": "1st Year Middle School"
+  },
+  "chapters": [
+    {
+      "id": "math-1ac-c1",
+      "title": {
+        "fr": "Enchaînement d'opérations sur les nombres entiers et décimaux",
+        "ar": "سلسلة العمليات على الأعداد الصحيحة والعشرية",
+        "en": "Order of operations on integers and decimals"
+      }
+    },
+    {
+      "id": "math-1ac-c2",
+      "title": {
+        "fr": "Notions de géométrie",
+        "ar": "مفاهيم في الهندسة",
+        "en": "Notions of geometry"
+      }
+    },
+    {
+      "id": "math-1ac-c3",
+      "title": {
+        "fr": "Les nombres en écriture fractionnaire",
+        "ar": "الأعداد في الكتابة الكسرية",
+        "en": "Numbers in fractional notation"
+      }
+    },
+    {
+      "id": "math-1ac-c4",
+      "title": {
+        "fr": "Opérations sur les nombres en écriture fractionnaire",
+        "ar": "العمليات على الأعداد الكسرية",
+        "en": "Operations on fractional numbers"
+      }
+    },
+    {
+      "id": "math-1ac-c5",
+      "title": {
+        "fr": "Triangle et médiatrices",
+        "ar": "المثلث وواسطاته",
+        "en": "Triangle and perpendicular bisectors"
+      }
+    },
+    {
+      "id": "math-1ac-c6",
+      "title": {
+        "fr": "Les nombres décimaux relatifs",
+        "ar": "الأعداد العشرية النسبية",
+        "en": "Relative decimal numbers"
+      }
+    },
+    {
+      "id": "math-1ac-c7",
+      "title": {
+        "fr": "Addition et soustraction des nombres décimaux relatifs",
+        "ar": "جمع وطرح الأعداد العشرية النسبية",
+        "en": "Addition and subtraction of relative decimal numbers"
+      }
+    },
+    {
+      "id": "math-1ac-c8",
+      "title": {
+        "fr": "Angles d'un triangle et triangles particuliers",
+        "ar": "زوايا المثلث والمثلثات الخاصة",
+        "en": "Angles of a triangle and special triangles"
+      }
+    },
+    {
+      "id": "math-1ac-c9",
+      "title": {
+        "fr": "Multiplication et division des nombres décimaux relatifs",
+        "ar": "ضرب وقسمة الأعداد العشرية النسبية",
+        "en": "Multiplication and division of relative decimal numbers"
+      }
+    },
+    {
+      "id": "math-1ac-c10",
+      "title": {
+        "fr": "Puissances",
+        "ar": "القوى",
+        "en": "Powers"
+      }
+    },
+    {
+      "id": "math-1ac-c11",
+      "title": {
+        "fr": "Bissectrices et hauteurs d'un triangle",
+        "ar": "منصفات الزوايا وارتفاعات المثلث",
+        "en": "Angle bisectors and altitudes of a triangle"
+      }
+    },
+    {
+      "id": "math-1ac-c12",
+      "title": {
+        "fr": "Symétrie centrale",
+        "ar": "التماثل المركزي",
+        "en": "Central symmetry"
+      }
+    },
+    {
+      "id": "math-1ac-c13",
+      "title": {
+        "fr": "Développement et factorisation",
+        "ar": "النشر والتعميل",
+        "en": "Expansion and factorization"
+      }
+    },
+    {
+      "id": "math-1ac-c14",
+      "title": {
+        "fr": "Parallélogramme",
+        "ar": "متوازي الأضلاع",
+        "en": "Parallelogram"
+      }
+    },
+    {
+      "id": "math-1ac-c15",
+      "title": {
+        "fr": "Quadrilatères particuliers",
+        "ar": "الرباعيات الخاصة",
+        "en": "Special quadrilaterals"
+      }
+    },
+    {
+      "id": "math-1ac-c16",
+      "title": {
+        "fr": "Équations",
+        "ar": "المعادلات",
+        "en": "Equations"
+      }
+    },
+    {
+      "id": "math-1ac-c17",
+      "title": {
+        "fr": "Angles formés par deux parallèles et une sécante",
+        "ar": "الزوايا المكونة من متوازيين وقاطع",
+        "en": "Angles formed by two parallel lines and a transversal"
+      }
+    },
+    {
+      "id": "math-1ac-c18",
+      "title": {
+        "fr": "Le cercle",
+        "ar": "الدائرة",
+        "en": "The circle"
+      }
+    },
+    {
+      "id": "math-1ac-c19",
+      "title": {
+        "fr": "Droite graduée et repère dans le plan",
+        "ar": "المستقيم المدرج والمعلم في المستوى",
+        "en": "Number line and coordinate plane"
+      }
+    },
+    {
+      "id": "math-1ac-c20",
+      "title": {
+        "fr": "Proportionnalité",
+        "ar": "التناسبية",
+        "en": "Proportionality"
+      }
+    },
+    {
+      "id": "math-1ac-c21",
+      "title": {
+        "fr": "Statistique",
+        "ar": "الإحصاء",
+        "en": "Statistics"
+      }
+    },
+    {
+      "id": "math-1ac-c22",
+      "title": {
+        "fr": "Prisme droit et cylindre",
+        "ar": "الموشور القائم والأسطوانة",
+        "en": "Right prism and cylinder"
+      }
+    },
+    {
+      "id": "math-1ac-c23",
+      "title": {
+        "fr": "Calcul des périmètres, des aires et des volumes",
+        "ar": "حساب المحيطات والمساحات والحجوم",
+        "en": "Calculation of perimeters, areas, and volumes"
+      }
+    }
+  ],
+  "lessons": [
+    { "id": "math-1ac-l1", "topicId": "math-1ac-c1", "status": "pending_review", "title": { "fr": "Opérations sur les nombres entiers et décimaux", "ar": "العمليات على الأعداد الصحيحة والعشرية", "en": "Operations on integers and decimals" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l2", "topicId": "math-1ac-c2", "status": "pending_review", "title": { "fr": "Droites, segments et angles", "ar": "المستقيمات والقطع والزوايا", "en": "Lines, segments, and angles" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l3", "topicId": "math-1ac-c3", "status": "pending_review", "title": { "fr": "Introduction aux nombres fractionnaires", "ar": "مقدمة في الأعداد الكسرية", "en": "Introduction to fractional numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l4", "topicId": "math-1ac-c4", "status": "pending_review", "title": { "fr": "Addition et soustraction des fractions", "ar": "جمع وطرح الكسور", "en": "Adding and subtracting fractions" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l5", "topicId": "math-1ac-c5", "status": "pending_review", "title": { "fr": "Propriétés du triangle et médiatrices", "ar": "خصائص المثلث والواسطات", "en": "Properties of triangles and perpendicular bisectors" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l6", "topicId": "math-1ac-c6", "status": "pending_review", "title": { "fr": "Introduction aux nombres relatifs", "ar": "مقدمة في الأعداد النسبية", "en": "Introduction to relative numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l7", "topicId": "math-1ac-c7", "status": "pending_review", "title": { "fr": "Somme algébrique", "ar": "المجموع الجبري", "en": "Algebraic sum" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l8", "topicId": "math-1ac-c8", "status": "pending_review", "title": { "fr": "Somme des angles d'un triangle", "ar": "مجموع زوايا المثلث", "en": "Sum of angles in a triangle" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l9", "topicId": "math-1ac-c9", "status": "pending_review", "title": { "fr": "Produit et quotient de nombres relatifs", "ar": "جداء وخارج عددين نسبيين", "en": "Product and quotient of relative numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l10", "topicId": "math-1ac-c10", "status": "pending_review", "title": { "fr": "Calcul des puissances", "ar": "حساب القوى", "en": "Calculating powers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l11", "topicId": "math-1ac-c11", "status": "pending_review", "title": { "fr": "Construction des bissectrices et hauteurs", "ar": "إنشاء المنصفات والارتفاعات", "en": "Constructing bisectors and altitudes" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l12", "topicId": "math-1ac-c12", "status": "pending_review", "title": { "fr": "Figures symétriques", "ar": "الأشكال المتماثلة", "en": "Symmetrical figures" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l13", "topicId": "math-1ac-c13", "status": "pending_review", "title": { "fr": "Calcul littéral", "ar": "الحساب الحرفي", "en": "Literal calculation" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l14", "topicId": "math-1ac-c14", "status": "pending_review", "title": { "fr": "Propriétés du parallélogramme", "ar": "خصائص متوازي الأضلاع", "en": "Properties of parallelograms" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l15", "topicId": "math-1ac-c15", "status": "pending_review", "title": { "fr": "Rectangle, losange et carré", "ar": "المستطيل، المعين والمربع", "en": "Rectangle, rhombus, and square" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l16", "topicId": "math-1ac-c16", "status": "pending_review", "title": { "fr": "Résolution d'équations du premier degré", "ar": "حل معادلات من الدرجة الأولى", "en": "Solving first-degree equations" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l17", "topicId": "math-1ac-c17", "status": "pending_review", "title": { "fr": "Angles alternes-internes et correspondants", "ar": "الزوايا المتبادلة داخليا والمتناظرة", "en": "Alternate interior and corresponding angles" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l18", "topicId": "math-1ac-c18", "status": "pending_review", "title": { "fr": "Propriétés du cercle", "ar": "خصائص الدائرة", "en": "Properties of the circle" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l19", "topicId": "math-1ac-c19", "status": "pending_review", "title": { "fr": "Coordonnées dans un repère", "ar": "الإحداثيات في معلم", "en": "Coordinates in a plane" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l20", "topicId": "math-1ac-c20", "status": "pending_review", "title": { "fr": "Tableaux et graphiques de proportionnalité", "ar": "جداول ومبيانات التناسبية", "en": "Proportionality tables and graphs" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l21", "topicId": "math-1ac-c21", "status": "pending_review", "title": { "fr": "Collecte et organisation des données", "ar": "جمع وتنظيم البيانات", "en": "Data collection and organization" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l22", "topicId": "math-1ac-c22", "status": "pending_review", "title": { "fr": "Aires et volumes des solides", "ar": "مساحات وحجوم المجسمات", "en": "Areas and volumes of solids" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "math-1ac-l23", "topicId": "math-1ac-c23", "status": "pending_review", "title": { "fr": "Formules de calcul", "ar": "صيغ الحساب", "en": "Calculation formulas" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" }
+  ],
+  "exercises": [],
+  "summaries": []
+}

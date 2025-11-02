@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', async () => {
 
   let DB_DATA = {};
@@ -399,24 +400,58 @@ document.addEventListener('DOMContentLoaded', async () => {
   
   async function initializeApp() {
     await loadSharedComponents();
-    
+
     const bodyId = document.body.id;
     let pageDataPath;
     if (bodyId === 'home-page') pageDataPath = 'home.json';
     else if (bodyId === 'about-page') pageDataPath = 'about.json';
     else if (bodyId === 'privacy-page') pageDataPath = 'privacy.json';
 
-    const [dbData, pageData] = await Promise.all([
+    // Fetch master subjects file and page-specific data
+    const [masterDbData, pageData] = await Promise.all([
         fetchJsonData('database.json'),
         pageDataPath ? fetchJsonData(pageDataPath) : Promise.resolve({})
     ]);
 
-    if (!dbData || !Array.isArray(dbData.subjects)) {
+    if (!masterDbData || !Array.isArray(masterDbData.subjects)) {
         displayGlobalError(currentLang);
         return;
     }
 
-    DB_DATA = dbData;
+    // Define all level data files
+    const levelFiles = [
+        'math-1ac.json', 'math-2ac.json', 'math-3ac.json',
+        'physics-1ac.json', 'physics-2ac.json', 'physics-3ac.json',
+        'science-1ac.json', 'science-2ac.json', 'science-3ac.json'
+    ];
+    
+    // Fetch all level data in parallel
+    const levelsDataResults = await Promise.all(
+        levelFiles.map(file => fetchJsonData(file).catch(e => null)) // Fetch and ignore errors for missing files
+    );
+
+    // Group fetched level data by subject ID based on filename convention
+    const levelDataBySubject = {};
+    levelFiles.forEach((file, index) => {
+        const data = levelsDataResults[index];
+        if (data) {
+            const subjectId = file.split('-')[0]; // 'math', 'physics', 'science'
+            if (!levelDataBySubject[subjectId]) {
+                levelDataBySubject[subjectId] = [];
+            }
+            levelDataBySubject[subjectId].push(data);
+        }
+    });
+
+    // Merge level data into the master DB structure
+    masterDbData.subjects.forEach(subject => {
+        const subjectLevels = levelDataBySubject[subject.id] || [];
+        // Sort levels to ensure correct order (1ac, 2ac, 3ac)
+        subjectLevels.sort((a, b) => a.id.localeCompare(b.id));
+        subject.levels = subjectLevels;
+    });
+
+    DB_DATA = masterDbData;
     PAGE_DATA = pageData || {};
 
     setActiveNav();

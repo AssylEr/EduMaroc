@@ -1,0 +1,100 @@
+
+{
+  "id": "1ac",
+  "name": {
+    "fr": "1ère Année Collège",
+    "ar": "الأولى إعدادي",
+    "en": "1st Year Middle School"
+  },
+  "chapters": [
+    {
+      "id": "phys-1ac-c1",
+      "title": { "fr": "L'eau", "ar": "الماء", "en": "Water" }
+    },
+    {
+      "id": "phys-1ac-c2",
+      "title": { "fr": "Les trois états de la matière", "ar": "الحالات الثلاث للمادة", "en": "The three states of matter" }
+    },
+    {
+      "id": "phys-1ac-c3",
+      "title": { "fr": "Le volume, la masse et la masse volumique", "ar": "الحجم والكتلة والكتلة الحجمية", "en": "Volume, mass, and density" }
+    },
+    {
+      "id": "phys-1ac-c4",
+      "title": { "fr": "La notion de pression et de pression atmosphérique", "ar": "مفهوم الضغط والضغط الجوي", "en": "The concept of pressure and atmospheric pressure" }
+    },
+    {
+      "id": "phys-1ac-c5",
+      "title": { "fr": "Le modèle particulaire de la matière", "ar": "النموذج الدقائقي للمادة", "en": "The particulate model of matter" }
+    },
+    {
+      "id": "phys-1ac-c6",
+      "title": { "fr": "Les transformations physiques de la matière", "ar": "التحولات الفيزيائية للمادة", "en": "Physical transformations of matter" }
+    },
+    {
+      "id": "phys-1ac-c7",
+      "title": { "fr": "Les mélanges", "ar": "الخلائط", "en": "Mixtures" }
+    },
+    {
+      "id": "phys-1ac-c8",
+      "title": { "fr": "Séparation des constituants d'un mélange", "ar": "فصل مكونات خليط", "en": "Separation of the components of a mixture" }
+    },
+    {
+      "id": "phys-1ac-c9",
+      "title": { "fr": "Traitements des eaux", "ar": "معالجة المياه", "en": "Water treatment" }
+    },
+    {
+      "id": "phys-1ac-c10",
+      "title": { "fr": "L'électricité autour de nous", "ar": "الكهرباء من حولنا", "en": "Electricity around us" }
+    },
+    {
+      "id": "phys-1ac-c11",
+      "title": { "fr": "Le circuit électrique simple", "ar": "الدارة الكهربائية البسيطة", "en": "The simple electrical circuit" }
+    },
+    {
+      "id": "phys-1ac-c12",
+      "title": { "fr": "Matériaux conducteurs et isolants-sécurité électrique", "ar": "المواد الموصلة والعازلة والسلامة الكهربائية", "en": "Conductors, insulators, and electrical safety" }
+    },
+    {
+      "id": "phys-1ac-c13",
+      "title": { "fr": "Les différents types de montages", "ar": "أنواع التراكيب الكهربائية", "en": "Types of electrical circuits" }
+    },
+    {
+      "id": "phys-1ac-c14",
+      "title": { "fr": "Le courant électrique continu", "ar": "التيار الكهربائي المستمر", "en": "Direct current" }
+    },
+    {
+      "id": "phys-1ac-c15",
+      "title": { "fr": "Effet de la résistance sur l'intensité du courant électrique", "ar": "تأثير المقاومة على شدة التيار الكهربائي", "en": "Effect of resistance on the intensity of electric current" }
+    },
+    {
+      "id": "phys-1ac-c16",
+      "title": { "fr": "Loi des nœuds et loi d'additivité des tensions", "ar": "قانون العقد وقانون إضافية التوترات", "en": "Junction rule and loop rule" }
+    },
+    {
+      "id": "phys-1ac-c17",
+      "title": { "fr": "Protection contre les dangers du courant électrique", "ar": "الوقاية من أخطار التيار الكهربائي", "en": "Protection against the dangers of electric current" }
+    }
+  ],
+  "lessons": [
+    { "id": "phys-1ac-l1", "topicId": "phys-1ac-c1", "status": "pending_review", "title": { "fr": "Propriétés de l'eau", "ar": "خصائص الماء", "en": "Properties of water" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l2", "topicId": "phys-1ac-c2", "status": "pending_review", "title": { "fr": "Caractéristiques des états de la matière", "ar": "مميزات حالات المادة", "en": "Characteristics of the states of matter" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l3", "topicId": "phys-1ac-c3", "status": "pending_review", "title": { "fr": "Mesure du volume et de la masse", "ar": "قياس الحجم والكتلة", "en": "Measuring volume and mass" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l4", "topicId": "phys-1ac-c4", "status": "pending_review", "title": { "fr": "Pression et forces pressantes", "ar": "الضغط والقوى الضاغطة", "en": "Pressure and pressing forces" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l5", "topicId": "phys-1ac-c5", "status": "pending_review", "title": { "fr": "Interprétation des états physiques", "ar": "تفسير الحالات الفيزيائية", "en": "Interpretation of physical states" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l6", "topicId": "phys-1ac-c6", "status": "pending_review", "title": { "fr": "Changements d'état", "ar": "تغيرات الحالة", "en": "Changes of state" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l7", "topicId": "phys-1ac-c7", "status": "pending_review", "title": { "fr": "Types de mélanges", "ar": "أنواع الخلائط", "en": "Types of mixtures" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l8", "topicId": "phys-1ac-c8", "status": "pending_review", "title": { "fr": "Techniques de séparation", "ar": "تقنيات الفصل", "en": "Separation techniques" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l9", "topicId": "phys-1ac-c9", "status": "pending_review", "title": { "fr": "Sources et traitement de l'eau", "ar": "مصادر ومعالجة الماء", "en": "Sources and treatment of water" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l10", "topicId": "phys-1ac-c10", "status": "pending_review", "title": { "fr": "Sources et production de l'électricité", "ar": "مصادر وإنتاج الكهرباء", "en": "Sources and production of electricity" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l11", "topicId": "phys-1ac-c11", "status": "pending_review", "title": { "fr": "Éléments d'un circuit", "ar": "عناصر دارة كهربائية", "en": "Elements of a circuit" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l12", "topicId": "phys-1ac-c12", "status": "pending_review", "title": { "fr": "Conducteurs et isolants", "ar": "الموصلات والعوازل", "en": "Conductors and insulators" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l13", "topicId": "phys-1ac-c13", "status": "pending_review", "title": { "fr": "Montage en série et en dérivation", "ar": "التركيب على التوالي وعلى التوازي", "en": "Series and parallel circuits" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l14", "topicId": "phys-1ac-c14", "status": "pending_review", "title": { "fr": "Mesure de l'intensité et de la tension", "ar": "قياس شدة التيار والتوتر", "en": "Measuring current and voltage" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l15", "topicId": "phys-1ac-c15", "status": "pending_review", "title": { "fr": "Loi d'Ohm", "ar": "قانون أوم", "en": "Ohm's Law" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l16", "topicId": "phys-1ac-c16", "status": "pending_review", "title": { "fr": "Lois du courant électrique", "ar": "قوانين التيار الكهربائي", "en": "Laws of electric current" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
+    { "id": "phys-1ac-l17", "topicId": "phys-1ac-c17", "status": "pending_review", "title": { "fr": "Fusibles et disjoncteurs", "ar": "الصهيرة والفاصل التفاضلي", "en": "Fuses and circuit breakers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" }
+  ],
+  "exercises": [],
+  "summaries": []
+}

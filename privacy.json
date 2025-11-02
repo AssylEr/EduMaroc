@@ -2,6 +2,7 @@
 {
   "en": {
     "page_title": "Privacy Policy - EduMaroc",
+    "meta_description": "Review the Privacy Policy for the EduMaroc website. We explain how we handle your information to ensure your privacy and a secure experience.",
     "header_title": "Website Privacy Policy",
     "header_subtitle": "Last Updated: October 16, 2025",
     "intro_title": "Introduction",
@@ -29,6 +30,7 @@
   },
   "fr": {
     "page_title": "Politique de Confidentialité - EduMaroc",
+    "meta_description": "Consultez la politique de confidentialité du site EduMaroc. Nous expliquons comment nous traitons vos informations pour garantir votre vie privée et une expérience sécurisée.",
     "header_title": "Politique de Confidentialité du Site Web",
     "header_subtitle": "Dernière mise à jour : 16 octobre 2025",
     "intro_title": "Introduction",
@@ -56,6 +58,7 @@
   },
   "ar": {
     "page_title": "سياسة الخصوصية - EduMaroc",
+    "meta_description": "راجع سياسة الخصوصية لموقع EduMaroc. نوضح كيفية تعاملنا مع معلوماتك لضمان خصوصيتك وتجربة آمنة.",
     "header_title": "سياسة خصوصية الموقع الإلكتروني",
     "header_subtitle": "آخر تحديث: 16 أكتوبر 2025",
     "intro_title": "مقدمة",

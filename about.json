@@ -2,6 +2,7 @@
 {
   "en": {
     "page_title": "About Us - EduMaroc",
+    "meta_description": "Learn about EduMaroc's mission, the developer behind the project, and our commitment to providing a free, high-quality educational platform for Moroccan students.",
     "header_title": "About EduMaroc",
     "header_subtitle": "Our vision, our mission, and our commitment to students.",
     "admin_title": "About the Admin",
@@ -13,6 +14,7 @@
   },
   "fr": {
     "page_title": "À Propos - EduMaroc",
+    "meta_description": "Découvrez la mission d'EduMaroc, le développeur derrière le projet, et notre engagement à fournir une plateforme éducative gratuite et de haute qualité pour les étudiants marocains.",
     "header_title": "À Propos d'EduMaroc",
     "header_subtitle": "Notre vision, notre mission et notre engagement envers les étudiants.",
     "admin_title": "À propos de l'administrateur",
@@ -24,6 +26,7 @@
   },
   "ar": {
     "page_title": "من نحن - EduMaroc",
+    "meta_description": "تعرف على مهمة EduMaroc، المطور وراء المشروع، والتزامنا بتقديم منصة تعليمية مجانية وعالية الجودة للطلاب المغاربة.",
     "header_title": "عن EduMaroc",
     "header_subtitle": "رؤيتنا، مهمتنا، والتزامنا تجاه الطلاب.",
     "admin_title": "عن المسؤول",

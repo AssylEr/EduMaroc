@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           pageTitleHome: "EduMaroc - Your Learning Platform",
           pageTitleSubject: "Subject - EduMaroc",
           pageTitleContent: "Content - EduMaroc",
+          metaDescriptionSubject: "Explore lessons, exercises, and summaries for {subjectName} on EduMaroc, your platform for the Moroccan curriculum.",
           footerCopyright: "&copy; 2025 EduMaroc. All rights reserved.",
           errorTitle: "Content Error:",
           errorMessage: "We couldn't load the necessary content for the site.",
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           pageTitleHome: "EduMaroc - Votre Plateforme d'Apprentissage",
           pageTitleSubject: "Matière - EduMaroc",
           pageTitleContent: "Contenu - EduMaroc",
+          metaDescriptionSubject: "Explorez les leçons, exercices et résumés pour la matière {subjectName} sur EduMaroc, votre plateforme pour le programme marocain.",
           footerCopyright: "&copy; 2025 EduMaroc. Tous droits réservés.",
           errorTitle: "Erreur de Contenu :",
           errorMessage: "Nous n'avons pas pu charger le contenu nécessaire pour le site.",
@@ -62,6 +64,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           pageTitleHome: "EduMaroc - منصتك التعليمية",
           pageTitleSubject: "مادة - EduMaroc",
           pageTitleContent: "محتوى - EduMaroc",
+          metaDescriptionSubject: "استكشف الدروس والتمارين والملخصات لمادة {subjectName} على EduMaroc، منصتك للمنهاج المغربي.",
           footerCopyright: "&copy; 2025 EduMaroc. جميع الحقوق محفوظة.",
           errorTitle: "خطأ في المحتوى:",
           errorMessage: "لم نتمكن من تحميل المحتوى اللازم للموقع.",
@@ -92,6 +95,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error(`Could not fetch ${path}.`, e);
         return null; 
     }
+  }
+
+  function setMetaDescription(description) {
+    if (!description) return;
+    let meta = document.querySelector('meta[name="description"]');
+    if (!meta) {
+      meta = document.createElement('meta');
+      meta.name = 'description';
+      document.head.appendChild(meta);
+    }
+    meta.content = description;
   }
 
   function displayGlobalError(lang) {
@@ -152,10 +166,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.body.style.setProperty('--subject-primary-color', subject.primaryColor);
       }
       const t = translations[lang];
-      document.title = `${getTranslated(subject.name, lang)} - ${t.pageTitleSubject}`;
+      const subjectName = getTranslated(subject.name, lang);
+      document.title = `${subjectName} - ${t.pageTitleSubject}`;
+      setMetaDescription(t.metaDescriptionSubject.replace('{subjectName}', subjectName));
+
 
       const titleHeader = document.getElementById('subject-title-header');
-      if (titleHeader) titleHeader.textContent = getTranslated(subject.name, lang);
+      if (titleHeader) titleHeader.textContent = subjectName;
       
       const container = document.getElementById('levels-container');
       if (!container) return;
@@ -248,7 +265,16 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (subject.primaryColor) {
         document.body.style.setProperty('--subject-primary-color', subject.primaryColor);
       }
-      document.title = `${getTranslated(item.title, lang)} - ${t.pageTitleContent}`;
+      
+      const itemTitle = getTranslated(item.title, lang);
+      document.title = `${itemTitle} - ${t.pageTitleContent}`;
+      
+      const contentText = getTranslated(item.content, lang);
+      if (contentText && typeof contentText === 'string') {
+        const snippet = contentText.substring(0, 150).replace(/#|\*|\[.*\]\(.*\)/g, '').replace(/\s+/g, ' ').trim() + '...';
+        setMetaDescription(`${itemTitle}: ${snippet}`);
+      }
+
 
       const bgHeader = document.getElementById('content-bg-header');
       if(bgHeader && item.backgroundImage) {
@@ -267,11 +293,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
 
       const contentTitle = document.getElementById('content-title');
-      if(contentTitle) contentTitle.textContent = getTranslated(item.title, lang);
+      if(contentTitle) contentTitle.textContent = itemTitle;
 
       const contentMain = document.getElementById('content-main');
       if (contentMain) {
-          const contentText = getTranslated(item.content, lang);
           if (contentText && typeof contentText === 'string') {
               if (showdownConverter) {
                   try {
@@ -401,10 +426,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     populateStaticTranslations(lang);
     populatePageContent(lang);
 
+    const bodyId = document.body.id;
+    if (bodyId === 'home-page' || bodyId === 'about-page' || bodyId === 'privacy-page') {
+      if(PAGE_DATA && PAGE_DATA[lang] && PAGE_DATA[lang].meta_description) {
+          setMetaDescription(PAGE_DATA[lang].meta_description);
+      }
+    }
+
     if (!DB_DATA || !DB_DATA.subjects) return;
     
     // Page-specific render functions
-    const bodyId = document.body.id;
     if (bodyId === 'home-page') {
       renderHomePage(DB_DATA.subjects, lang);
     } else if (bodyId === 'subject-page') {

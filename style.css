@@ -577,6 +577,26 @@ footer p {
   color: var(--text-color-secondary);
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.social-links a {
+  color: var(--text-color-secondary);
+  transition: color 0.3s, transform 0.3s;
+}
+.social-links a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+  text-decoration: none;
+}
+.social-links svg {
+  width: 24px;
+  height: 24px;
+}
+
 .global-error {
     background-color: #5d0c1d;
     color: #f1f1f1;

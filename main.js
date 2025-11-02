@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', async () => {
           solutionTitle: "Solution",
           showSolutionBtn: "Solution",
           hideSolutionBtn: "Hide Solution",
-          emptyContent: "Content for this section will be added soon."
+          emptyContent: "Content for this section will be added soon.",
+          noResults: "No results found."
       },
       fr: {
           navLogo: "EduMaroc",
@@ -47,7 +48,8 @@ document.addEventListener('DOMContentLoaded', async () => {
           solutionTitle: "Solution",
           showSolutionBtn: "Solution",
           hideSolutionBtn: "Cacher la Solution",
-          emptyContent: "Le contenu de cette section sera bientôt ajouté."
+          emptyContent: "Le contenu de cette section sera bientôt ajouté.",
+          noResults: "Aucun résultat trouvé."
       },
       ar: {
           navLogo: "EduMaroc",
@@ -68,7 +70,8 @@ document.addEventListener('DOMContentLoaded', async () => {
           solutionTitle: "الحل",
           showSolutionBtn: "الحل",
           hideSolutionBtn: "إخفاء الحل",
-          emptyContent: "سيتم إضافة المحتوى لهذا القسم قريبا."
+          emptyContent: "سيتم إضافة المحتوى لهذا القسم قريبا.",
+          noResults: "لا توجد نتائج."
       }
   };
 
@@ -287,6 +290,63 @@ document.addEventListener('DOMContentLoaded', async () => {
           if (solutionContainer) solutionContainer.style.display = 'none';
       }
   }
+
+  function searchContent(query, lang) {
+    const results = {};
+    if (!DB_DATA.subjects) return results;
+
+    DB_DATA.subjects.forEach(subject => {
+        if (!subject.levels) return;
+        
+        const subjectMatches = [];
+        const contentTypes = ['lessons', 'exercises', 'summaries'];
+        
+        subject.levels.forEach(level => {
+            contentTypes.forEach(type => {
+                if (!level[type]) return;
+                
+                level[type].forEach(item => {
+                    const title = getTranslated(item.title, lang).toLowerCase();
+                    if ((item.status === 'verified' || item.status === undefined) && title.includes(query)) {
+                        subjectMatches.push({ ...item, type, levelId: level.id, subjectId: subject.id });
+                    }
+                });
+            });
+        });
+        
+        if (subjectMatches.length > 0) {
+            results[subject.id] = {
+                name: getTranslated(subject.name, lang),
+                items: subjectMatches
+            };
+        }
+    });
+
+    return results;
+  }
+
+  function displaySearchResults(results, lang) {
+    const container = document.getElementById('search-results');
+    const t = translations[lang] || translations.en;
+    if (Object.keys(results).length === 0) {
+        container.innerHTML = `<div class="search-result-item">${t.noResults}</div>`;
+        container.style.display = 'block';
+        return;
+    }
+
+    let html = '';
+    for (const subjectId in results) {
+        const subjectData = results[subjectId];
+        html += `<div class="search-category">${subjectData.name}</div>`;
+        subjectData.items.forEach(item => {
+            const url = `./content.html?subject=${item.subjectId}&level=${item.levelId}&type=${item.type}&id=${item.id}`;
+            html += `<a href="${url}" class="search-result-item">${getTranslated(item.title, lang)}</a>`;
+        });
+    }
+    
+    container.innerHTML = html;
+    container.style.display = 'block';
+  }
   
   function renderPageForLanguage(lang) {
     populateStaticTranslations(lang);
@@ -380,14 +440,69 @@ document.addEventListener('DOMContentLoaded', async () => {
               }
           });
       }
+
+      const searchInput = document.getElementById('site-search');
+      const searchResultsContainer = document.getElementById('search-results');
+
+      if (searchInput && searchResultsContainer) {
+          searchInput.addEventListener('input', () => {
+              const query = searchInput.value.trim().toLowerCase();
+
+              if (query.length < 2) {
+                  searchResultsContainer.innerHTML = '';
+                  searchResultsContainer.style.display = 'none';
+                  return;
+              }
+
+              const results = searchContent(query, currentLang);
+              displaySearchResults(results, currentLang);
+          });
+
+          document.addEventListener('click', (e) => {
+              if (!searchInput.contains(e.target) && !searchResultsContainer.contains(e.target)) {
+                  searchResultsContainer.style.display = 'none';
+              }
+          });
+      }
+      
+      const shareBtn = document.getElementById('share-btn');
+      if (shareBtn) {
+          shareBtn.addEventListener('click', async (e) => {
+              e.preventDefault();
+              const shareData = {
+                  title: document.title,
+                  text: `Check out this page on EduMaroc!`,
+                  url: window.location.href
+              };
+              try {
+                  if (navigator.share) {
+                      await navigator.share(shareData);
+                  } else {
+                      alert('Web Share API is not supported in your browser. You can copy the link manually.');
+                  }
+              } catch (err) {
+                  console.error("Share failed:", err);
+              }
+          });
+      }
   }
   
   async function loadSharedComponents() {
       try {
-          const response = await fetch('nav.html');
-          if (!response.ok) throw new Error('Shared components (nav.html) not found');
-          const componentsHtml = await response.text();
-          document.body.insertAdjacentHTML('afterbegin', componentsHtml);
+          const [navResponse, footerResponse] = await Promise.all([
+              fetch('nav.html'),
+              fetch('footer.html')
+          ]);
+
+          if (!navResponse.ok) throw new Error('Shared component nav.html not found');
+          if (!footerResponse.ok) throw new Error('Shared component footer.html not found');
+
+          const navHtml = await navResponse.text();
+          const footerHtml = await footerResponse.text();
+
+          document.body.insertAdjacentHTML('afterbegin', navHtml);
+          document.body.insertAdjacentHTML('beforeend', footerHtml);
+
           if (window.showdown) {
               showdownConverter = new showdown.Converter({tables: true, simplifiedAutoLink: true, openLinksInNewWindow: true});
           } else {

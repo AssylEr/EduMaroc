@@ -46,6 +46,10 @@ body {
   margin: 0 auto;
   padding: 40px 20px;
 }
+#home-page .container {
+  padding-top: 20px;
+}
+
 
 a {
   color: var(--primary-color);
@@ -233,7 +237,7 @@ a:hover {
 .home-header, .page-header {
   text-align: center;
   padding: 20px 20px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .home-header h1, .page-header h1 {
@@ -254,7 +258,7 @@ a:hover {
 .subjects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 25px;
+  gap: 20px;
 }
 
 .subject-card-link {
@@ -264,7 +268,7 @@ a:hover {
 }
 
 .subject-card {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   border-radius: 12px;
   padding: 20px;
   display: flex;

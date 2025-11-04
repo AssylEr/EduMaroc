@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const solutionFab = document.getElementById('solution-fab');
       const solutionContainer = document.getElementById('solution-container');
-      if (type === 'exercises' && item.solution) {
+      if (item.solution) {
           if (solutionFab) solutionFab.style.display = 'flex';
           const solutionContent = document.getElementById('solution-content');
           const solutionText = getTranslated(item.solution, lang);

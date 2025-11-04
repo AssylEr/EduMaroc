@@ -51,34 +51,34 @@
     {
       "id": "svt-1ac-l1",
       "topicId": "svt-1ac-c1",
-      "status": "verified",
+      "status": "pending_review",
       "title": {
-        "fr": "Séquence 2 : Diversité des constituants des milieux naturels",
-        "ar": "التسلسل 2: تنوع مكونات الأوساط الطبيعية",
-        "en": "Sequence 2: Diversity of the components of natural environments"
+        "fr": "Séquence 1 : Diversité des milieux naturels",
+        "ar": "التسلسل 1: تنوع الأوساط الطبيعية",
+        "en": "Sequence 1: Diversity of natural environments"
       },
       "content": {
-        "fr": "### Introduction\n\nUn milieu naturel (forêt, lac, désert...) est un espace qui n'a pas été significativement modifié par l'homme. Il est composé de différents éléments ou **constituants**. On peut classer ces constituants en deux grandes catégories : les **constituants vivants** et les **constituants non-vivants**.\n\n### I. Les constituants vivants (La biocénose)\n\nL'ensemble des êtres vivants d'un milieu naturel est appelé la **biocénose**. Ces êtres vivants sont très diversifiés.\n\n*   **Les végétaux (la flore)** : Ce sont les plantes. On y trouve les arbres (chêne, pin), les arbustes, les herbes, les fleurs, les mousses, les algues, etc. Ils sont généralement immobiles et produisent leur propre matière organique par photosynthèse.\n*   **Les animaux (la faune)** : Ce sont les êtres qui se nourrissent d'autres êtres vivants. On y trouve les mammifères (cerf, renard), les oiseaux, les insectes (fourmi, papillon), les poissons, les reptiles, etc.\n*   **Les micro-organismes** : Ce sont des êtres vivants invisibles à l'œil nu, comme les bactéries et les champignons microscopiques. Ils jouent un rôle essentiel, notamment dans la décomposition de la matière morte.\n\n![](img__1762277526037.png)\n\n### II. Les constituants non-vivants (Le biotope)\n\nL'ensemble des constituants non-vivants d'un milieu naturel est appelé le **biotope**. C'est le support physique de la vie.\n\n*   **L'eau** : Elle peut être présente sous différentes formes : rivière, lac, mare, humidité de l'air, pluie.\n*   **L'air** : C'est le gaz qui nous entoure, composé principalement d'azote et d'oxygène, essentiel à la respiration de nombreux êtres vivants.\n*   **Le sol et le sous-sol** : Ils sont constitués de roches, de sable, d'argile, et d'humus (matière organique en décomposition). Le sol sert de support et de source de nutriments pour les plantes.\n*   **Les facteurs climatiques** : La lumière du soleil, la température, le vent sont aussi des constituants non-vivants qui influencent la vie dans le milieu.\n\n![](img__1762277536237.png)\n\n### III. Caractéristiques des êtres vivants\n\nComment distinguer un être vivant d'un constituant non-vivant ? Les êtres vivants partagent des caractéristiques communes :\n\n*   **La respiration** : Ils échangent des gaz avec leur milieu (oxygène, dioxyde de carbone).\n*   **La nutrition** : Ils se nourrissent pour obtenir de l'énergie.\n*   **La reproduction** : Ils donnent naissance à des descendants pour perpétuer l'espèce.\n*   **La croissance et le développement** : Ils grandissent et se transforment au cours de leur vie.\n\nUn caillou, par exemple, ne respire pas, ne se nourrit pas et ne se reproduit pas. C'est donc un constituant non-vivant.\n\n### IV. L'écosystème\n\nDans un milieu naturel, les constituants vivants (biocénose) et non-vivants (biotope) ne sont pas simplement posés les uns à côté des autres. Ils sont en interaction constante. L'ensemble formé par **la biocénose, le biotope et les relations qui existent entre eux** s'appelle un **écosystème**.\n\n**Exemple** : Dans une forêt, l'arbre (vivant) puise l'eau et les sels minéraux dans le sol (non-vivant), utilise la lumière du soleil (non-vivant) et respire l'air (non-vivant). L'écureuil (vivant) mange les fruits de l'arbre (vivant) et respire l'air (non-vivant).\n\n![](img__1762277543949.png)",
-        "ar": "### مقدمة\n\nالوسط الطبيعي (غابة، بحيرة، صحراء...) هو فضاء لم يغيره الإنسان بشكل كبير. يتكون من عناصر أو **مكونات** مختلفة. يمكننا تصنيف هذه المكونات إلى فئتين رئيسيتين: **المكونات الحية** و**المكونات غير الحية**.\n\n### I. المكونات الحية (الإحيocénose)\n\nيُطلق على مجموعة الكائنات الحية في وسط طبيعي اسم **الإحيocénose**. هذه الكائنات الحية متنوعة للغاية.\n\n*   **النباتات (النبيت)**: وهي تشمل الأشجار (البلوط، الصنوبر)، والشجيرات، والأعشاب، والزهور، والطحالب، إلخ. هي عمومًا غير متحركة وتنتج مادتها العضوية الخاصة عن طريق التركيب الضوئي.\n*   **الحيوانات (الوحيش)**: هي الكائنات التي تتغذى على كائنات حية أخرى. وتشمل الثدييات (الغزلان، الثعالب)، والطيور، والحشرات (النمل، الفراشات)، والأسماك، والزواحف، إلخ.\n*   **الكائنات المجهرية**: هي كائنات حية غير مرئية بالعين المجردة، مثل البكتيريا والفطريات المجهرية. تلعب دورًا أساسيًا، خاصة في تحلل المادة الميتة.\n\n![](img__1762277526037.png)\n\n### II. المكونات غير الحية (الموطن البيئي - Biotope)\n\nيُطلق على مجموعة المكونات غير الحية في وسط طبيعي اسم **الموطن البيئي (Biotope)**. إنه الدعامة المادية للحياة.\n\n*   **الماء**: يمكن أن يكون موجودًا بأشكال مختلفة: نهر، بحيرة، بركة، رطوبة الهواء، المطر.\n*   **الهواء**: هو الغاز الذي يحيط بنا، ويتكون أساسًا من النيتروجين والأكسجين، وهو ضروري لتنفس العديد من الكائنات الحية.\n*   **التربة وما تحتها**: تتكون من الصخور، والرمل، والطين، والدبال (المادة العضوية المتحللة). تعمل التربة كدعامة ومصدر للمغذيات للنباتات.\n*   **العوامل المناخية**: ضوء الشمس، ودرجة الحرارة، والرياح هي أيضًا مكونات غير حية تؤثر على الحياة في الوسط.\n\n![](img__1762277536237.png)\n\n### III. خصائص الكائنات الحية\n\nكيف نميز بين كائن حي ومكون غير حي؟ تشترك الكائنات الحية في خصائص مشتركة:\n\n*   **التنفس**: تتبادل الغازات مع بيئتها (الأكسجين، ثاني أكسيد الكربون).\n*   **التغذية**: تتغذى للحصول على الطاقة.\n*   **التكاثر**: تنجب ذرية لاستمرار النوع.\n*   **النمو والتطور**: تنمو وتتحول خلال حياتها.\n\nالحصاة، على سبيل المثال، لا تتنفس ولا تتغذى ولا تتكاثر. لذا فهي مكون غير حي.\n\n### IV. النظام البيئي\n\nفي الوسط الطبيعي، لا توجد المكونات الحية (الإحيocénose) وغير الحية (الموطن البيئي) ببساطة بجانب بعضها البعض. فهي في تفاعل مستمر. المجموعة المكونة من **الإحيocénose والموطن البيئي والعلاقات القائمة بينهما** تسمى **نظامًا بيئيًا**.\n\n**مثال**: في الغابة، تمتص الشجرة (حية) الماء والأملاح المعدنية من التربة (غير حية)، وتستخدم ضوء الشمس (غير حي)، وتتنفس الهواء (غير حي). يأكل السنجاب (حي) ثمار الشجرة (حية) ويتنفس الهواء (غير حي).\n\n![](img__1762277543949.png)",
-        "en": "### Introduction\n\nA natural environment (forest, lake, desert...) is a space that has not been significantly modified by humans. It is composed of different elements or **components**. These components can be classified into two main categories: **living components** and **non-living components**.\n\n### I. Living Components (Biocenosis)\n\nThe set of all living organisms in a natural environment is called **biocenosis**. These living organisms are very diverse.\n\n*   **Plants (Flora)**: These include trees (oak, pine), shrubs, grasses, flowers, mosses, algae, etc. They are generally immobile and produce their own organic matter through photosynthesis.\n*   **Animals (Fauna)**: These are beings that feed on other living things. They include mammals (deer, fox), birds, insects (ant, butterfly), fish, reptiles, etc.\n*   **Microorganisms**: These are living things invisible to the naked eye, such as bacteria and microscopic fungi. They play an essential role, particularly in the decomposition of dead matter.\n\n![](img__1762277526037.png)\n\n### II. Non-Living Components (Biotope)\n\nThe set of all non-living components of a natural environment is called the **biotope**. It is the physical support for life.\n\n*   **Water**: It can be present in various forms: river, lake, pond, air humidity, rain.\n*   **Air**: It is the gas that surrounds us, mainly composed of nitrogen and oxygen, essential for the respiration of many living beings.\n*   **Soil and Subsoil**: They are made of rocks, sand, clay, and humus (decomposing organic matter). The soil serves as a support and a source of nutrients for plants.\n*   **Climatic Factors**: Sunlight, temperature, and wind are also non-living components that influence life in the environment.\n\n![](img__1762277536237.png)\n\n### III. Characteristics of Living Beings\n\nHow can we distinguish a living being from a non-living component? Living beings share common characteristics:\n\n*   **Respiration**: They exchange gases with their environment (oxygen, carbon dioxide).\n*   **Nutrition**: They feed to obtain energy.\n*   **Reproduction**: They give birth to offspring to perpetuate the species.\n*   **Growth and Development**: They grow and change throughout their lives.\n\nA stone, for example, does not breathe, eat, or reproduce. It is therefore a non-living component.\n\n### IV. The Ecosystem\n\nIn a natural environment, the living components (biocenosis) and non-living components (biotope) are not simply placed next to each other. They are in constant interaction. The whole formed by **the biocenosis, the biotope, and the relationships that exist between them** is called an **ecosystem**.\n\n**Example**: In a forest, the tree (living) draws water and mineral salts from the soil (non-living), uses sunlight (non-living), and breathes the air (non-living). The squirrel (living) eats the tree's fruit (living) and breathes the air (non-living).\n\n![](img__1762277543949.png)"
+        "fr": "",
+        "ar": "",
+        "en": ""
       },
-      "backgroundImage": "img_background_1762277562204.png"
+      "backgroundImage": ""
     },
     {
       "id": "svt-1ac-l2",
       "topicId": "svt-1ac-c1",
-      "status": "verified",
+      "status": "pending_review",
       "title": {
         "fr": "Séquence 2 : Diversité des constituants des milieux naturels",
         "ar": "التسلسل 2: تنوع مكونات الأوساط الطبيعية",
         "en": "Sequence 2: Diversity of the components of natural environments"
       },
       "content": {
-        "fr": "### Introduction\n\nUn milieu naturel (forêt, lac, désert...) est un espace qui n'a pas été significativement modifié par l'homme. Il est composé de différents éléments ou **constituants**. On peut classer ces constituants en deux grandes catégories : les **constituants vivants** et les **constituants non-vivants**.\n\n### I. Les constituants vivants (La biocénose)\n\nL'ensemble des êtres vivants d'un milieu naturel est appelé la **biocénose**. Ces êtres vivants sont très diversifiés.\n\n*   **Les végétaux (la flore)** : Ce sont les plantes. On y trouve les arbres (chêne, pin), les arbustes, les herbes, les fleurs, les mousses, les algues, etc. Ils sont généralement immobiles et produisent leur propre matière organique par photosynthèse.\n*   **Les animaux (la faune)** : Ce sont les êtres qui se nourrissent d'autres êtres vivants. On y trouve les mammifères (cerf, renard), les oiseaux, les insectes (fourmi, papillon), les poissons, les reptiles, etc.\n*   **Les micro-organismes** : Ce sont des êtres vivants invisibles à l'œil nu, comme les bactéries et les champignons microscopiques. Ils jouent un rôle essentiel, notamment dans la décomposition de la matière morte.\n\n![Une forêt dense avec une variété d'animaux (cerf, écureuil, oiseaux) et de plantes (arbres, fougères, champignons) visibles, illustrant la biocénose.](img_une_for_t_dense_avec_une_vari_t_d_animaux_cerf_cur_1762280054597.png)\n\n### II. Les constituants non-vivants (Le biotope)\n\nL'ensemble des constituants non-vivants d'un milieu naturel est appelé le **biotope**. C'est le support physique de la vie.\n\n*   **L'eau** : Elle peut être présente sous différentes formes : rivière, lac, mare, humidité de l'air, pluie.\n*   **L'air** : C'est le gaz qui nous entoure, composé principalement d'azote et d'oxygène, essentiel à la respiration de nombreux êtres vivants.\n*   **Le sol et le sous-sol** : Ils sont constitués de roches, de sable, d'argile, et d'humus (matière organique en décomposition). Le sol sert de support et de source de nutriments pour les plantes.\n*   **Les facteurs climatiques** : La lumière du soleil, la température, le vent sont aussi des constituants non-vivants qui influencent la vie dans le milieu.\n\n![Un paysage de montagne montrant les éléments non-vivants : des rochers escarpés, une rivière qui coule, et le ciel avec des nuages, illustrant le biotope.](img_un_paysage_de_montagne_montrant_les_l_ments_non_vi_1762280062468.png)\n\n### III. Caractéristiques des êtres vivants\n\nComment distinguer un être vivant d'un constituant non-vivant ? Les êtres vivants partagent des caractéristiques communes :\n\n*   **La respiration** : Ils échangent des gaz avec leur milieu (oxygène, dioxyde de carbone).\n*   **La nutrition** : Ils se nourrissent pour obtenir de l'énergie.\n*   **La reproduction** : Ils donnent naissance à des descendants pour perpétuer l'espèce.\n*   **La croissance et le développement** : Ils grandissent et se transforment au cours de leur vie.\n\nUn caillou, par exemple, ne respire pas, ne se nourrit pas et ne se reproduit pas. C'est donc un constituant non-vivant.\n\n### IV. L'écosystème\n\nDans un milieu naturel, les constituants vivants (biocénose) et non-vivants (biotope) ne sont pas simplement posés les uns à côté des autres. Ils sont en interaction constante. L'ensemble formé par **la biocénose, le biotope et les relations qui existent entre eux** s'appelle un **écosystème**.\n\n**Exemple** : Dans une forêt, l'arbre (vivant) puise l'eau et les sels minéraux dans le sol (non-vivant), utilise la lumière du soleil (non-vivant) et respire l'air (non-vivant). L'écureuil (vivant) mange les fruits de l'arbre (vivant) et respire l'air (non-vivant).\n\n![Un diagramme simple montrant un écosystème de lac, avec des flèches indiquant les interactions entre les poissons (biocénose), les plantes aquatiques (biocénose), l'eau (biotope), la lumière du soleil (biotope) et les rochers au fond (biotope).](img_un_diagramme_simple_montrant_un_cosyst_me_de_lac_a_1762280068733.png)",
-        "ar": "### مقدمة\n\nالوسط الطبيعي (غابة، بحيرة، صحراء...) هو فضاء لم يغيره الإنسان بشكل كبير. يتكون من عناصر أو **مكونات** مختلفة. يمكننا تصنيف هذه المكونات إلى فئتين رئيسيتين: **المكونات الحية** و**المكونات غير الحية**.\n\n### I. المكونات الحية (الإحيocénose)\n\nيُطلق على مجموعة الكائنات الحية في وسط طبيعي اسم **الإحيocénose**. هذه الكائنات الحية متنوعة للغاية.\n\n*   **النباتات (النبيت)**: وهي تشمل الأشجار (البلوط، الصنوبر)، والشجيرات، والأعشاب، والزهور، والطحالب، إلخ. هي عمومًا غير متحركة وتنتج مادتها العضوية الخاصة عن طريق التركيب الضوئي.\n*   **الحيوانات (الوحيش)**: هي الكائنات التي تتغذى على كائنات حية أخرى. وتشمل الثدييات (الغزلان، الثعالب)، والطيور، والحشرات (النمل، الفراشات)، والأسماك، والزواحف، إلخ.\n*   **الكائنات المجهرية**: هي كائنات حية غير مرئية بالعين المجردة، مثل البكتيريا والفطريات المجهرية. تلعب دورًا أساسيًا، خاصة في تحلل المادة الميتة.\n\n![Une forêt dense avec une variété d'animaux (cerf, écureuil, oiseaux) et de plantes (arbres, fougères, champignons) visibles, illustrant la biocénose.](img_une_for_t_dense_avec_une_vari_t_d_animaux_cerf_cur_1762280054597.png)\n\n### II. المكونات غير الحية (الموطن البيئي - Biotope)\n\nيُطلق على مجموعة المكونات غير الحية في وسط طبيعي اسم **الموطن البيئي (Biotope)**. إنه الدعامة المادية للحياة.\n\n*   **الماء**: يمكن أن يكون موجودًا بأشكال مختلفة: نهر، بحيرة، بركة، رطوبة الهواء، المطر.\n*   **الهواء**: هو الغاز الذي يحيط بنا، ويتكون أساسًا من النيتروجين والأكسجين، وهو ضروري لتنفس العديد من الكائنات الحية.\n*   **التربة وما تحتها**: تتكون من الصخور، والرمل، والطين، والدبال (المادة العضوية المتحللة). تعمل التربة كدعامة ومصدر للمغذيات للنباتات.\n*   **العوامل المناخية**: ضوء الشمس، ودرجة الحرارة، والرياح هي أيضًا مكونات غير حية تؤثر على الحياة في الوسط.\n\n![Un paysage de montagne montrant les éléments non-vivants : des rochers escarpés, une rivière qui coule, et le ciel avec des nuages, illustrant le biotope.](img_un_paysage_de_montagne_montrant_les_l_ments_non_vi_1762280062468.png)\n\n### III. خصائص الكائنات الحية\n\nكيف نميز بين كائن حي ومكون غير حي؟ تشترك الكائنات الحية في خصائص مشتركة:\n\n*   **التنفس**: تتبادل الغازات مع بيئتها (الأكسجين، ثاني أكسيد الكربون).\n*   **التغذية**: تتغذى للحصول على الطاقة.\n*   **التكاثر**: تنجب ذرية لاستمرار النوع.\n*   **النمو والتطور**: تنمو وتتحول خلال حياتها.\n\nالحصاة، على سبيل المثال، لا تتنفس ولا تتغذى ولا تتكاثر. لذا فهي مكون غير حي.\n\n### IV. النظام البيئي\n\nفي الوسط الطبيعي، لا توجد المكونات الحية (الإحيocénose) وغير الحية (الموطن البيئي) ببساطة بجانب بعضها البعض. فهي في تفاعل مستمر. المجموعة المكونة من **الإحيocénose والموطن البيئي والعلاقات القائمة بينهما** تسمى **نظامًا بيئيًا**.\n\n**مثال**: في الغابة، تمتص الشجرة (حية) الماء والأملاح المعدنية من التربة (غير حية)، وتستخدم ضوء الشمس (غير حي)، وتتنفس الهواء (غير حي). يأكل السنجاب (حي) ثمار الشجرة (حية) ويتنفس الهواء (غير حي).\n\n![Un diagramme simple montrant un écosystème de lac, avec des flèches indiquant les interactions entre les poissons (biocénose), les plantes aquatiques (biocénose), l'eau (biotope), la lumière du soleil (biotope) et les rochers au fond (biotope).](img_un_diagramme_simple_montrant_un_cosyst_me_de_lac_a_1762280068733.png)",
-        "en": "### Introduction\n\nA natural environment (forest, lake, desert...) is a space that has not been significantly modified by humans. It is composed of different elements or **components**. These components can be classified into two main categories: **living components** and **non-living components**.\n\n### I. Living Components (Biocenosis)\n\nThe set of all living organisms in a natural environment is called **biocenosis**. These living organisms are very diverse.\n\n*   **Plants (Flora)**: These include trees (oak, pine), shrubs, grasses, flowers, mosses, algae, etc. They are generally immobile and produce their own organic matter through photosynthesis.\n*   **Animals (Fauna)**: These are beings that feed on other living things. They include mammals (deer, fox), birds, insects (ant, butterfly), fish, reptiles, etc.\n*   **Microorganisms**: These are living things invisible to the naked eye, such as bacteria and microscopic fungi. They play an essential role, particularly in the decomposition of dead matter.\n\n![Une forêt dense avec une variété d'animaux (cerf, écureuil, oiseaux) et de plantes (arbres, fougères, champignons) visibles, illustrant la biocénose.](img_une_for_t_dense_avec_une_vari_t_d_animaux_cerf_cur_1762280054597.png)\n\n### II. Non-Living Components (Biotope)\n\nThe set of all non-living components of a natural environment is called the **biotope**. It is the physical support for life.\n\n*   **Water**: It can be present in various forms: river, lake, pond, air humidity, rain.\n*   **Air**: It is the gas that surrounds us, mainly composed of nitrogen and oxygen, essential for the respiration of many living beings.\n*   **Soil and Subsoil**: They are made of rocks, sand, clay, and humus (decomposing organic matter). The soil serves as a support and a source of nutrients for plants.\n*   **Climatic Factors**: Sunlight, temperature, and wind are also non-living components that influence life in the environment.\n\n![Un paysage de montagne montrant les éléments non-vivants : des rochers escarpés, une rivière qui coule, et le ciel avec des nuages, illustrant le biotope.](img_un_paysage_de_montagne_montrant_les_l_ments_non_vi_1762280062468.png)\n\n### III. Characteristics of Living Beings\n\nHow can we distinguish a living being from a non-living component? Living beings share common characteristics:\n\n*   **Respiration**: They exchange gases with their environment (oxygen, carbon dioxide).\n*   **Nutrition**: They feed to obtain energy.\n*   **Reproduction**: They give birth to offspring to perpetuate the species.\n*   **Growth and Development**: They grow and change throughout their lives.\n\nA stone, for example, does not breathe, eat, or reproduce. It is therefore a non-living component.\n\n### IV. The Ecosystem\n\nIn a natural environment, the living components (biocenosis) and non-living components (biotope) are not simply placed next to each other. They are in constant interaction. The whole formed by **the biocenosis, the biotope, and the relationships that exist between them** is called an **ecosystem**.\n\n**Example**: In a forest, the tree (living) draws water and mineral salts from the soil (non-living), uses sunlight (non-living), and breathes the air (non-living). The squirrel (living) eats the tree's fruit (living) and breathes the air (non-living).\n\n![Un diagramme simple montrant un écosystème de lac, avec des flèches indiquant les interactions entre les poissons (biocénose), les plantes aquatiques (biocénose), l'eau (biotope), la lumière du soleil (biotope) et les rochers au fond (biotope).](img_un_diagramme_simple_montrant_un_cosyst_me_de_lac_a_1762280068733.png)"
+        "fr": "",
+        "ar": "",
+        "en": ""
       },
-      "backgroundImage": "img_background_1762280072990.png"
+      "backgroundImage": ""
     },
     {
       "id": "svt-1ac-l3",
@@ -95,6 +95,57 @@
         "en": ""
       },
       "backgroundImage": ""
+    },
+    {
+      "id": "svt-1ac-s1",
+      "topicId": "svt-1ac-c1",
+      "status": "pending_review",
+      "title": {
+        "fr": "Bilan des activités",
+        "ar": "حصيلة الأنشطة",
+        "en": "Activity Summary"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "svt-1ac-s2",
+      "topicId": "svt-1ac-c1",
+      "status": "pending_review",
+      "title": {
+        "fr": "Schéma de synthèse",
+        "ar": "خطاطة تركيبية",
+        "en": "Summary Diagram"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-e1",
+      "topicId": "svt-1ac-c1",
+      "status": "pending_review",
+      "title": {
+        "fr": "Exercices d'évaluation",
+        "ar": "تمارين تقويمية",
+        "en": "Evaluation Exercises"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "solution": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
     },
     {
       "id": "svt-1ac-l4",
@@ -161,6 +212,56 @@
       "backgroundImage": ""
     },
     {
+      "id": "svt-1ac-s3",
+      "topicId": "svt-1ac-c2",
+      "status": "pending_review",
+      "title": {
+        "fr": "Bilan des activités",
+        "ar": "حصيلة الأنشطة",
+        "en": "Activity Summary"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-s4",
+      "topicId": "svt-1ac-c2",
+      "status": "pending_review",
+      "title": {
+        "fr": "Schéma de synthèse",
+        "ar": "خطاطة تركيبية",
+        "en": "Summary Diagram"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-e2",
+      "topicId": "svt-1ac-c2",
+      "status": "pending_review",
+      "title": {
+        "fr": "Exercices d'évaluation",
+        "ar": "تمارين تقويمية",
+        "en": "Evaluation Exercises"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "solution": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
       "id": "svt-1ac-l8",
       "topicId": "svt-1ac-c3",
       "status": "pending_review",
@@ -209,6 +310,56 @@
       "backgroundImage": ""
     },
     {
+      "id": "svt-1ac-s5",
+      "topicId": "svt-1ac-c3",
+      "status": "pending_review",
+      "title": {
+        "fr": "Bilan des activités",
+        "ar": "حصيلة الأنشطة",
+        "en": "Activity Summary"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-s6",
+      "topicId": "svt-1ac-c3",
+      "status": "pending_review",
+      "title": {
+        "fr": "Schéma de synthèse",
+        "ar": "خطاطة تركيبية",
+        "en": "Summary Diagram"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-e3",
+      "topicId": "svt-1ac-c3",
+      "status": "pending_review",
+      "title": {
+        "fr": "Exercices d'évaluation",
+        "ar": "تمارين تقويمية",
+        "en": "Evaluation Exercises"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "solution": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
       "id": "svt-1ac-l11",
       "topicId": "svt-1ac-c4",
       "status": "pending_review",
@@ -239,6 +390,56 @@
         "en": ""
       },
       "backgroundImage": ""
+    },
+    {
+      "id": "svt-1ac-s7",
+      "topicId": "svt-1ac-c4",
+      "status": "pending_review",
+      "title": {
+        "fr": "Bilan des activités",
+        "ar": "حصيلة الأنشطة",
+        "en": "Activity Summary"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-s8",
+      "topicId": "svt-1ac-c4",
+      "status": "pending_review",
+      "title": {
+        "fr": "Schéma de synthèse",
+        "ar": "خطاطة تركيبية",
+        "en": "Summary Diagram"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-e4",
+      "topicId": "svt-1ac-c4",
+      "status": "pending_review",
+      "title": {
+        "fr": "Exercices d'évaluation",
+        "ar": "تمارين تقويمية",
+        "en": "Evaluation Exercises"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "solution": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
     },
     {
       "id": "svt-1ac-l13",
@@ -287,6 +488,56 @@
         "en": ""
       },
       "backgroundImage": ""
+    },
+    {
+      "id": "svt-1ac-s9",
+      "topicId": "svt-1ac-c5",
+      "status": "pending_review",
+      "title": {
+        "fr": "Bilan des activités",
+        "ar": "حصيلة الأنشطة",
+        "en": "Activity Summary"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-s10",
+      "topicId": "svt-1ac-c5",
+      "status": "pending_review",
+      "title": {
+        "fr": "Schéma de synthèse",
+        "ar": "خطاطة تركيبية",
+        "en": "Summary Diagram"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "svt-1ac-e5",
+      "topicId": "svt-1ac-c5",
+      "status": "pending_review",
+      "title": {
+        "fr": "Exercices d'évaluation",
+        "ar": "تمارين تقويمية",
+        "en": "Evaluation Exercises"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "solution": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      }
     }
   ],
   "exercises": [],

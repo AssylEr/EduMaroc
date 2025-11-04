@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', async () => {
 
   let DB_DATA = {};
@@ -170,7 +169,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.title = `${subjectName} - ${t.pageTitleSubject}`;
       setMetaDescription(t.metaDescriptionSubject.replace('{subjectName}', subjectName));
 
-
       const titleHeader = document.getElementById('subject-title-header');
       if (titleHeader) titleHeader.textContent = subjectName;
       
@@ -178,10 +176,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (!container) return;
       
       const levelHasVisibleContent = (level) => {
-        const contentTypes = ['lessons', 'exercises', 'summaries'];
-        return contentTypes.some(type => 
-            level[type] && level[type].some(item => item.status === 'verified' || item.status === undefined)
-        );
+        return level.lessons && level.lessons.some(item => item.status === 'verified' || item.status === undefined);
       };
 
       const visibleLevels = subject.levels.filter(levelHasVisibleContent);
@@ -191,70 +186,51 @@ document.addEventListener('DOMContentLoaded', async () => {
           return;
       }
 
-      container.innerHTML = visibleLevels.map(level => {
-          const createList = (items, type) => {
-              if (!items || items.length === 0) return '';
-              const visibleItems = items.filter(item => item.status === 'verified' || item.status === undefined);
-              if (visibleItems.length === 0) return '';
+      const createAssociatedList = (items, type, subjectId, levelId, lang) => {
+        if (!items || items.length === 0) return '';
+        const visibleItems = items.filter(item => item.status === 'verified' || item.status === undefined);
+        if (visibleItems.length === 0) return '';
+        return `
+            <h4 class="content-list-title">${t[type]}</h4>
+            <ul>${visibleItems.map(item => `
+                <li><a href="./content.html?subject=${subjectId}&level=${levelId}&type=${type}&id=${item.id}">${getTranslated(item.title, lang)}</a></li>
+            `).join('')}</ul>`;
+      };
+      
+      container.innerHTML = visibleLevels.map((level, index) => {
+          const visibleLessons = (level.lessons || []).filter(l => (l.status === 'verified' || l.status === undefined) && l.title?.fr.toLowerCase().startsWith('séquence'));
 
-              return `
-                  <h4 class="content-list-title">${t[type]}</h4>
-                  <ul>${visibleItems.map(item => `
-                      <li><a href="./content.html?subject=${subject.id}&level=${level.id}&type=${type}&id=${item.id}">${getTranslated(item.title, lang)}</a></li>
-                  `).join('')}</ul>`;
-          };
+          if (visibleLessons.length === 0) return '';
 
-          const hasChapters = level.chapters && level.chapters.length > 0;
-
-          if (hasChapters) {
-            return `
-              <section class="level-section">
-                  <h2 class="level-title">${getTranslated(level.name, lang)}</h2>
-                  ${level.chapters.map((chapter, index) => {
-                      const chapterLessons = (level.lessons || []).filter(l => l.topicId === chapter.id);
-                      const chapterExercises = (level.exercises || []).filter(e => e.topicId === chapter.id);
-                      const chapterSummaries = (level.summaries || []).filter(s => s.topicId === chapter.id);
-                      
-                      const lessonsList = createList(chapterLessons, 'lessons');
-                      const exercisesList = createList(chapterExercises, 'exercises');
-                      const summariesList = createList(chapterSummaries, 'summaries');
-
-                      if (!lessonsList && !exercisesList && !summariesList) return '';
-
-                      return `
-                        <details class="chapter-accordion" ${index === 0 ? 'open' : ''}>
-                          <summary class="chapter-title">
-                            <h3>${getTranslated(chapter.title, lang)}</h3>
-                          </summary>
-                          <div class="chapter-content">
-                            ${lessonsList}
-                            ${exercisesList}
-                            ${summariesList}
-                          </div>
-                        </details>
-                      `;
-                  }).join('')}
-              </section>
-            `;
-          }
-
-          // Fallback for subjects without a chapter structure
           return `
-              <section class="level-section">
-                  <h2 class="level-title">${getTranslated(level.name, lang)}</h2>
-                  <div class="content-category-legacy">
-                      <h3>${t.lessons}</h3>
-                      ${createList(level.lessons, 'lessons') || `<p class="empty-content">${t.emptyContent}</p>`}
-                  </div>
-                  <div class="content-category-legacy">
-                      <h3>${t.exercises}</h3>
-                      ${createList(level.exercises, 'exercises') || `<p class="empty-content">${t.emptyContent}</p>`}
-                  </div>
-                   <div class="content-category-legacy">
-                      <h3>${t.summaries}</h3>
-                      ${createList(level.summaries, 'summaries') || `<p class="empty-content">${t.emptyContent}</p>`}
-                  </div>
-              </section>
+            <section class="level-section">
+                <h2 class="level-title">${getTranslated(level.name, lang)}</h2>
+                ${visibleLessons.map((lesson, lessonIndex) => {
+                    const lessonExercises = (level.exercises || []).filter(e => e.lessonId === lesson.id);
+                    const lessonSummaries = (level.summaries || []).filter(s => s.lessonId === lesson.id);
+                    
+                    const exercisesList = createAssociatedList(lessonExercises, 'exercises', subject.id, level.id, lang);
+                    const summariesList = createAssociatedList(lessonSummaries, 'summaries', subject.id, level.id, lang);
+                    
+                    const hasAssociatedContent = exercisesList || summariesList;
+
+                    return `
+                      <details class="lesson-accordion" ${lessonIndex === 0 && index === 0 ? 'open' : ''}>
+                        <summary class="lesson-accordion-title">
+                          <a href="./content.html?subject=${subject.id}&level=${level.id}&type=lessons&id=${lesson.id}">${getTranslated(lesson.title, lang)}</a>
+                        </summary>
+                        <div class="lesson-accordion-content">
+                          ${hasAssociatedContent ? `
+                              <div class="lesson-associated-content">
+                                  ${exercisesList}
+                                  ${summariesList}
+                              </div>
+                          ` : `<p class="empty-content" style="padding: 10px 0;">${t.emptyContent}</p>`}
+                        </div>
+                      </details>
+                    `;
+                }).join('')}
+            </section>
           `;
       }).join('');
   }

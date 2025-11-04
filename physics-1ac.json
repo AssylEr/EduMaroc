@@ -422,6 +422,7 @@
       "id": "e-1762105156292",
       "status": "verified",
       "topicId": "phys-1ac-c1",
+      "lessonId": "phys-1ac-l1",
       "title": {
         "fr": "Exercice 1 : Vrai ou Faux",
         "ar": "تمرين 1 : صحيح أم خطأ",
@@ -442,6 +443,7 @@
       "id": "e-1762105156293",
       "status": "verified",
       "topicId": "phys-1ac-c1",
+      "lessonId": "phys-1ac-l1",
       "title": {
         "fr": "Exercice 2 : Nommer les changements d'état",
         "ar": "تمرين 2 : تسمية تغيرات الحالة",
@@ -462,6 +464,7 @@
       "id": "e-1762105156294",
       "status": "verified",
       "topicId": "phys-1ac-c1",
+      "lessonId": "phys-1ac-l1",
       "title": {
         "fr": "Exercice 3 : Solvant et Soluté",
         "ar": "تمرين 3 : المذيب والمذاب",

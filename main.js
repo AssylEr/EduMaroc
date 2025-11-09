@@ -81,56 +81,52 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
   };
 
-  function getTranslated(obj, lang) {
-    if (!obj) return '';
+  function getTranslated(item, lang, property = 'content') {
+      if (!item) return '';
 
-    const frenchText = obj.fr || '';
-    const textForLang = obj[lang] || (lang === 'ar' ? obj.en : '') || frenchText;
-    
-    // If the current language is French, or there's no French text to get images from, return the text.
-    if (lang === 'fr' || !frenchText) {
-        return textForLang;
-    }
-    
-    const imageRegex = /!\[.*?\]\(.*?\)/g;
-    const hasImageTags = (str) => typeof str === 'string' && imageRegex.test(str);
-    
-    // If French has no images, or the translated text already has them, return the translated text.
-    if (!hasImageTags(frenchText) || hasImageTags(textForLang)) {
-        return textForLang;
-    }
+      const textObject = item[property];
+      if (typeof textObject !== 'object' || textObject === null) {
+          const value = textObject?.[lang] || item[property];
+          return (typeof value === 'string') ? value : '';
+      }
 
-    // --- Image Merging Logic ---
-    // This logic assumes a parallel structure: the number of text blocks in the French version
-    // (separated by images) should correspond to the number of paragraphs in the translated version.
-    
-    const images = frenchText.match(imageRegex) || [];
-    
-    // Split the French text by images to get the text chunks.
-    const frenchTextChunks = frenchText.split(imageRegex).map(s => s.trim()).filter(s => s);
-    
-    // Split the translated text by paragraphs (double newline).
-    const translatedTextChunks = textForLang.split(/\n\n+/g).map(s => s.trim()).filter(s => s);
-    
-    // If the number of text blocks doesn't match, it indicates a structural difference in the translation.
-    // Fallback: append images to the end to avoid breaking the layout or showing the wrong language.
-    if (frenchTextChunks.length !== translatedTextChunks.length) {
-        console.warn(`Structural mismatch for content merging. French version has ${frenchTextChunks.length} text blocks, but '${lang}' version has ${translatedTextChunks.length}. This can happen if translated paragraphs don't match the French text blocks between images. Appending images at the end as a fallback.`);
-        return textForLang.trim() + '\n\n' + images.join('\n\n');
-    }
+      let targetText = textObject[lang] || textObject.fr || '';
+      if (typeof targetText !== 'string') return '';
+      
+      const isTranslatableContent = (property === 'content' || property === 'solution');
 
-    // "Zip" the translated text chunks and the images together.
-    const result = [];
-    for (let i = 0; i < translatedTextChunks.length; i++) {
-        result.push(translatedTextChunks[i]);
-        if (images[i]) {
-            result.push(images[i]);
-        }
-    }
-    
-    // Join everything back with the standard Markdown paragraph separator.
-    return result.join('\n\n');
+      // Case 1: The item uses the modern `images` map with placeholders.
+      if (isTranslatableContent && item.images && Object.keys(item.images).length > 0) {
+          targetText = targetText.replace(/%%IMAGE_\d+%%/g, (placeholder) => {
+              const imageData = item.images[placeholder];
+              if (imageData && imageData.filename) {
+                  return `![${imageData.prompt || 'image'}](${imageData.filename})`;
+              }
+              return ''; // Hide placeholder if image isn't uploaded yet
+          });
+      }
+      // Case 2: Legacy content where images are only in French markdown.
+      // We inject the French images into the translated text.
+      else if (isTranslatableContent && lang !== 'fr' && textObject.fr) {
+          const frenchText = textObject.fr;
+          // Find all full markdown image tags in the French text
+          const frenchImages = frenchText.match(/!\[.*?\]\(.*?\)/g) || [];
+          
+          if (frenchImages.length > 0) {
+              // Replace placeholders in the target text with actual image tags from French
+              let imageIndex = 0;
+              targetText = targetText.replace(/%%IMAGE_\d+%%/g, () => {
+                  if (imageIndex < frenchImages.length) {
+                      return frenchImages[imageIndex++];
+                  }
+                  return ''; // Not enough images in French source, remove placeholder
+              });
+          }
+      }
+
+      return targetText;
   }
+
 
   async function fetchJsonData(path) {
     try {
@@ -201,7 +197,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     container.innerHTML = subjects.map(subject => `
       <a href="./subject.html?id=${subject.id}" class="subject-card-link">
         <div class="subject-card" style="background-image: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.7)), url('${subject.backgroundImage}');">
-          <h2 class="subject-card-title">${getTranslated(subject.name, lang)}</h2>
+          <h2 class="subject-card-title">${getTranslated(subject, lang, 'name')}</h2>
         </div>
       </a>
     `).join('');
@@ -212,7 +208,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.body.style.setProperty('--subject-primary-color', subject.primaryColor);
       }
       const t = translations[lang];
-      const subjectName = getTranslated(subject.name, lang);
+      const subjectName = getTranslated(subject, lang, 'name');
       document.title = `${subjectName} - ${t.pageTitleSubject}`;
       setMetaDescription(t.metaDescriptionSubject.replace('{subjectName}', subjectName));
 
@@ -240,7 +236,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         return `
             <h4 class="content-list-title">${t[type]}</h4>
             <ul>${visibleItems.map(item => `
-                <li><a href="./content.html?subject=${subjectId}&level=${levelId}&type=${type}&id=${item.id}">${getTranslated(item.title, lang)}</a></li>
+                <li><a href="./content.html?subject=${subjectId}&level=${levelId}&type=${type}&id=${item.id}">${getTranslated(item, lang, 'title')}</a></li>
             `).join('')}</ul>`;
       };
       
@@ -251,7 +247,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
           return `
             <section class="level-section">
-                <h2 class="level-title">${getTranslated(level.name, lang)}</h2>
+                <h2 class="level-title">${getTranslated(level, lang, 'name')}</h2>
                 ${visibleLessons.map((lesson, lessonIndex) => {
                     const lessonExercises = (level.exercises || []).filter(e => e.lessonId === lesson.id);
                     const lessonSummaries = (level.summaries || []).filter(s => s.lessonId === lesson.id);
@@ -264,7 +260,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     return `
                       <details class="lesson-accordion" ${lessonIndex === 0 && index === 0 ? 'open' : ''}>
                         <summary class="lesson-accordion-title">
-                          <a href="./content.html?subject=${subject.id}&level=${level.id}&type=lessons&id=${lesson.id}">${getTranslated(lesson.title, lang)}</a>
+                          <a href="./content.html?subject=${subject.id}&level=${level.id}&type=lessons&id=${lesson.id}">${getTranslated(lesson, lang, 'title')}</a>
                         </summary>
                         <div class="lesson-accordion-content">
                           ${hasAssociatedContent ? `
@@ -289,12 +285,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.body.style.setProperty('--subject-primary-color', subject.primaryColor);
       }
       
-      const itemTitle = getTranslated(item.title, lang);
+      const itemTitle = getTranslated(item, lang, 'title');
       document.title = `${itemTitle} - ${t.pageTitleContent}`;
       
-      const contentText = getTranslated(item.content, lang);
+      let contentText = getTranslated(item, lang, 'content');
       if (contentText && typeof contentText === 'string') {
-        const snippet = contentText.substring(0, 150).replace(/#|\*|\[.*\]\(.*\)/g, '').replace(/\s+/g, ' ').trim() + '...';
+        const snippet = contentText.substring(0, 150).replace(/#|\*|\[.*\]\(.*\)|%%IMAGE_\d+%%/g, '').replace(/\s+/g, ' ').trim() + '...';
         setMetaDescription(`${itemTitle}: ${snippet}`);
       }
 
@@ -310,8 +306,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       if(breadcrumbsContainer) {
           breadcrumbsContainer.innerHTML = `
               <a href="./index.html" data-translate-key="navHome">${t.navHome}</a> &raquo;
-              <a href="./subject.html?id=${subject.id}">${getTranslated(subject.name, lang)}</a> &raquo;
-              <span>${getTranslated(level.name, lang)}</span>
+              <a href="./subject.html?id=${subject.id}">${getTranslated(subject, lang, 'name')}</a> &raquo;
+              <span>${getTranslated(level, lang, 'name')}</span>
           `;
       }
 
@@ -340,10 +336,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const solutionFab = document.getElementById('solution-fab');
       const solutionContainer = document.getElementById('solution-container');
-      if (item.solution) {
+      if (item.solution && (item.solution.fr || item.solution[lang])) {
           if (solutionFab) solutionFab.style.display = 'flex';
           const solutionContent = document.getElementById('solution-content');
-          const solutionText = getTranslated(item.solution, lang);
+          const solutionText = getTranslated(item, lang, 'solution');
 
           if(solutionContent && solutionText && showdownConverter) {
             solutionContent.innerHTML = showdownConverter.makeHtml(solutionText);
@@ -390,9 +386,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 level[type].forEach(item => {
                     if (addedItems.has(item.id)) return; // Skip if already added
 
-                    const title = getTranslated(item.title, lang);
-                    const content = getTranslated(item.content, lang);
-                    const solution = (type === 'exercises') ? getTranslated(item.solution, lang) : '';
+                    const title = getTranslated(item, lang, 'title');
+                    const content = getTranslated(item, lang, 'content');
+                    const solution = (type === 'exercises') ? getTranslated(item, lang, 'solution') : '';
 
                     const normalizedTitle = normalizeText(title, lang);
                     const normalizedContent = normalizeText(content, lang);
@@ -413,7 +409,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         if (subjectMatches.length > 0) {
             results[subject.id] = {
-                name: getTranslated(subject.name, lang),
+                name: getTranslated(subject, lang, 'name'),
                 items: subjectMatches
             };
         }
@@ -437,7 +433,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         html += `<div class="search-category">${subjectData.name}</div>`;
         subjectData.items.forEach(item => {
             const url = `./content.html?subject=${item.subjectId}&level=${item.levelId}&type=${item.type}&id=${item.id}`;
-            html += `<a href="${url}" class="search-result-item">${getTranslated(item.title, lang)}</a>`;
+            html += `<a href="${url}" class="search-result-item">${getTranslated(item, lang, 'title')}</a>`;
         });
     }
     

@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', async () => {
 
   let DB_DATA = {};
@@ -81,8 +82,54 @@ document.addEventListener('DOMContentLoaded', async () => {
   };
 
   function getTranslated(obj, lang) {
-      if (!obj) return '';
-      return obj[lang] || obj['fr'] || obj['en'] || '';
+    if (!obj) return '';
+
+    const frenchText = obj.fr || '';
+    const textForLang = obj[lang] || (lang === 'ar' ? obj.en : '') || frenchText;
+    
+    // If the current language is French, or there's no French text to get images from, return the text.
+    if (lang === 'fr' || !frenchText) {
+        return textForLang;
+    }
+    
+    const imageRegex = /!\[.*?\]\(.*?\)/g;
+    const hasImageTags = (str) => typeof str === 'string' && imageRegex.test(str);
+    
+    // If French has no images, or the translated text already has them, return the translated text.
+    if (!hasImageTags(frenchText) || hasImageTags(textForLang)) {
+        return textForLang;
+    }
+
+    // --- Image Merging Logic ---
+    // This logic assumes a parallel structure: the number of text blocks in the French version
+    // (separated by images) should correspond to the number of paragraphs in the translated version.
+    
+    const images = frenchText.match(imageRegex) || [];
+    
+    // Split the French text by images to get the text chunks.
+    const frenchTextChunks = frenchText.split(imageRegex).map(s => s.trim()).filter(s => s);
+    
+    // Split the translated text by paragraphs (double newline).
+    const translatedTextChunks = textForLang.split(/\n\n+/g).map(s => s.trim()).filter(s => s);
+    
+    // If the number of text blocks doesn't match, it indicates a structural difference in the translation.
+    // Fallback: append images to the end to avoid breaking the layout or showing the wrong language.
+    if (frenchTextChunks.length !== translatedTextChunks.length) {
+        console.warn(`Structural mismatch for content merging. French version has ${frenchTextChunks.length} text blocks, but '${lang}' version has ${translatedTextChunks.length}. This can happen if translated paragraphs don't match the French text blocks between images. Appending images at the end as a fallback.`);
+        return textForLang.trim() + '\n\n' + images.join('\n\n');
+    }
+
+    // "Zip" the translated text chunks and the images together.
+    const result = [];
+    for (let i = 0; i < translatedTextChunks.length; i++) {
+        result.push(translatedTextChunks[i]);
+        if (images[i]) {
+            result.push(images[i]);
+        }
+    }
+    
+    // Join everything back with the standard Markdown paragraph separator.
+    return result.join('\n\n');
   }
 
   async function fetchJsonData(path) {

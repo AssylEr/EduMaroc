@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #1DB954; /* Sporty green */
   --subject-primary-color: var(--primary-color); /* Will be overridden by JS */
@@ -499,6 +500,25 @@ html[dir="rtl"] .lesson-associated-content a:hover {
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border: 1px solid var(--light-gray);
+}
+
+/* Video Container */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--light-gray);
+  background: #000;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .solution-container {

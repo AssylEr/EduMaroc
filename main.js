@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const hasAssociatedContent = exercisesList || summariesList;
 
                     return `
-                      <details class="lesson-accordion" ${lessonIndex === 0 && index === 0 ? 'open' : ''}>
+                      <details class="lesson-accordion">
                         <summary class="lesson-accordion-title">
                           <a href="./content.html?subject=${subject.id}&level=${level.id}&type=lessons&id=${lesson.id}">${getTranslated(lesson, lang, 'title')}</a>
                         </summary>
@@ -316,21 +316,34 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const contentMain = document.getElementById('content-main');
       if (contentMain) {
+          let htmlContent = '';
+
+          // Render YouTube Video if ID is present
+          if (item.youtubeVideoId) {
+              htmlContent += `
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/${item.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              `;
+          }
+
           if (contentText && typeof contentText === 'string') {
               if (showdownConverter) {
                   try {
-                      contentMain.innerHTML = showdownConverter.makeHtml(contentText);
+                      htmlContent += showdownConverter.makeHtml(contentText);
                   } catch (e) {
                       console.error("Showdown conversion failed:", e);
-                      contentMain.innerText = contentText; // Fallback to plain text
+                      htmlContent += contentText; // Fallback to plain text
                   }
               } else {
                   console.error("Showdown converter not available.");
-                  contentMain.innerText = contentText; // Fallback to plain text
+                  htmlContent += contentText; // Fallback to plain text
               }
           } else {
-              contentMain.innerHTML = `<p class="empty-content">${t.emptyContent}</p>`;
+              htmlContent += `<p class="empty-content">${t.emptyContent}</p>`;
           }
+          
+          contentMain.innerHTML = htmlContent;
       }
 
 

@@ -257,6 +257,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     
                     const hasAssociatedContent = exercisesList || summariesList;
 
+                    // Removed 'open' attribute from the first accordion per user request
                     return `
                       <details class="lesson-accordion">
                         <summary class="lesson-accordion-title">
@@ -318,15 +319,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (contentMain) {
           let htmlContent = '';
 
-          // Render YouTube Video if ID is present
-          if (item.youtubeVideoId) {
-              htmlContent += `
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/${item.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              `;
-          }
-
+          // 1. Render Markdown Content
           if (contentText && typeof contentText === 'string') {
               if (showdownConverter) {
                   try {
@@ -341,6 +334,15 @@ document.addEventListener('DOMContentLoaded', async () => {
               }
           } else {
               htmlContent += `<p class="empty-content">${t.emptyContent}</p>`;
+          }
+
+          // 2. Render YouTube Video AT THE END if ID is present and valid
+          if (item.youtubeVideoId && typeof item.youtubeVideoId === 'string' && item.youtubeVideoId.trim() !== '') {
+              htmlContent += `
+                <div class="video-container" style="margin-top: 30px; width: 100%;">
+                    <iframe src="https://www.youtube.com/embed/${item.youtubeVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 100%;"></iframe>
+                </div>
+              `;
           }
           
           contentMain.innerHTML = htmlContent;

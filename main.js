@@ -1,4 +1,6 @@
 
+
+
 document.addEventListener('DOMContentLoaded', async () => {
 
   let DB_DATA = {};
@@ -241,7 +243,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       };
       
       container.innerHTML = visibleLevels.map((level, index) => {
-          const visibleLessons = (level.lessons || []).filter(l => (l.status === 'verified' || l.status === undefined) && l.title?.fr.toLowerCase().startsWith('séquence'));
+          // Filter logic updated: Show all verified lessons regardless of title
+          const visibleLessons = (level.lessons || []).filter(l => (l.status === 'verified' || l.status === undefined));
 
           if (visibleLessons.length === 0) return '';
 

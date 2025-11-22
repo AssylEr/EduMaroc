@@ -1,4 +1,3 @@
-
 {
   "id": "1ac",
   "name": {
@@ -193,30 +192,516 @@
     }
   ],
   "lessons": [
-    { "id": "math-1ac-l1", "topicId": "math-1ac-c1", "status": "pending_review", "title": { "fr": "Opérations sur les nombres entiers et décimaux", "ar": "العمليات على الأعداد الصحيحة والعشرية", "en": "Operations on integers and decimals" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l2", "topicId": "math-1ac-c2", "status": "pending_review", "title": { "fr": "Droites, segments et angles", "ar": "المستقيمات والقطع والزوايا", "en": "Lines, segments, and angles" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l3", "topicId": "math-1ac-c3", "status": "pending_review", "title": { "fr": "Introduction aux nombres fractionnaires", "ar": "مقدمة في الأعداد الكسرية", "en": "Introduction to fractional numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l4", "topicId": "math-1ac-c4", "status": "pending_review", "title": { "fr": "Addition et soustraction des fractions", "ar": "جمع وطرح الكسور", "en": "Adding and subtracting fractions" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l5", "topicId": "math-1ac-c5", "status": "pending_review", "title": { "fr": "Propriétés du triangle et médiatrices", "ar": "خصائص المثلث والواسطات", "en": "Properties of triangles and perpendicular bisectors" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l6", "topicId": "math-1ac-c6", "status": "pending_review", "title": { "fr": "Introduction aux nombres relatifs", "ar": "مقدمة في الأعداد النسبية", "en": "Introduction to relative numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l7", "topicId": "math-1ac-c7", "status": "pending_review", "title": { "fr": "Somme algébrique", "ar": "المجموع الجبري", "en": "Algebraic sum" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l8", "topicId": "math-1ac-c8", "status": "pending_review", "title": { "fr": "Somme des angles d'un triangle", "ar": "مجموع زوايا المثلث", "en": "Sum of angles in a triangle" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l9", "topicId": "math-1ac-c9", "status": "pending_review", "title": { "fr": "Produit et quotient de nombres relatifs", "ar": "جداء وخارج عددين نسبيين", "en": "Product and quotient of relative numbers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l10", "topicId": "math-1ac-c10", "status": "pending_review", "title": { "fr": "Calcul des puissances", "ar": "حساب القوى", "en": "Calculating powers" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l11", "topicId": "math-1ac-c11", "status": "pending_review", "title": { "fr": "Construction des bissectrices et hauteurs", "ar": "إنشاء المنصفات والارتفاعات", "en": "Constructing bisectors and altitudes" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l12", "topicId": "math-1ac-c12", "status": "pending_review", "title": { "fr": "Figures symétriques", "ar": "الأشكال المتماثلة", "en": "Symmetrical figures" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l13", "topicId": "math-1ac-c13", "status": "pending_review", "title": { "fr": "Calcul littéral", "ar": "الحساب الحرفي", "en": "Literal calculation" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l14", "topicId": "math-1ac-c14", "status": "pending_review", "title": { "fr": "Propriétés du parallélogramme", "ar": "خصائص متوازي الأضلاع", "en": "Properties of parallelograms" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l15", "topicId": "math-1ac-c15", "status": "pending_review", "title": { "fr": "Rectangle, losange et carré", "ar": "المستطيل، المعين والمربع", "en": "Rectangle, rhombus, and square" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l16", "topicId": "math-1ac-c16", "status": "pending_review", "title": { "fr": "Résolution d'équations du premier degré", "ar": "حل معادلات من الدرجة الأولى", "en": "Solving first-degree equations" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l17", "topicId": "math-1ac-c17", "status": "pending_review", "title": { "fr": "Angles alternes-internes et correspondants", "ar": "الزوايا المتبادلة داخليا والمتناظرة", "en": "Alternate interior and corresponding angles" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l18", "topicId": "math-1ac-c18", "status": "pending_review", "title": { "fr": "Propriétés du cercle", "ar": "خصائص الدائرة", "en": "Properties of the circle" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l19", "topicId": "math-1ac-c19", "status": "pending_review", "title": { "fr": "Coordonnées dans un repère", "ar": "الإحداثيات في معلم", "en": "Coordinates in a plane" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l20", "topicId": "math-1ac-c20", "status": "pending_review", "title": { "fr": "Tableaux et graphiques de proportionnalité", "ar": "جداول ومبيانات التناسبية", "en": "Proportionality tables and graphs" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l21", "topicId": "math-1ac-c21", "status": "pending_review", "title": { "fr": "Collecte et organisation des données", "ar": "جمع وتنظيم البيانات", "en": "Data collection and organization" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l22", "topicId": "math-1ac-c22", "status": "pending_review", "title": { "fr": "Aires et volumes des solides", "ar": "مساحات وحجوم المجسمات", "en": "Areas and volumes of solids" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" },
-    { "id": "math-1ac-l23", "topicId": "math-1ac-c23", "status": "pending_review", "title": { "fr": "Formules de calcul", "ar": "صيغ الحساب", "en": "Calculation formulas" }, "content": { "fr": "", "ar": "", "en": "" }, "backgroundImage": "" }
+    {
+      "id": "math-1ac-l1",
+      "topicId": "math-1ac-c1",
+      "status": "verified",
+      "title": {
+        "fr": "Opérations sur les nombres entiers et décimaux",
+        "ar": "العمليات على الأعداد الصحيحة والعشرية",
+        "en": "Operations on integers and decimals"
+      },
+      "content": {
+        "fr": "### Opérations sur les nombres entiers et décimaux\n\n#### I. L'addition\n\n*   **Définition :** L'addition est une opération qui permet de calculer la **somme** de plusieurs nombres. Les nombres que l'on additionne sont appelés les **termes**.\n*   **Exemple :** Calculons la somme de 12,5 et 7,34.\n    `12,5 + 7,34 = 19,84`\n    Les termes sont 12,5 et 7,34. La somme est 19,84.\n*   **Méthode :** Pour poser une addition, on aligne les virgules (et donc les chiffres de même rang) les unes sous les autres.\n\n![Une calculatrice ancienne et un cahier d'écolier avec des additions posées à la main](img_une_calculatrice_ancienne_et_un_cahier_d_colier_av_1763837125390.png)\n\n#### II. La soustraction\n\n*   **Définition :** La soustraction est une opération qui permet de calculer la **différence** entre deux nombres. Les nombres que l'on soustrait sont aussi appelés les **termes**.\n*   **Exemple :** Calculons la différence entre 25,8 et 9,3.\n    `25,8 - 9,3 = 16,5`\n    Les termes sont 25,8 et 9,3. La différence est 16,5.\n*   **Méthode :** Pour poser une soustraction, on aligne les virgules des deux termes.\n\n#### III. La multiplication\n\n*   **Définition :** La multiplication est une opération qui permet de calculer le **produit** de plusieurs nombres. Les nombres que l'on multiplie sont appelés les **facteurs**.\n*   **Exemple :** Calculons le produit de 4,2 par 3,5.\n    `4,2 \\times 3,5 = 14,70`\n    Les facteurs sont 4,2 et 3,5. Le produit est 14,70.\n*   **Méthode :** On effectue la multiplication sans tenir compte des virgules. Ensuite, on place la virgule dans le produit final en comptant le nombre total de chiffres après la virgule dans les facteurs.\n\n#### IV. La division\n\n*   **Définition :** La division permet de partager une quantité en parts égales. Il existe deux types de division.\n\n    1.  **La division euclidienne (pour les nombres entiers) :**\n        Effectuer la division euclidienne d'un nombre entier (le **dividende**) par un autre nombre entier non nul (le **diviseur**), c'est trouver deux nombres entiers, le **quotient** et le **reste**.\n        La relation est : **Dividende = (Diviseur \\times Quotient) + Reste**, avec **Reste < Diviseur**.\n        *   **Exemple :** Division euclidienne de 50 par 8.\n            `50 = (8 \\times 6) + 2`.\n            Le quotient est 6 et le reste est 2.\n\n    2.  **La division décimale :**\n        Elle permet d'obtenir un quotient qui n'est pas forcément un nombre entier.\n        *   **Exemple :** Divisons 22,5 par 5.\n            `22,5 \\div 5 = 4,5`.\n            Le dividende est 22,5, le diviseur est 5 et le quotient est 4,5. Le reste est 0.\n\n#### Récapitulatif du vocabulaire\n\n| Opération      | Noms des nombres             | Résultat             |\n|----------------|------------------------------|----------------------|\n| Addition       | Les termes                   | La somme             |\n| Soustraction   | Les termes                   | La différence        |\n| Multiplication | Les facteurs                 | Le produit           |\n| Division       | Le dividende, le diviseur    | Le quotient, le reste|",
+        "ar": "### العمليات على الأعداد الصحيحة والعشرية\n\n#### أولاً: الجمع\n\n*   **تعريف:** الجمع هو عملية تسمح بحساب **مجموع** عدة أعداد. الأعداد التي نجمعها تسمى **الحدود**.\n*   **مثال:** لنحسب مجموع 12,5 و 7,34.\n    `12,5 + 7,34 = 19,84`\n    الحدان هما 12,5 و 7,34. المجموع هو 19,84.\n*   **الطريقة:** لوضع عملية الجمع عمودياً، نقوم بمحاذاة الفواصل (وبالتالي الأرقام من نفس الرتبة) تحت بعضها البعض.\n\n[IMAGE: آلة حاسبة قديمة ودفتر تلميذ مع عمليات جمع موضوعة يدوياً]\n\n#### ثانياً: الطرح\n\n*   **تعريف:** الطرح هو عملية تسمح بحساب **الفرق** بين عددين. الأعداد التي نطرحها تسمى أيضًا **الحدود**.\n*   **مثال:** لنحسب الفرق بين 25,8 و 9,3.\n    `25,8 - 9,3 = 16,5`\n    الحدان هما 25,8 و 9,3. الفرق هو 16,5.\n*   **الطريقة:** لوضع عملية الطرح عمودياً، نقوم بمحاذاة فواصل العددين.\n\n#### ثالثاً: الضرب\n\n*   **تعريف:** الضرب هو عملية تسمح بحساب **جداء** عدة أعداد. الأعداد التي نضربها تسمى **العوامل**.\n*   **مثال:** لنحسب جداء 4,2 في 3,5.\n    `4,2 \\times 3,5 = 14,70`\n    العاملان هما 4,2 و 3,5. الجداء هو 14,70.\n*   **الطريقة:** ننجز عملية الضرب دون مراعاة الفواصل. بعد ذلك، نضع الفاصلة في الجداء النهائي عن طريق حساب العدد الإجمالي للأرقام بعد الفاصلة في العوامل.\n\n#### رابعاً: القسمة\n\n*   **تعريف:** القسمة تمكن من تقسيم كمية إلى أجزاء متساوية. هناك نوعان من القسمة.\n\n    1.  **القسمة الإقليدية (للأعداد الصحيحة):**\n        إجراء القسمة الإقليدية لعدد صحيح (**المقسوم**) على عدد صحيح آخر غير منعدم (**المقسوم عليه**) هو إيجاد عددين صحيحين، **الخارج** و **الباقي**.\n        العلاقة هي: **المقسوم = (المقسوم عليه \\times الخارج) + الباقي**، مع **الباقي أصغر من المقسوم عليه**.\n        *   **مثال:** القسمة الإقليدية للعدد 50 على 8.\n            `50 = (8 \\times 6) + 2`.\n            الخارج هو 6 والباقي هو 2.\n\n    2.  **القسمة العشرية:**\n        تسمح بالحصول على خارج ليس بالضرورة عددًا صحيحًا.\n        *   **مثال:** لنقسم 22,5 على 5.\n            `22,5 \\div 5 = 4,5`.\n            المقسوم هو 22,5، المقسوم عليه هو 5 والخارج هو 4,5. الباقي هو 0.\n\n#### ملخص المصطلحات\n\n| العملية | أسماء الأعداد | النتيجة |\n|---|---|---|\n| الجمع | الحدود | المجموع |\n| الطرح | الحدود | الفرق |\n| الضرب | العوامل | الجداء |\n| القسمة | المقسوم، المقسوم عليه | الخارج، الباقي |",
+        "en": "### Operations on whole and decimal numbers\n\n#### I. Addition\n\n*   **Definition:** Addition is an operation used to calculate the **sum** of several numbers. The numbers being added are called the **terms**.\n*   **Example:** Let's calculate the sum of 12.5 and 7.34.\n    `12.5 + 7.34 = 19.84`\n    The terms are 12.5 and 7.34. The sum is 19.84.\n*   **Method:** To set up an addition vertically, you align the decimal points (and therefore the digits of the same place value) under each other.\n\n[IMAGE: An old calculator and a student's notebook with additions written out by hand]\n\n#### II. Subtraction\n\n*   **Definition:** Subtraction is an operation used to calculate the **difference** between two numbers. The numbers being subtracted are also called the **terms**.\n*   **Example:** Let's calculate the difference between 25.8 and 9.3.\n    `25.8 - 9.3 = 16.5`\n    The terms are 25.8 and 9.3. The difference is 16.5.\n*   **Method:** To set up a subtraction vertically, you align the decimal points of the two terms.\n\n#### III. Multiplication\n\n*   **Definition:** Multiplication is an operation used to calculate the **product** of several numbers. The numbers being multiplied are called the **factors**.\n*   **Example:** Let's calculate the product of 4.2 by 3.5.\n    `4.2 \\times 3.5 = 14.70`\n    The factors are 4.2 and 3.5. The product is 14.70.\n*   **Method:** You perform the multiplication without considering the decimal points. Then, you place the decimal point in the final product by counting the total number of digits after the decimal point in the factors.\n\n#### IV. Division\n\n*   **Definition:** Division is used to share a quantity into equal parts. There are two types of division.\n\n    1.  **Euclidean division (for whole numbers):**\n        To perform the Euclidean division of an integer (the **dividend**) by another non-zero integer (the **divisor**) is to find two integers, the **quotient** and the **remainder**.\n        The relationship is: **Dividend = (Divisor \\times Quotient) + Remainder**, with **Remainder < Divisor**.\n        *   **Example:** Euclidean division of 50 by 8.\n            `50 = (8 \\times 6) + 2`.\n            The quotient is 6 and the remainder is 2.\n\n    2.  **Decimal division:**\n        This allows for obtaining a quotient that is not necessarily a whole number.\n        *   **Example:** Let's divide 22.5 by 5.\n            `22.5 \\div 5 = 4.5`.\n            The dividend is 22.5, the divisor is 5, and the quotient is 4.5. The remainder is 0.\n\n#### Vocabulary Summary\n\n| Operation      | Names of numbers       | Result               |\n|----------------|------------------------|----------------------|\n| Addition       | Terms                  | Sum                  |\n| Subtraction    | Terms                  | Difference           |\n| Multiplication | Factors                | Product              |\n| Division       | Dividend, Divisor      | Quotient, Remainder  |"
+      },
+      "backgroundImage": "img_background_1763837145855.png",
+      "backgroundImageSuggestion": "Abstract background with mathematical symbols like plus, minus, multiplication, and division signs",
+      "youtubeVideoId": ""
+    },
+    {
+      "id": "math-1ac-l2",
+      "topicId": "math-1ac-c2",
+      "status": "pending_review",
+      "title": {
+        "fr": "Droites, segments et angles",
+        "ar": "المستقيمات والقطع والزوايا",
+        "en": "Lines, segments, and angles"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l3",
+      "topicId": "math-1ac-c3",
+      "status": "pending_review",
+      "title": {
+        "fr": "Introduction aux nombres fractionnaires",
+        "ar": "مقدمة في الأعداد الكسرية",
+        "en": "Introduction to fractional numbers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l4",
+      "topicId": "math-1ac-c4",
+      "status": "pending_review",
+      "title": {
+        "fr": "Addition et soustraction des fractions",
+        "ar": "جمع وطرح الكسور",
+        "en": "Adding and subtracting fractions"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l5",
+      "topicId": "math-1ac-c5",
+      "status": "pending_review",
+      "title": {
+        "fr": "Propriétés du triangle et médiatrices",
+        "ar": "خصائص المثلث والواسطات",
+        "en": "Properties of triangles and perpendicular bisectors"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l6",
+      "topicId": "math-1ac-c6",
+      "status": "pending_review",
+      "title": {
+        "fr": "Introduction aux nombres relatifs",
+        "ar": "مقدمة في الأعداد النسبية",
+        "en": "Introduction to relative numbers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l7",
+      "topicId": "math-1ac-c7",
+      "status": "pending_review",
+      "title": {
+        "fr": "Somme algébrique",
+        "ar": "المجموع الجبري",
+        "en": "Algebraic sum"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l8",
+      "topicId": "math-1ac-c8",
+      "status": "pending_review",
+      "title": {
+        "fr": "Somme des angles d'un triangle",
+        "ar": "مجموع زوايا المثلث",
+        "en": "Sum of angles in a triangle"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l9",
+      "topicId": "math-1ac-c9",
+      "status": "pending_review",
+      "title": {
+        "fr": "Produit et quotient de nombres relatifs",
+        "ar": "جداء وخارج عددين نسبيين",
+        "en": "Product and quotient of relative numbers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l10",
+      "topicId": "math-1ac-c10",
+      "status": "pending_review",
+      "title": {
+        "fr": "Calcul des puissances",
+        "ar": "حساب القوى",
+        "en": "Calculating powers"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l11",
+      "topicId": "math-1ac-c11",
+      "status": "pending_review",
+      "title": {
+        "fr": "Construction des bissectrices et hauteurs",
+        "ar": "إنشاء المنصفات والارتفاعات",
+        "en": "Constructing bisectors and altitudes"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l12",
+      "topicId": "math-1ac-c12",
+      "status": "pending_review",
+      "title": {
+        "fr": "Figures symétriques",
+        "ar": "الأشكال المتماثلة",
+        "en": "Symmetrical figures"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l13",
+      "topicId": "math-1ac-c13",
+      "status": "pending_review",
+      "title": {
+        "fr": "Calcul littéral",
+        "ar": "الحساب الحرفي",
+        "en": "Literal calculation"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l14",
+      "topicId": "math-1ac-c14",
+      "status": "pending_review",
+      "title": {
+        "fr": "Propriétés du parallélogramme",
+        "ar": "خصائص متوازي الأضلاع",
+        "en": "Properties of parallelograms"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l15",
+      "topicId": "math-1ac-c15",
+      "status": "pending_review",
+      "title": {
+        "fr": "Rectangle, losange et carré",
+        "ar": "المستطيل، المعين والمربع",
+        "en": "Rectangle, rhombus, and square"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l16",
+      "topicId": "math-1ac-c16",
+      "status": "pending_review",
+      "title": {
+        "fr": "Résolution d'équations du premier degré",
+        "ar": "حل معادلات من الدرجة الأولى",
+        "en": "Solving first-degree equations"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l17",
+      "topicId": "math-1ac-c17",
+      "status": "pending_review",
+      "title": {
+        "fr": "Angles alternes-internes et correspondants",
+        "ar": "الزوايا المتبادلة داخليا والمتناظرة",
+        "en": "Alternate interior and corresponding angles"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l18",
+      "topicId": "math-1ac-c18",
+      "status": "pending_review",
+      "title": {
+        "fr": "Propriétés du cercle",
+        "ar": "خصائص الدائرة",
+        "en": "Properties of the circle"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l19",
+      "topicId": "math-1ac-c19",
+      "status": "pending_review",
+      "title": {
+        "fr": "Coordonnées dans un repère",
+        "ar": "الإحداثيات في معلم",
+        "en": "Coordinates in a plane"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l20",
+      "topicId": "math-1ac-c20",
+      "status": "pending_review",
+      "title": {
+        "fr": "Tableaux et graphiques de proportionnalité",
+        "ar": "جداول ومبيانات التناسبية",
+        "en": "Proportionality tables and graphs"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l21",
+      "topicId": "math-1ac-c21",
+      "status": "pending_review",
+      "title": {
+        "fr": "Collecte et organisation des données",
+        "ar": "جمع وتنظيم البيانات",
+        "en": "Data collection and organization"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l22",
+      "topicId": "math-1ac-c22",
+      "status": "pending_review",
+      "title": {
+        "fr": "Aires et volumes des solides",
+        "ar": "مساحات وحجوم المجسمات",
+        "en": "Areas and volumes of solids"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    },
+    {
+      "id": "math-1ac-l23",
+      "topicId": "math-1ac-c23",
+      "status": "pending_review",
+      "title": {
+        "fr": "Formules de calcul",
+        "ar": "صيغ الحساب",
+        "en": "Calculation formulas"
+      },
+      "content": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "backgroundImage": ""
+    }
   ],
-  "exercises": [],
-  "summaries": []
+  "exercises": [
+    {
+      "id": "e-1763836749022",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Vocabulaire des opérations",
+        "ar": "مصطلحات العمليات الحسابية",
+        "en": "Vocabulary of Operations"
+      },
+      "content": {
+        "fr": "Complétez le tableau suivant avec les mots corrects : Somme, Soustraction, Facteurs, Quotient.",
+        "ar": "أكمل الجدول التالي بالكلمات الصحيحة: المجموع، الطرح، العوامل، الخارج.",
+        "en": "Complete the following table with the correct words: Sum, Subtraction, Factors, Quotient."
+      },
+      "solution": {
+        "fr": "Voici le tableau complété :\n\n| Opération      | Noms des nombres          | Résultat  |\n|----------------|---------------------------|-----------|\n| Addition       | Les termes                | La somme  |\n| Soustraction   | Les termes                | La différence |\n| Multiplication | Les facteurs              | Le produit|\n| Division       | Le dividende, le diviseur | Le quotient, le reste |",
+        "ar": "إليكم الجدول بعد ملئه:\n\n| العملية | أسماء الأعداد | النتيجة |\n|---|---|---|\n| الجمع | الحدان | المجموع |\n| الطرح | الحدان | الفرق |\n| الضرب | العوامل | الجداء |\n| القسمة | المقسوم، المقسوم عليه | الخارج، الباقي |",
+        "en": "Here is the completed table:\n\n| Operation      | Names of the numbers      | Result    |\n|----------------|---------------------------|-----------|\n| Addition       | The terms                 | The sum   |\n| Subtraction    | The terms                 | The difference |\n| Multiplication | The factors               | The product |\n| Division       | The dividend, the divisor | The quotient, the remainder |"
+      }
+    },
+    {
+      "id": "e-1763836749024",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Problème d'addition et de soustraction",
+        "ar": "مسألة في الجمع والطرح",
+        "en": "Addition and Subtraction Problem"
+      },
+      "content": {
+        "fr": "Ahmed achète un livre à 42,50 DH et une trousse à 15,25 DH. Il paie avec un billet de 100 DH. Combien d'argent le caissier doit-il lui rendre ?",
+        "ar": "اشترى أحمد كتابًا بـ 42.50 درهمًا ومقلمة بـ 15.25 درهمًا. دفع بورقة نقدية من فئة 100 درهم. كم يجب على الصراف أن يعيد له؟",
+        "en": "Ahmed buys a book for 42.50 DH and a pencil case for 15.25 DH. He pays with a 100 DH bill. How much money should the cashier give him back?"
+      },
+      "solution": {
+        "fr": "1.  On calcule le coût total des achats (la somme) : `42,50 + 15,25 = 57,75` DH.\n2.  On calcule l'argent à rendre (la différence) : `100 - 57,75 = 42,25` DH.\nLe caissier doit lui rendre 42,25 DH.",
+        "ar": "1. نحسب التكلفة الإجمالية للمشتريات (المجموع): `42.50 + 15.25 = 57.75` درهم.\n2. نحسب المبلغ المتبقي (الفرق): `100 - 57.75 = 42.25` درهم.\nيجب على الصراف أن يعيد له 42.25 درهم.",
+        "en": "1.  We calculate the total cost of the purchases (the sum): `42.50 + 15.25 = 57.75` DH.\n2.  We calculate the change to be given back (the difference): `100 - 57.75 = 42.25` DH.\nThe cashier should give him back 42.25 DH."
+      }
+    },
+    {
+      "id": "e-1763836749026",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Calcul d'une aire (Multiplication)",
+        "ar": "حساب مساحة (الضرب)",
+        "en": "Calculating an Area (Multiplication)"
+      },
+      "content": {
+        "fr": "Un jardin rectangulaire mesure 12,5 mètres de longueur et 7,2 mètres de largeur. Quel est le produit de ces deux nombres, qui correspond à l'aire du jardin en mètres carrés ?",
+        "ar": "حديقة مستطيلة الشكل يبلغ طولها 12.5 مترًا وعرضها 7.2 أمتار. ما هو جداء هذين العددين، والذي يمثل مساحة الحديقة بالمتر المربع؟",
+        "en": "A rectangular garden is 12.5 meters long and 7.2 meters wide. What is the product of these two numbers, which corresponds to the area of the garden in square meters?"
+      },
+      "solution": {
+        "fr": "Pour trouver l'aire, on multiplie la longueur par la largeur.\nCalcul du produit : `12,5 \\times 7,2 = 90`.\nL'aire du jardin est de 90 mètres carrés.",
+        "ar": "لإيجاد المساحة، نضرب الطول في العرض.\nحساب الجداء: `12.5 \\times 7.2 = 90`.\nمساحة الحديقة هي 90 مترًا مربعًا.",
+        "en": "To find the area, we multiply the length by the width.\nCalculating the product: `12.5 \\times 7.2 = 90`.\nThe area of the garden is 90 square meters."
+      }
+    },
+    {
+      "id": "e-1763836749027",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Division Euclidienne",
+        "ar": "القسمة الإقليدية",
+        "en": "Euclidean Division"
+      },
+      "content": {
+        "fr": "Une fleuriste a reçu 150 roses. Elle veut faire des bouquets de 12 roses chacun. Combien de bouquets peut-elle composer ? Combien de roses lui restera-t-il ?",
+        "ar": "تلقت بائعة زهور 150 وردة. تريد صنع باقات تتكون كل واحدة منها من 12 وردة. كم عدد الباقات التي يمكنها تكوينها؟ وكم وردة ستبقى لديها؟",
+        "en": "A florist received 150 roses. She wants to make bouquets of 12 roses each. How many bouquets can she make? How many roses will be left over?"
+      },
+      "solution": {
+        "fr": "On effectue la division euclidienne de 150 (dividende) par 12 (diviseur).\n`150 = (12 \\times 12) + 6`.\nLe quotient est 12 et le reste est 6.\nElle peut donc composer 12 bouquets et il lui restera 6 roses.",
+        "ar": "نقوم بالقسمة الإقليدية لـ 150 (المقسوم) على 12 (المقسوم عليه).\n`150 = (12 \\times 12) + 6`.\nالخارج هو 12 والباقي هو 6.\nإذًا، يمكنها تكوين 12 باقة وستتبقى لديها 6 وردات.",
+        "en": "We perform the Euclidean division of 150 (dividend) by 12 (divisor).\n`150 = (12 \\times 12) + 6`.\nThe quotient is 12 and the remainder is 6.\nTherefore, she can make 12 bouquets and will have 6 roses left over."
+      }
+    },
+    {
+      "id": "e-1763836749028",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Division Décimale",
+        "ar": "القسمة العشرية",
+        "en": "Decimal Division"
+      },
+      "content": {
+        "fr": "Cinq amis se partagent équitablement une facture de restaurant de 482,50 DH. Combien chaque ami doit-il payer ?",
+        "ar": "خمسة أصدقاء يتقاسمون بالتساوي فاتورة مطعم قيمتها 482.50 درهمًا. كم يجب أن يدفع كل صديق؟",
+        "en": "Five friends share a restaurant bill of 482.50 DH equally. How much must each friend pay?"
+      },
+      "solution": {
+        "fr": "On effectue la division décimale de 482,50 par 5.\n`482,50 \\div 5 = 96,50`.\nChaque ami doit payer 96,50 DH.",
+        "ar": "نقوم بالقسمة العشرية لـ 482.50 على 5.\n`482.50 \\div 5 = 96.50`.\nيجب على كل صديق أن يدفع 96.50 درهمًا.",
+        "en": "We perform the decimal division of 482.50 by 5.\n`482.50 \\div 5 = 96.50`.\nEach friend must pay 96.50 DH."
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "id": "s-act-1763836749024",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Bilan des activités",
+        "ar": "حصيلة الأنشطة",
+        "en": "Activities Recap"
+      },
+      "content": {
+        "fr": "Dans cette leçon, nous avons appris les quatre opérations de base et leur vocabulaire spécifique :\n- **Addition** : L'opération qui combine des **termes** pour obtenir une **somme**.\n- **Soustraction** : L'opération qui trouve la **différence** entre deux **termes**.\n- **Multiplication** : L'opération qui combine des **facteurs** pour obtenir un **produit**.\n- **Division** : L'opération qui partage un **dividende** par un **diviseur** pour trouver un **quotient** et un **reste**. Nous avons distingué la division **euclidienne** (pour les entiers) de la division **décimale**.",
+        "ar": "في هذا الدرس، تعلمنا العمليات الأساسية الأربع ومصطلحاتها الخاصة:\n- **الجمع**: العملية التي تجمع **الحدود** للحصول على **مجموع**.\n- **الطرح**: العملية التي تجد **الفرق** بين **حدين**.\n- **الضرب**: العملية التي تجمع **العوامل** للحصول على **جداء**.\n- **القسمة**: العملية التي تقسم **المقسوم** على **المقسوم عليه** لإيجاد **الخارج** و**الباقي**. لقد ميزنا بين القسمة **الإقليدية** (للأعداد الصحيحة) والقسمة **العشرية**.",
+        "en": "In this lesson, we learned the four basic operations and their specific vocabulary:\n- **Addition**: The operation that combines **terms** to get a **sum**.\n- **Subtraction**: The operation that finds the **difference** between two **terms**.\n- **Multiplication**: The operation that combines **factors** to get a **product**.\n- **Division**: The operation that divides a **dividend** by a **divisor** to find a **quotient** and a **remainder**. We distinguished between **Euclidean** division (for integers) and **decimal** division."
+      }
+    },
+    {
+      "id": "s-syn-1763836749024",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Schéma de synthèse",
+        "ar": "خطاطة تركيبية",
+        "en": "Summary Diagram"
+      },
+      "content": {
+        "fr": "**Les 4 Opérations sur les Nombres**\n\n*   **Addition**\n    *   Nombres : `termes`\n    *   Résultat → `somme`\n\n*   **Soustraction**\n    *   Nombres : `termes`\n    *   Résultat → `différence`\n\n*   **Multiplication**\n    *   Nombres : `facteurs`\n    *   Résultat → `produit`\n\n*   **Division**\n    *   Nombres : `dividende`, `diviseur`\n    *   Résultat → `quotient`, `reste`\n    *   Types :\n        *   **Euclidienne** : Dividende = (Diviseur × Quotient) + Reste\n        *   **Décimale** : Le quotient peut être un nombre décimal.",
+        "ar": "**العمليات الأربع على الأعداد**\n\n*   **الجمع**\n    *   الأعداد: `الحدود`\n    *   النتيجة ← `المجموع`\n\n*   **الطرح**\n    *   الأعداد: `الحدود`\n    *   النتيجة ← `الفرق`\n\n*   **الضرب**\n    *   الأعداد: `العوامل`\n    *   النتيجة ← `الجداء`\n\n*   **القسمة**\n    *   الأعداد: `المقسوم`، `المقسوم عليه`\n    *   النتيجة ← `الخارج`، `الباقي`\n    *   الأنواع:\n        *   **الإقليدية**: المقسوم = (المقسوم عليه × الخارج) + الباقي\n        *   **العشرية**: يمكن أن يكون الخارج عددًا عشريًا.",
+        "en": "**The 4 Operations on Numbers**\n\n*   **Addition**\n    *   Numbers: `terms`\n    *   Result → `sum`\n\n*   **Subtraction**\n    *   Numbers: `terms`\n    *   Result → `difference`\n\n*   **Multiplication**\n    *   Numbers: `factors`\n    *   Result → `product`\n\n*   **Division**\n    *   Numbers: `dividend`, `divisor`\n    *   Result → `quotient`, `remainder`\n    *   Types:\n        *   **Euclidean**: Dividend = (Divisor × Quotient) + Remainder\n        *   **Decimal**: The quotient can be a decimal number."
+      }
+    }
+  ]
 }

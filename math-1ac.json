@@ -202,12 +202,12 @@
         "en": "Operations on integers and decimals"
       },
       "content": {
-        "fr": "### Opérations sur les nombres entiers et décimaux\n\n#### I. L'addition\n\n*   **Définition :** L'addition est une opération qui permet de calculer la **somme** de plusieurs nombres. Les nombres que l'on additionne sont appelés les **termes**.\n*   **Exemple :** Calculons la somme de 12,5 et 7,34.\n    `12,5 + 7,34 = 19,84`\n    Les termes sont 12,5 et 7,34. La somme est 19,84.\n*   **Méthode :** Pour poser une addition, on aligne les virgules (et donc les chiffres de même rang) les unes sous les autres.\n\n![Une calculatrice ancienne et un cahier d'écolier avec des additions posées à la main](img_une_calculatrice_ancienne_et_un_cahier_d_colier_av_1763837125390.png)\n\n#### II. La soustraction\n\n*   **Définition :** La soustraction est une opération qui permet de calculer la **différence** entre deux nombres. Les nombres que l'on soustrait sont aussi appelés les **termes**.\n*   **Exemple :** Calculons la différence entre 25,8 et 9,3.\n    `25,8 - 9,3 = 16,5`\n    Les termes sont 25,8 et 9,3. La différence est 16,5.\n*   **Méthode :** Pour poser une soustraction, on aligne les virgules des deux termes.\n\n#### III. La multiplication\n\n*   **Définition :** La multiplication est une opération qui permet de calculer le **produit** de plusieurs nombres. Les nombres que l'on multiplie sont appelés les **facteurs**.\n*   **Exemple :** Calculons le produit de 4,2 par 3,5.\n    `4,2 \\times 3,5 = 14,70`\n    Les facteurs sont 4,2 et 3,5. Le produit est 14,70.\n*   **Méthode :** On effectue la multiplication sans tenir compte des virgules. Ensuite, on place la virgule dans le produit final en comptant le nombre total de chiffres après la virgule dans les facteurs.\n\n#### IV. La division\n\n*   **Définition :** La division permet de partager une quantité en parts égales. Il existe deux types de division.\n\n    1.  **La division euclidienne (pour les nombres entiers) :**\n        Effectuer la division euclidienne d'un nombre entier (le **dividende**) par un autre nombre entier non nul (le **diviseur**), c'est trouver deux nombres entiers, le **quotient** et le **reste**.\n        La relation est : **Dividende = (Diviseur \\times Quotient) + Reste**, avec **Reste < Diviseur**.\n        *   **Exemple :** Division euclidienne de 50 par 8.\n            `50 = (8 \\times 6) + 2`.\n            Le quotient est 6 et le reste est 2.\n\n    2.  **La division décimale :**\n        Elle permet d'obtenir un quotient qui n'est pas forcément un nombre entier.\n        *   **Exemple :** Divisons 22,5 par 5.\n            `22,5 \\div 5 = 4,5`.\n            Le dividende est 22,5, le diviseur est 5 et le quotient est 4,5. Le reste est 0.\n\n#### Récapitulatif du vocabulaire\n\n| Opération      | Noms des nombres             | Résultat             |\n|----------------|------------------------------|----------------------|\n| Addition       | Les termes                   | La somme             |\n| Soustraction   | Les termes                   | La différence        |\n| Multiplication | Les facteurs                 | Le produit           |\n| Division       | Le dividende, le diviseur    | Le quotient, le reste|",
-        "ar": "### العمليات على الأعداد الصحيحة والعشرية\n\n#### أولاً: الجمع\n\n*   **تعريف:** الجمع هو عملية تسمح بحساب **مجموع** عدة أعداد. الأعداد التي نجمعها تسمى **الحدود**.\n*   **مثال:** لنحسب مجموع 12,5 و 7,34.\n    `12,5 + 7,34 = 19,84`\n    الحدان هما 12,5 و 7,34. المجموع هو 19,84.\n*   **الطريقة:** لوضع عملية الجمع عمودياً، نقوم بمحاذاة الفواصل (وبالتالي الأرقام من نفس الرتبة) تحت بعضها البعض.\n\n[IMAGE: آلة حاسبة قديمة ودفتر تلميذ مع عمليات جمع موضوعة يدوياً]\n\n#### ثانياً: الطرح\n\n*   **تعريف:** الطرح هو عملية تسمح بحساب **الفرق** بين عددين. الأعداد التي نطرحها تسمى أيضًا **الحدود**.\n*   **مثال:** لنحسب الفرق بين 25,8 و 9,3.\n    `25,8 - 9,3 = 16,5`\n    الحدان هما 25,8 و 9,3. الفرق هو 16,5.\n*   **الطريقة:** لوضع عملية الطرح عمودياً، نقوم بمحاذاة فواصل العددين.\n\n#### ثالثاً: الضرب\n\n*   **تعريف:** الضرب هو عملية تسمح بحساب **جداء** عدة أعداد. الأعداد التي نضربها تسمى **العوامل**.\n*   **مثال:** لنحسب جداء 4,2 في 3,5.\n    `4,2 \\times 3,5 = 14,70`\n    العاملان هما 4,2 و 3,5. الجداء هو 14,70.\n*   **الطريقة:** ننجز عملية الضرب دون مراعاة الفواصل. بعد ذلك، نضع الفاصلة في الجداء النهائي عن طريق حساب العدد الإجمالي للأرقام بعد الفاصلة في العوامل.\n\n#### رابعاً: القسمة\n\n*   **تعريف:** القسمة تمكن من تقسيم كمية إلى أجزاء متساوية. هناك نوعان من القسمة.\n\n    1.  **القسمة الإقليدية (للأعداد الصحيحة):**\n        إجراء القسمة الإقليدية لعدد صحيح (**المقسوم**) على عدد صحيح آخر غير منعدم (**المقسوم عليه**) هو إيجاد عددين صحيحين، **الخارج** و **الباقي**.\n        العلاقة هي: **المقسوم = (المقسوم عليه \\times الخارج) + الباقي**، مع **الباقي أصغر من المقسوم عليه**.\n        *   **مثال:** القسمة الإقليدية للعدد 50 على 8.\n            `50 = (8 \\times 6) + 2`.\n            الخارج هو 6 والباقي هو 2.\n\n    2.  **القسمة العشرية:**\n        تسمح بالحصول على خارج ليس بالضرورة عددًا صحيحًا.\n        *   **مثال:** لنقسم 22,5 على 5.\n            `22,5 \\div 5 = 4,5`.\n            المقسوم هو 22,5، المقسوم عليه هو 5 والخارج هو 4,5. الباقي هو 0.\n\n#### ملخص المصطلحات\n\n| العملية | أسماء الأعداد | النتيجة |\n|---|---|---|\n| الجمع | الحدود | المجموع |\n| الطرح | الحدود | الفرق |\n| الضرب | العوامل | الجداء |\n| القسمة | المقسوم، المقسوم عليه | الخارج، الباقي |",
-        "en": "### Operations on whole and decimal numbers\n\n#### I. Addition\n\n*   **Definition:** Addition is an operation used to calculate the **sum** of several numbers. The numbers being added are called the **terms**.\n*   **Example:** Let's calculate the sum of 12.5 and 7.34.\n    `12.5 + 7.34 = 19.84`\n    The terms are 12.5 and 7.34. The sum is 19.84.\n*   **Method:** To set up an addition vertically, you align the decimal points (and therefore the digits of the same place value) under each other.\n\n[IMAGE: An old calculator and a student's notebook with additions written out by hand]\n\n#### II. Subtraction\n\n*   **Definition:** Subtraction is an operation used to calculate the **difference** between two numbers. The numbers being subtracted are also called the **terms**.\n*   **Example:** Let's calculate the difference between 25.8 and 9.3.\n    `25.8 - 9.3 = 16.5`\n    The terms are 25.8 and 9.3. The difference is 16.5.\n*   **Method:** To set up a subtraction vertically, you align the decimal points of the two terms.\n\n#### III. Multiplication\n\n*   **Definition:** Multiplication is an operation used to calculate the **product** of several numbers. The numbers being multiplied are called the **factors**.\n*   **Example:** Let's calculate the product of 4.2 by 3.5.\n    `4.2 \\times 3.5 = 14.70`\n    The factors are 4.2 and 3.5. The product is 14.70.\n*   **Method:** You perform the multiplication without considering the decimal points. Then, you place the decimal point in the final product by counting the total number of digits after the decimal point in the factors.\n\n#### IV. Division\n\n*   **Definition:** Division is used to share a quantity into equal parts. There are two types of division.\n\n    1.  **Euclidean division (for whole numbers):**\n        To perform the Euclidean division of an integer (the **dividend**) by another non-zero integer (the **divisor**) is to find two integers, the **quotient** and the **remainder**.\n        The relationship is: **Dividend = (Divisor \\times Quotient) + Remainder**, with **Remainder < Divisor**.\n        *   **Example:** Euclidean division of 50 by 8.\n            `50 = (8 \\times 6) + 2`.\n            The quotient is 6 and the remainder is 2.\n\n    2.  **Decimal division:**\n        This allows for obtaining a quotient that is not necessarily a whole number.\n        *   **Example:** Let's divide 22.5 by 5.\n            `22.5 \\div 5 = 4.5`.\n            The dividend is 22.5, the divisor is 5, and the quotient is 4.5. The remainder is 0.\n\n#### Vocabulary Summary\n\n| Operation      | Names of numbers       | Result               |\n|----------------|------------------------|----------------------|\n| Addition       | Terms                  | Sum                  |\n| Subtraction    | Terms                  | Difference           |\n| Multiplication | Factors                | Product              |\n| Division       | Dividend, Divisor      | Quotient, Remainder  |"
+        "fr": "### Séquence 1 : Opérations sur les nombres entiers et décimaux\n\n#### 1. L'Addition\nL'addition est l'opération qui permet de calculer la **somme** de deux ou plusieurs nombres, appelés les **termes**.\n\n**Exemple :**\nCalculons la somme de 14,5 et 8.\n`14,5 + 8 = 22,5`\nIci, 14,5 et 8 sont les termes, et 22,5 est la somme.\n\n**Propriétés :**\n- **Commutativité :** On peut changer l'ordre des termes sans changer la somme.\n  `a + b = b + a`\n  `Ex: 7 + 11 = 11 + 7 = 18`\n- **Associativité :** On peut regrouper les termes de différentes manières sans changer la somme.\n  `(a + b) + c = a + (b + c)`\n  `Ex: (5,2 + 3) + 7 = 8,2 + 7 = 15,2`\n  `5,2 + (3 + 7) = 5,2 + 10 = 15,2`\n\n#### 2. La Soustraction\nLa soustraction est l'opération qui permet de calculer la **différence** entre deux nombres, appelés les **termes**.\n\n**Exemple :**\nCalculons la différence entre 35 et 12,5.\n`35 - 12,5 = 22,5`\nIci, 35 et 12,5 sont les termes, et 22,5 est la différence.\n\n**Attention :** La soustraction n'est ni commutative ni associative.\n`10 - 4 = 6` mais `4 - 10 ≠ 6`\n\n#### 3. La Multiplication\nLa multiplication est l'opération qui permet de calculer le **produit** de deux ou plusieurs nombres, appelés les **facteurs**.\n![Une boîte d'œufs avec 4 rangées de 6 œufs, pour illustrer 4 fois 6](img_une_bo_te_d_ufs_avec_4_rang_es_de_6_ufs_pour_illus_1763857532481.png)\n\n**Exemple :**\nCalculons le produit de 7 par 3,5.\n`7 \\times 3,5 = 24,5`\nIci, 7 et 3,5 sont les facteurs, et 24,5 est le produit.\n\n**Propriétés :**\n- **Commutativité :** On peut changer l'ordre des facteurs sans changer le produit.\n  `a \\times b = b \\times a`\n  `Ex: 4 \\times 9 = 9 \\times 4 = 36`\n- **Distributivité :** La multiplication est distributive par rapport à l'addition et à la soustraction. Cela signifie qu'on peut \"distribuer\" la multiplication sur chaque terme à l'intérieur de la parenthèse.\n  `k \\times (a + b) = k \\times a + k \\times b`\n  `Ex: 5 \\times (10 + 2) = 5 \\times 10 + 5 \\times 2 = 50 + 10 = 60`\n\n#### 4. La Division\nIl existe deux types de division :\n\n**a) La Division Euclidienne :**\nElle ne s'applique qu'aux nombres entiers. Elle permet de trouver un **quotient** entier et un **reste**.\n**Formule :** Dividende = (Diviseur `\\times` Quotient) + Reste, avec Reste < Diviseur.\n\n**Exemple :** Division euclidienne de 50 par 8.\n`50 = (8 \\times 6) + 2`\nLe quotient entier est 6, et le reste est 2 (car 2 < 8).\n\n**b) La Division Décimale :**\nElle permet de trouver la valeur exacte (si la division se termine) ou approchée du **quotient**.\n\n**Exemple :** Division décimale de 21 par 4.\n`21 \\div 4 = 5,25`\nIci, 5,25 est le quotient décimal exact.\n\n#### 5. Tableau Récapitulatif du Vocabulaire\n| Opération | Noms des termes | Nom du résultat |\n|---|---|---|\n| Addition (+) | Les termes | La somme |\n| Soustraction (-) | Les termes | La différence |\n| Multiplication (×) | Les facteurs | Le produit |\n| Division (÷) | Le dividende et le diviseur | Le quotient |",
+        "ar": "### المحور 1: العمليات على الأعداد الصحيحة والعشرية\n\n#### 1. الجمع\nالجمع هو العملية التي تمكن من حساب **مجموع** عددين أو أكثر، تسمى **الحدود**.\n\n**مثال:**\nلنحسب مجموع 14,5 و 8.\n`14,5 + 8 = 22,5`\nهنا، 14,5 و 8 هما الحدان، و 22,5 هو المجموع.\n\n**الخاصيات:**\n- **التبادلية:** يمكننا تغيير ترتيب الحدود دون تغيير المجموع.\n  `a + b = b + a`\n  `مثال: 7 + 11 = 11 + 7 = 18`\n- **التجميعية:** يمكننا تجميع الحدود بطرق مختلفة دون تغيير المجموع.\n  `(a + b) + c = a + (b + c)`\n  `مثال: (5,2 + 3) + 7 = 8,2 + 7 = 15,2`\n  `5,2 + (3 + 7) = 5,2 + 10 = 15,2`\n\n#### 2. الطرح\nالطرح هو العملية التي تمكن من حساب **الفرق** بين عددين، يطلق عليهما **الحدان**.\n\n**مثال:**\nلنحسب الفرق بين 35 و 12,5.\n`35 - 12,5 = 22,5`\nهنا، 35 و 12,5 هما الحدان، و 22,5 هو الفرق.\n\n**انتباه:** عملية الطرح ليست تبادلية ولا تجميعية.\n`10 - 4 = 6` ولكن `4 - 10 ≠ 6`\n\n#### 3. الضرب\nالضرب هو العملية التي تمكن من حساب **الجداء** لعددين أو أكثر، تسمى **العوامل**.\n%%IMAGE_1%%\n\n**مثال:**\nلنحسب جداء 7 في 3,5.\n`7 \\times 3,5 = 24,5`\nهنا، 7 و 3,5 هما العاملان، و 24,5 هو الجداء.\n\n**الخاصيات:**\n- **التبادلية:** يمكننا تغيير ترتيب العوامل دون تغيير الجداء.\n  `a \\times b = b \\times a`\n  `مثال: 4 \\times 9 = 9 \\times 4 = 36`\n- **التوزيعية:** الضرب توزيعي على الجمع والطرح. هذا يعني أنه يمكننا \"توزيع\" الضرب على كل حد داخل الأقواس.\n  `k \\times (a + b) = k \\times a + k \\times b`\n  `مثال: 5 \\times (10 + 2) = 5 \\times 10 + 5 \\times 2 = 50 + 10 = 60`\n\n#### 4. القسمة\nهناك نوعان من القسمة:\n\n**أ) القسمة الإقليدية:**\nتطبق فقط على الأعداد الصحيحة. تمكن من إيجاد **خارج** صحيح و **باقي**.\n**المتساوية:** المقسوم = (المقسوم عليه `\\times` الخارج) + الباقي، مع الباقي < المقسوم عليه.\n\n**مثال:** القسمة الإقليدية لـ 50 على 8.\n`50 = (8 \\times 6) + 2`\nالخارج الصحيح هو 6، والباقي هو 2 (لأن 2 < 8).\n\n**ب) القسمة العشرية:**\nتمكن من إيجاد القيمة المضبوطة (إذا كانت القسمة تنتهي) أو المقربة لـ**الخارج**.\n\n**مثال:** القسمة العشرية لـ 21 على 4.\n`21 \\div 4 = 5,25`\nهنا، 5,25 هو الخارج العشري المضبوط.\n\n#### 5. جدول ملخص للمصطلحات\n| العملية | أسماء الأعداد | اسم النتيجة |\n|---|---|---|\n| الجمع (+) | الحدان | المجموع |\n| الطرح (-) | الحدان | الفرق |\n| الضرب (×) | العاملان | الجداء |\n| القسمة (÷) | المقسوم والمقسوم عليه | الخارج |",
+        "en": "### Sequence 1: Operations on integers and decimal numbers\n\n#### 1. Addition\nAddition is the operation used to calculate the **sum** of two or more numbers, called **terms** (or addends).\n\n**Example:**\nLet's calculate the sum of 14.5 and 8.\n`14.5 + 8 = 22.5`\nHere, 14.5 and 8 are the terms, and 22.5 is the sum.\n\n**Properties:**\n- **Commutativity:** The order of the terms can be changed without changing the sum.\n  `a + b = b + a`\n  `Ex: 7 + 11 = 11 + 7 = 18`\n- **Associativity:** The terms can be grouped in different ways without changing the sum.\n  `(a + b) + c = a + (b + c)`\n  `Ex: (5.2 + 3) + 7 = 8.2 + 7 = 15.2`\n  `5.2 + (3 + 7) = 5.2 + 10 = 15.2`\n\n#### 2. Subtraction\nSubtraction is the operation used to calculate the **difference** between two numbers, called **terms**.\n\n**Example:**\nLet's calculate the difference between 35 and 12.5.\n`35 - 12.5 = 22.5`\nHere, 35 and 12.5 are the terms, and 22.5 is the difference.\n\n**Note:** Subtraction is neither commutative nor associative.\n`10 - 4 = 6` but `4 - 10 ≠ 6`\n\n#### 3. Multiplication\nMultiplication is the operation used to calculate the **product** of two or more numbers, called **factors**.\n%%IMAGE_1%%\n\n**Example:**\nLet's calculate the product of 7 by 3.5.\n`7 \\times 3.5 = 24.5`\nHere, 7 and 3.5 are the factors, and 24.5 is the product.\n\n**Properties:**\n- **Commutativity:** The order of the factors can be changed without changing the product.\n  `a \\times b = b \\times a`\n  `Ex: 4 \\times 9 = 9 \\times 4 = 36`\n- **Distributivity:** Multiplication is distributive over addition and subtraction. This means you can \"distribute\" the multiplication to each term inside the parentheses.\n  `k \\times (a + b) = k \\times a + k \\times b`\n  `Ex: 5 \\times (10 + 2) = 5 \\times 10 + 5 \\times 2 = 50 + 10 = 60`\n\n#### 4. Division\nThere are two types of division:\n\n**a) Euclidean Division:**\nThis applies only to integers. It is used to find an integer **quotient** and a **remainder**.\n**Formula:** Dividend = (Divisor `\\times` Quotient) + Remainder, with Remainder < Divisor.\n\n**Example:** Euclidean division of 50 by 8.\n`50 = (8 \\times 6) + 2`\nThe integer quotient is 6, and the remainder is 2 (because 2 < 8).\n\n**b) Decimal Division:**\nThis is used to find the exact (if the division terminates) or approximate value of the **quotient**.\n\n**Example:** Decimal division of 21 by 4.\n`21 \\div 4 = 5.25`\nHere, 5.25 is the exact decimal quotient.\n\n#### 5. Vocabulary Summary Table\n| Operation | Names of the terms | Name of the result |\n|---|---|---|\n| Addition (+) | The terms | The sum |\n| Subtraction (-) | The terms | The difference |\n| Multiplication (×) | The factors | The product |\n| Division (÷) | The dividend and the divisor | The quotient |"
       },
-      "backgroundImage": "img_background_1763837145855.png",
-      "backgroundImageSuggestion": "Abstract background with mathematical symbols like plus, minus, multiplication, and division signs",
+      "backgroundImage": "img_background_1763857558871.png",
+      "backgroundImageSuggestion": "Abstract background with light blue and white geometric shapes and faint mathematical symbols",
       "youtubeVideoId": ""
     },
     {
@@ -565,114 +565,114 @@
   ],
   "exercises": [
     {
-      "id": "e-1763836749022",
+      "id": "e-1763855714011",
       "status": "verified",
       "topicId": "math-1ac-c1",
       "lessonId": "math-1ac-l1",
       "title": {
-        "fr": "Vocabulaire des opérations",
+        "fr": "Propriétés de l'Addition",
+        "ar": "خصائص عملية الجمع",
+        "en": "Properties of Addition"
+      },
+      "content": {
+        "fr": "Calcule l'expression suivante de deux manières différentes en utilisant les propriétés de l'addition pour faciliter le calcul : `17,5 + 9 + 2,5`.",
+        "ar": "احسب التعبير التالي بطريقتين مختلفتين، مستعملاً خصائص الجمع لتسهيل الحساب: `17,5 + 9 + 2,5`.",
+        "en": "Calculate the following expression in two different ways, using the properties of addition to make the calculation easier: `17.5 + 9 + 2.5`."
+      },
+      "solution": {
+        "fr": "**Méthode 1 :** En regroupant les termes les plus simples à additionner en premier (associativité et commutativité).\n`17,5 + 9 + 2,5 = (17,5 + 2,5) + 9`\n`= 20 + 9`\n`= 29`\n\n**Méthode 2 :** En calculant dans l'ordre donné.\n`17,5 + 9 + 2,5 = (17,5 + 9) + 2,5`\n`= 26,5 + 2,5`\n`= 29`\nLes deux méthodes donnent le même résultat, mais la première est plus rapide.",
+        "ar": "**الطريقة الأولى:** تجميع الحدود الأسهل للجمع أولاً (خاصيتا التجميعية والتبديلية).\n`17,5 + 9 + 2,5 = (17,5 + 2,5) + 9`\n`= 20 + 9`\n`= 29`\n\n**الطريقة الثانية:** الحساب حسب الترتيب المعطى.\n`17,5 + 9 + 2,5 = (17,5 + 9) + 2,5`\n`= 26,5 + 2,5`\n`= 29`\nالطريقتان تعطيان نفس النتيجة، لكن الطريقة الأولى أسرع.",
+        "en": "**Method 1:** By grouping the easiest terms to add first (associativity and commutativity).\n`17.5 + 9 + 2.5 = (17.5 + 2.5) + 9`\n`= 20 + 9`\n`= 29`\n\n**Method 2:** By calculating in the given order.\n`17.5 + 9 + 2.5 = (17.5 + 9) + 2.5`\n`= 26.5 + 2.5`\n`= 29`\nBoth methods give the same result, but the first one is faster."
+      }
+    },
+    {
+      "id": "e-1763855714016",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Problème de Soustraction",
+        "ar": "مسألة في الطرح",
+        "en": "Subtraction Problem"
+      },
+      "content": {
+        "fr": "Fatima avait 250 dirhams. Elle a acheté un livre à 65,50 dirhams et un jeu à 110 dirhams. Combien d'argent lui reste-t-il ?",
+        "ar": "كان لدى فاطمة 250 درهماً. اشترت كتابًا بـ 65,50 درهمًا ولعبة بـ 110 دراهم. كم من المال تبقى لديها؟",
+        "en": "Fatima had 250 dirhams. She bought a book for 65.50 dirhams and a game for 110 dirhams. How much money does she have left?"
+      },
+      "solution": {
+        "fr": "1. On calcule le total des dépenses :\n`65,50 + 110 = 175,50` dirhams.\n\n2. On soustrait le total des dépenses du montant initial :\n`250 - 175,50 = 74,50` dirhams.\n\nIl reste 74,50 dirhams à Fatima.",
+        "ar": "1. نحسب مجموع المصاريف:\n`65,50 + 110 = 175,50` درهماً.\n\n2. نطرح مجموع المصاريف من المبلغ الأولي:\n`250 - 175,50 = 74,50` درهماً.\n\nتبقى لدى فاطمة 74,50 درهماً.",
+        "en": "1. We calculate the total expenses:\n`65.50 + 110 = 175.50` dirhams.\n\n2. We subtract the total expenses from the initial amount:\n`250 - 175.50 = 74.50` dirhams.\n\nFatima has 74.50 dirhams left."
+      }
+    },
+    {
+      "id": "e-1763855714018",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "La Distributivité",
+        "ar": "خاصية التوزيعية",
+        "en": "The Distributive Property"
+      },
+      "content": {
+        "fr": "Calcule l'expression `7 \\times (20 - 2)` de deux manières différentes :\n1. En calculant d'abord la parenthèse.\n2. En utilisant la distributivité de la multiplication par rapport à la soustraction.",
+        "ar": "احسب التعبير `7 \\times (20 - 2)` بطريقتين مختلفتين:\n1. عن طريق حساب ما بداخل القوسين أولاً.\n2. باستعمال خاصية توزيعية الضرب على الطرح.",
+        "en": "Calculate the expression `7 \\times (20 - 2)` in two different ways:\n1. By calculating the parentheses first.\n2. By using the distributive property of multiplication over subtraction."
+      },
+      "solution": {
+        "fr": "**Méthode 1 :** Priorité à la parenthèse.\n`7 \\times (20 - 2) = 7 \\times 18`\n`= 126`\n\n**Méthode 2 :** En utilisant la distributivité.\n`7 \\times (20 - 2) = (7 \\times 20) - (7 \\times 2)`\n`= 140 - 14`\n`= 126`",
+        "ar": "**الطريقة الأولى:** الأسبقية لما بداخل القوسين.\n`7 \\times (20 - 2) = 7 \\times 18`\n`= 126`\n\n**الطريقة الثانية:** باستعمال خاصية التوزيعية.\n`7 \\times (20 - 2) = (7 \\times 20) - (7 \\times 2)`\n`= 140 - 14`\n`= 126`",
+        "en": "**Method 1:** Priority to the parentheses.\n`7 \\times (20 - 2) = 7 \\times 18`\n`= 126`\n\n**Method 2:** Using the distributive property.\n`7 \\times (20 - 2) = (7 \\times 20) - (7 \\times 2)`\n`= 140 - 14`\n`= 126`"
+      }
+    },
+    {
+      "id": "e-1763855714019",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Division Euclidienne et Décimale",
+        "ar": "القسمة الإقليدية والقسمة العشرية",
+        "en": "Euclidean and Decimal Division"
+      },
+      "content": {
+        "fr": "Pour le nombre 75 divisé par 4 :\n1. Pose et effectue la division euclidienne. Donne le quotient entier et le reste.\n2. Continue la division pour trouver le quotient décimal exact.",
+        "ar": "بالنسبة للعدد 75 مقسومًا على 4 :\n1. ضع وأنجز القسمة الإقليدية. أعط خارج القسمة الصحيح والباقي.\n2. أكمل القسمة لإيجاد خارج القسمة العشري المضبوط.",
+        "en": "For the number 75 divided by 4:\n1. Set up and perform the Euclidean division. State the integer quotient and the remainder.\n2. Continue the division to find the exact decimal quotient."
+      },
+      "solution": {
+        "fr": "1. **Division Euclidienne :**\n`75 = (4 \\times 18) + 3`\nLe quotient entier est 18 et le reste est 3.\n\n2. **Division Décimale :**\nEn continuant le calcul, on trouve :\n`75 \\div 4 = 18,75`\nLe quotient décimal est 18,75.",
+        "ar": "1. **القسمة الإقليدية:**\n`75 = (4 \\times 18) + 3`\nخارج القسمة الصحيح هو 18 والباقي هو 3.\n\n2. **القسمة العشرية:**\nبمتابعة الحساب، نجد:\n`75 \\div 4 = 18,75`\nخارج القسمة العشري هو 18,75.",
+        "en": "1. **Euclidean Division:**\n`75 = (4 \\times 18) + 3`\nThe integer quotient is 18 and the remainder is 3.\n\n2. **Decimal Division:**\nBy continuing the calculation, we find:\n`75 \\div 4 = 18.75`\nThe decimal quotient is 18.75."
+      }
+    },
+    {
+      "id": "e-1763855714020",
+      "status": "verified",
+      "topicId": "math-1ac-c1",
+      "lessonId": "math-1ac-l1",
+      "title": {
+        "fr": "Vocabulaire des Opérations",
         "ar": "مصطلحات العمليات الحسابية",
         "en": "Vocabulary of Operations"
       },
       "content": {
-        "fr": "Complétez le tableau suivant avec les mots corrects : Somme, Soustraction, Facteurs, Quotient.",
-        "ar": "أكمل الجدول التالي بالكلمات الصحيحة: المجموع، الطرح، العوامل، الخارج.",
-        "en": "Complete the following table with the correct words: Sum, Subtraction, Factors, Quotient."
+        "fr": "Complète le tableau suivant avec les mots corrects (Somme, Différence, Produit, Quotient).\n| Opération | Résultat |\n|---|---|\n| `34 + 16 = 50` | 50 est la ___ |\n| `12,5 \\times 4 = 50` | 50 est le ___ |\n| `100 - 50 = 50` | 50 est la ___ |\n| `200 \\div 4 = 50` | 50 est le ___ |",
+        "ar": "أكمل الجدول التالي بالكلمات الصحيحة (المجموع، الفرق، الجداء، الخارج).\n| العملية | النتيجة |\n|---|---|\n| `34 + 16 = 50` | 50 هو ___ |\n| `12,5 \\times 4 = 50` | 50 هو ___ |\n| `100 - 50 = 50` | 50 هو ___ |\n| `200 \\div 4 = 50` | 50 هو ___ |",
+        "en": "Complete the following table with the correct words (Sum, Difference, Product, Quotient).\n| Operation | Result |\n|---|---|\n| `34 + 16 = 50` | 50 is the ___ |\n| `12.5 \\times 4 = 50` | 50 is the ___ |\n| `100 - 50 = 50` | 50 is the ___ |\n| `200 \\div 4 = 50` | 50 is the ___ |"
       },
       "solution": {
-        "fr": "Voici le tableau complété :\n\n| Opération      | Noms des nombres          | Résultat  |\n|----------------|---------------------------|-----------|\n| Addition       | Les termes                | La somme  |\n| Soustraction   | Les termes                | La différence |\n| Multiplication | Les facteurs              | Le produit|\n| Division       | Le dividende, le diviseur | Le quotient, le reste |",
-        "ar": "إليكم الجدول بعد ملئه:\n\n| العملية | أسماء الأعداد | النتيجة |\n|---|---|---|\n| الجمع | الحدان | المجموع |\n| الطرح | الحدان | الفرق |\n| الضرب | العوامل | الجداء |\n| القسمة | المقسوم، المقسوم عليه | الخارج، الباقي |",
-        "en": "Here is the completed table:\n\n| Operation      | Names of the numbers      | Result    |\n|----------------|---------------------------|-----------|\n| Addition       | The terms                 | The sum   |\n| Subtraction    | The terms                 | The difference |\n| Multiplication | The factors               | The product |\n| Division       | The dividend, the divisor | The quotient, the remainder |"
-      }
-    },
-    {
-      "id": "e-1763836749024",
-      "status": "verified",
-      "topicId": "math-1ac-c1",
-      "lessonId": "math-1ac-l1",
-      "title": {
-        "fr": "Problème d'addition et de soustraction",
-        "ar": "مسألة في الجمع والطرح",
-        "en": "Addition and Subtraction Problem"
-      },
-      "content": {
-        "fr": "Ahmed achète un livre à 42,50 DH et une trousse à 15,25 DH. Il paie avec un billet de 100 DH. Combien d'argent le caissier doit-il lui rendre ?",
-        "ar": "اشترى أحمد كتابًا بـ 42.50 درهمًا ومقلمة بـ 15.25 درهمًا. دفع بورقة نقدية من فئة 100 درهم. كم يجب على الصراف أن يعيد له؟",
-        "en": "Ahmed buys a book for 42.50 DH and a pencil case for 15.25 DH. He pays with a 100 DH bill. How much money should the cashier give him back?"
-      },
-      "solution": {
-        "fr": "1.  On calcule le coût total des achats (la somme) : `42,50 + 15,25 = 57,75` DH.\n2.  On calcule l'argent à rendre (la différence) : `100 - 57,75 = 42,25` DH.\nLe caissier doit lui rendre 42,25 DH.",
-        "ar": "1. نحسب التكلفة الإجمالية للمشتريات (المجموع): `42.50 + 15.25 = 57.75` درهم.\n2. نحسب المبلغ المتبقي (الفرق): `100 - 57.75 = 42.25` درهم.\nيجب على الصراف أن يعيد له 42.25 درهم.",
-        "en": "1.  We calculate the total cost of the purchases (the sum): `42.50 + 15.25 = 57.75` DH.\n2.  We calculate the change to be given back (the difference): `100 - 57.75 = 42.25` DH.\nThe cashier should give him back 42.25 DH."
-      }
-    },
-    {
-      "id": "e-1763836749026",
-      "status": "verified",
-      "topicId": "math-1ac-c1",
-      "lessonId": "math-1ac-l1",
-      "title": {
-        "fr": "Calcul d'une aire (Multiplication)",
-        "ar": "حساب مساحة (الضرب)",
-        "en": "Calculating an Area (Multiplication)"
-      },
-      "content": {
-        "fr": "Un jardin rectangulaire mesure 12,5 mètres de longueur et 7,2 mètres de largeur. Quel est le produit de ces deux nombres, qui correspond à l'aire du jardin en mètres carrés ?",
-        "ar": "حديقة مستطيلة الشكل يبلغ طولها 12.5 مترًا وعرضها 7.2 أمتار. ما هو جداء هذين العددين، والذي يمثل مساحة الحديقة بالمتر المربع؟",
-        "en": "A rectangular garden is 12.5 meters long and 7.2 meters wide. What is the product of these two numbers, which corresponds to the area of the garden in square meters?"
-      },
-      "solution": {
-        "fr": "Pour trouver l'aire, on multiplie la longueur par la largeur.\nCalcul du produit : `12,5 \\times 7,2 = 90`.\nL'aire du jardin est de 90 mètres carrés.",
-        "ar": "لإيجاد المساحة، نضرب الطول في العرض.\nحساب الجداء: `12.5 \\times 7.2 = 90`.\nمساحة الحديقة هي 90 مترًا مربعًا.",
-        "en": "To find the area, we multiply the length by the width.\nCalculating the product: `12.5 \\times 7.2 = 90`.\nThe area of the garden is 90 square meters."
-      }
-    },
-    {
-      "id": "e-1763836749027",
-      "status": "verified",
-      "topicId": "math-1ac-c1",
-      "lessonId": "math-1ac-l1",
-      "title": {
-        "fr": "Division Euclidienne",
-        "ar": "القسمة الإقليدية",
-        "en": "Euclidean Division"
-      },
-      "content": {
-        "fr": "Une fleuriste a reçu 150 roses. Elle veut faire des bouquets de 12 roses chacun. Combien de bouquets peut-elle composer ? Combien de roses lui restera-t-il ?",
-        "ar": "تلقت بائعة زهور 150 وردة. تريد صنع باقات تتكون كل واحدة منها من 12 وردة. كم عدد الباقات التي يمكنها تكوينها؟ وكم وردة ستبقى لديها؟",
-        "en": "A florist received 150 roses. She wants to make bouquets of 12 roses each. How many bouquets can she make? How many roses will be left over?"
-      },
-      "solution": {
-        "fr": "On effectue la division euclidienne de 150 (dividende) par 12 (diviseur).\n`150 = (12 \\times 12) + 6`.\nLe quotient est 12 et le reste est 6.\nElle peut donc composer 12 bouquets et il lui restera 6 roses.",
-        "ar": "نقوم بالقسمة الإقليدية لـ 150 (المقسوم) على 12 (المقسوم عليه).\n`150 = (12 \\times 12) + 6`.\nالخارج هو 12 والباقي هو 6.\nإذًا، يمكنها تكوين 12 باقة وستتبقى لديها 6 وردات.",
-        "en": "We perform the Euclidean division of 150 (dividend) by 12 (divisor).\n`150 = (12 \\times 12) + 6`.\nThe quotient is 12 and the remainder is 6.\nTherefore, she can make 12 bouquets and will have 6 roses left over."
-      }
-    },
-    {
-      "id": "e-1763836749028",
-      "status": "verified",
-      "topicId": "math-1ac-c1",
-      "lessonId": "math-1ac-l1",
-      "title": {
-        "fr": "Division Décimale",
-        "ar": "القسمة العشرية",
-        "en": "Decimal Division"
-      },
-      "content": {
-        "fr": "Cinq amis se partagent équitablement une facture de restaurant de 482,50 DH. Combien chaque ami doit-il payer ?",
-        "ar": "خمسة أصدقاء يتقاسمون بالتساوي فاتورة مطعم قيمتها 482.50 درهمًا. كم يجب أن يدفع كل صديق؟",
-        "en": "Five friends share a restaurant bill of 482.50 DH equally. How much must each friend pay?"
-      },
-      "solution": {
-        "fr": "On effectue la division décimale de 482,50 par 5.\n`482,50 \\div 5 = 96,50`.\nChaque ami doit payer 96,50 DH.",
-        "ar": "نقوم بالقسمة العشرية لـ 482.50 على 5.\n`482.50 \\div 5 = 96.50`.\nيجب على كل صديق أن يدفع 96.50 درهمًا.",
-        "en": "We perform the decimal division of 482.50 by 5.\n`482.50 \\div 5 = 96.50`.\nEach friend must pay 96.50 DH."
+        "fr": "| Opération | Résultat |\n|---|---|\n| `34 + 16 = 50` | 50 est la **Somme** |\n| `12,5 \\times 4 = 50` | 50 est le **Produit** |\n| `100 - 50 = 50` | 50 est la **Différence** |\n| `200 \\div 4 = 50` | 50 est le **Quotient** |",
+        "ar": "| العملية | النتيجة |\n|---|---|\n| `34 + 16 = 50` | 50 هو **المجموع** |\n| `12,5 \\times 4 = 50` | 50 هو **الجداء** |\n| `100 - 50 = 50` | 50 هو **الفرق** |\n| `200 \\div 4 = 50` | 50 هو **الخارج** |",
+        "en": "| Operation | Result |\n|---|---|\n| `34 + 16 = 50` | 50 is the **Sum** |\n| `12.5 \\times 4 = 50` | 50 is the **Product** |\n| `100 - 50 = 50` | 50 is the **Difference** |\n| `200 \\div 4 = 50` | 50 is the **Quotient** |"
       }
     }
   ],
   "summaries": [
     {
-      "id": "s-act-1763836749024",
+      "id": "s-act-1763855714016",
       "status": "verified",
       "topicId": "math-1ac-c1",
       "lessonId": "math-1ac-l1",
@@ -682,13 +682,13 @@
         "en": "Activities Recap"
       },
       "content": {
-        "fr": "Dans cette leçon, nous avons appris les quatre opérations de base et leur vocabulaire spécifique :\n- **Addition** : L'opération qui combine des **termes** pour obtenir une **somme**.\n- **Soustraction** : L'opération qui trouve la **différence** entre deux **termes**.\n- **Multiplication** : L'opération qui combine des **facteurs** pour obtenir un **produit**.\n- **Division** : L'opération qui partage un **dividende** par un **diviseur** pour trouver un **quotient** et un **reste**. Nous avons distingué la division **euclidienne** (pour les entiers) de la division **décimale**.",
-        "ar": "في هذا الدرس، تعلمنا العمليات الأساسية الأربع ومصطلحاتها الخاصة:\n- **الجمع**: العملية التي تجمع **الحدود** للحصول على **مجموع**.\n- **الطرح**: العملية التي تجد **الفرق** بين **حدين**.\n- **الضرب**: العملية التي تجمع **العوامل** للحصول على **جداء**.\n- **القسمة**: العملية التي تقسم **المقسوم** على **المقسوم عليه** لإيجاد **الخارج** و**الباقي**. لقد ميزنا بين القسمة **الإقليدية** (للأعداد الصحيحة) والقسمة **العشرية**.",
-        "en": "In this lesson, we learned the four basic operations and their specific vocabulary:\n- **Addition**: The operation that combines **terms** to get a **sum**.\n- **Subtraction**: The operation that finds the **difference** between two **terms**.\n- **Multiplication**: The operation that combines **factors** to get a **product**.\n- **Division**: The operation that divides a **dividend** by a **divisor** to find a **quotient** and a **remainder**. We distinguished between **Euclidean** division (for integers) and **decimal** division."
+        "fr": "Dans cette séquence, nous avons étudié les quatre opérations de base sur les nombres entiers et décimaux :\n- **L'Addition** : Nous avons appris à calculer une **somme** et découvert ses propriétés comme la **commutativité** (a + b = b + a) et l'**associativité** ((a + b) + c = a + (b + c)).\n- **La Soustraction** : Nous avons appris à calculer une **différence** et noté qu'elle n'est ni commutative ni associative.\n- **La Multiplication** : Nous avons appris à calculer un **produit** et étudié ses propriétés, notamment la **commutativité** (a \\times b = b \\times a) et la **distributivité** par rapport à l'addition et la soustraction (k \\times (a + b) = k \\times a + k \\times b).\n- **La Division** : Nous avons distingué la **division euclidienne** (pour les entiers, avec un quotient et un reste) de la **division décimale** (pour obtenir un quotient exact ou approché).",
+        "ar": "في هذا المقطع، درسنا العمليات الأربع الأساسية على الأعداد الصحيحة والعشرية:\n- **الجمع**: تعلمنا كيفية حساب **المجموع** واكتشفنا خصائصه مثل **التبادلية** (a + b = b + a) و**التجميعية** ((a + b) + c = a + (b + c)).\n- **الطرح**: تعلمنا كيفية حساب **الفرق** ولاحظنا أنه ليس تبادليًا ولا تجميعيًا.\n- **الضرب**: تعلمنا كيفية حساب **الجداء** ودرسنا خصائصه، خاصة **التبادلية** (a \\times b = b \\times a) و**التوزيعية** بالنسبة للجمع والطرح (k \\times (a + b) = k \\times a + k \\times b).\n- **القسمة**: ميزنا بين **القسمة الإقليدية** (للأعداد الصحيحة، مع خارج وباقٍ) و**القسمة العشرية** (للحصول على خارج مضبوط أو مقرب).",
+        "en": "In this sequence, we studied the four basic operations on integers and decimals:\n- **Addition**: We learned how to calculate a **sum** and discovered its properties like **commutativity** (a + b = b + a) and **associativity** ((a + b) + c = a + (b + c)).\n- **Subtraction**: We learned how to calculate a **difference** and noted that it is neither commutative nor associative.\n- **Multiplication**: We learned how to calculate a **product** and studied its properties, including **commutativity** (a \\times b = b \\times a) and **distributivity** over addition and subtraction (k \\times (a + b) = k \\times a + k \\times b).\n- **Division**: We distinguished between **Euclidean division** (for integers, with a quotient and a remainder) and **decimal division** (to obtain an exact or approximate quotient)."
       }
     },
     {
-      "id": "s-syn-1763836749024",
+      "id": "s-syn-1763855714016",
       "status": "verified",
       "topicId": "math-1ac-c1",
       "lessonId": "math-1ac-l1",
@@ -698,9 +698,9 @@
         "en": "Summary Diagram"
       },
       "content": {
-        "fr": "**Les 4 Opérations sur les Nombres**\n\n*   **Addition**\n    *   Nombres : `termes`\n    *   Résultat → `somme`\n\n*   **Soustraction**\n    *   Nombres : `termes`\n    *   Résultat → `différence`\n\n*   **Multiplication**\n    *   Nombres : `facteurs`\n    *   Résultat → `produit`\n\n*   **Division**\n    *   Nombres : `dividende`, `diviseur`\n    *   Résultat → `quotient`, `reste`\n    *   Types :\n        *   **Euclidienne** : Dividende = (Diviseur × Quotient) + Reste\n        *   **Décimale** : Le quotient peut être un nombre décimal.",
-        "ar": "**العمليات الأربع على الأعداد**\n\n*   **الجمع**\n    *   الأعداد: `الحدود`\n    *   النتيجة ← `المجموع`\n\n*   **الطرح**\n    *   الأعداد: `الحدود`\n    *   النتيجة ← `الفرق`\n\n*   **الضرب**\n    *   الأعداد: `العوامل`\n    *   النتيجة ← `الجداء`\n\n*   **القسمة**\n    *   الأعداد: `المقسوم`، `المقسوم عليه`\n    *   النتيجة ← `الخارج`، `الباقي`\n    *   الأنواع:\n        *   **الإقليدية**: المقسوم = (المقسوم عليه × الخارج) + الباقي\n        *   **العشرية**: يمكن أن يكون الخارج عددًا عشريًا.",
-        "en": "**The 4 Operations on Numbers**\n\n*   **Addition**\n    *   Numbers: `terms`\n    *   Result → `sum`\n\n*   **Subtraction**\n    *   Numbers: `terms`\n    *   Result → `difference`\n\n*   **Multiplication**\n    *   Numbers: `factors`\n    *   Result → `product`\n\n*   **Division**\n    *   Numbers: `dividend`, `divisor`\n    *   Result → `quotient`, `remainder`\n    *   Types:\n        *   **Euclidean**: Dividend = (Divisor × Quotient) + Remainder\n        *   **Decimal**: The quotient can be a decimal number."
+        "fr": "### Les Quatre Opérations et leur Vocabulaire\n\n**1. Addition (+)**\n*   **Nombres** : Les termes\n*   **Résultat** : La somme\n*   **Propriétés** : Commutative, Associative\n\n**2. Soustraction (-)**\n*   **Nombres** : Les termes\n*   **Résultat** : La différence\n*   **Propriétés** : Aucune\n\n**3. Multiplication (×)**\n*   **Nombres** : Les facteurs\n*   **Résultat** : Le produit\n*   **Propriétés** : Commutative, Associative, Distributive\n\n**4. Division (÷)**\n*   **Nombres** : Dividende et diviseur\n*   **Résultat** : Le quotient (+ reste pour la division euclidienne)\n\n### Tableau Récapitulatif\n| Opération | Noms des termes | Nom du résultat |\n|---|---|---|\n| Addition (+) | Les termes | La somme |\n| Soustraction (-) | Les termes | La différence |\n| Multiplication (×) | Les facteurs | Le produit |\n| Division (÷) | Le dividende et le diviseur | Le quotient |",
+        "ar": "### العمليات الأربع ومصطلحاتها\n\n**1. الجمع (+)**\n*   **الأعداد**: الحدان (أو الحدود)\n*   **النتيجة**: المجموع\n*   **الخصائص**: تبادلية، تجميعية\n\n**2. الطرح (-)**\n*   **الأعداد**: الحدان (أو الحدود)\n*   **النتيجة**: الفرق\n*   **الخصائص**: لا شيء\n\n**3. الضرب (×)**\n*   **الأعداد**: العاملان (أو العوامل)\n*   **النتيجة**: الجداء\n*   **الخصائص**: تبادلية، تجميعية، توزيعية\n\n**4. القسمة (÷)**\n*   **الأعداد**: المقسوم والمقسوم عليه\n*   **النتيجة**: الخارج (+ الباقي في القسمة الإقليدية)\n\n### جدول تلخيصي\n| العملية | أسماء الأعداد | اسم النتيجة |\n|---|---|---|\n| الجمع (+) | الحدان | المجموع |\n| الطرح (-) | الحدان | الفرق |\n| الضرب (×) | العاملان | الجداء |\n| القسمة (÷) | المقسوم والمقسوم عليه | الخارج |",
+        "en": "### The Four Operations and their Vocabulary\n\n**1. Addition (+)**\n*   **Numbers**: The terms\n*   **Result**: The sum\n*   **Properties**: Commutative, Associative\n\n**2. Subtraction (-)**\n*   **Numbers**: The terms\n*   **Result**: The difference\n*   **Properties**: None\n\n**3. Multiplication (×)**\n*   **Numbers**: The factors\n*   **Result**: The product\n*   **Properties**: Commutative, Associative, Distributive\n\n**4. Division (÷)**\n*   **Numbers**: Dividend and divisor\n*   **Result**: The quotient (+ remainder for Euclidean division)\n\n### Summary Table\n| Operation | Names of terms | Name of result |\n|---|---|---|\n| Addition (+) | The terms | The sum |\n| Subtraction (-) | The terms | The difference |\n| Multiplication (×) | The factors | The product |\n| Division (÷) | The dividend and the divisor | The quotient |"
       }
     }
   ]

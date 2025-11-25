@@ -213,18 +213,20 @@
     {
       "id": "math-1ac-l2",
       "topicId": "math-1ac-c2",
-      "status": "pending_review",
+      "status": "verified",
       "title": {
         "fr": "Droites, segments et angles",
         "ar": "المستقيمات والقطع والزوايا",
         "en": "Lines, segments, and angles"
       },
       "content": {
-        "fr": "",
-        "ar": "",
-        "en": ""
+        "fr": "### **Séquence 1 : Droites, segments et angles**\n\n#### **Introduction**\nLa géométrie est la partie des mathématiques qui étudie les points, les droites, les formes et les figures. Commençons par les éléments de base.\n\n--- \n\n#### **I. Le Point, la Droite, le Segment**\n\n**1. Le Point**\nLe point est le plus petit élément géométrique. On le représente par une croix (+) ou un petit cercle (•) et on le nomme par une lettre majuscule (A, B, C...). \n*Exemple :* Le point A. ![Un point noir unique étiqueté avec la lettre majuscule A sur un fond blanc.](img_un_point_noir_unique_tiquet_avec_la_lettre_majuscu_1764041309644.png)\n\n**2. La Droite**\nUne droite est un ensemble infini de points alignés. Elle est illimitée des deux côtés. On la nomme par une lettre minuscule entre parenthèses (d) ou par deux de ses points (AB).\n*Exemple :* La droite (D) passant par les points A et B. ![Une ligne droite infinie, avec des flèches aux deux extrémités, passant par deux points étiquetés A et B.](img_une_ligne_droite_infinie_avec_des_fl_ches_aux_deux_1764041303442.png)\n\n*Points alignés :* Des points sont dits alignés s'ils appartiennent à la même droite. ![Trois points A, B, et C situés sur la même ligne droite.](img_trois_points_a_b_et_c_situ_s_sur_la_m_me_ligne_dro_1764041293635.png)\n\n**3. La Demi-droite**\nUne demi-droite est une partie d'une droite limitée par un point appelé origine, et illimitée de l'autre côté. On la note [AB), où A est l'origine.\n*Exemple :* La demi-droite d'origine A passant par B. ![Une ligne commençant au point A (l'origine) et s'étendant à l'infini en passant par le point B, avec une flèche à l'extrémité B.](img_une_ligne_commen_ant_au_point_a_l_origine_et_s_ten_1764041285917.jpg)\n\n**4. Le Segment**\nUn segment est une partie d'une droite limitée par deux points appelés extrémités. Il a une longueur mesurable. On le note [AB].\n*Milieu d'un segment :* Le milieu d'un segment [AB] est le point M qui est sur le segment et à égale distance de A et de B (AM = MB).\n![Un segment de droite avec les extrémités A et B. Un point M est marqué exactement au centre, avec des petites marques sur AM et MB pour indiquer qu'ils sont de longueur égale.](img_un_segment_de_droite_avec_les_extr_mit_s_a_et_b_un_1764041279326.png)\n\n**Tableau Récapitulatif**\n| Objet | Notation | Définition | Représentation |\n|---|---|---|---|\n| Droite | (d) ou (AB) | Ligne illimitée des deux côtés. | Une ligne avec des flèches aux deux bouts |\n| Demi-droite | [AB) | Ligne limitée par l'origine A, illimitée de l'autre côté. | Une ligne avec un point A et une flèche du côté de B |\n| Segment | [AB] | Portion de droite limitée par deux extrémités A et B. | Une ligne avec un point à chaque extrémité |\n\n--- \n\n#### **II. Positions Relatives de Deux Droites**\n\n**1. Droites Sécantes**\nDeux droites sont sécantes si elles ont un seul point commun, appelé point d'intersection.\n![Deux lignes droites, (D1) et (D2), se croisant en un seul point étiqueté P.](img_deux_lignes_droites_d1_et_d2_se_croisant_en_un_seu_1764041271806.png)\n\n**2. Droites Perpendiculaires**\nDeux droites sont perpendiculaires si elles sont sécantes et forment un angle droit (90°). On note (D) ⊥ (L).\n![Deux lignes droites se croisant à un angle de 90 degrés, avec le symbole du carré à l'intersection pour indiquer l'angle droit.](img_deux_lignes_droites_se_croisant_un_angle_de_90_deg_1764041260854.png)\n\n**3. Droites Parallèles**\nDeux droites sont parallèles si elles ne se coupent jamais, même en les prolongeant. La distance entre elles est toujours la même. On note (D) // (L).\n![Deux lignes droites qui sont toujours à la même distance l'une de l'autre et ne se touchent jamais.](img_deux_lignes_droites_qui_sont_toujours_la_m_me_dist_1764041251892.png)\n\n--- \n\n#### **III. Les Angles**\n\n**1. Définition et Notation**\nUn angle est formé par deux demi-droites ([OA) et [OB)) qui ont la même origine (O). \n*   Le point O est le **sommet** de l'angle.\n*   Les demi-droites [OA) et [OB) sont les **côtés** de l'angle.\nOn le note \\widehat{AOB} ou \\widehat{BOA}. ![Un angle formé par deux rayons [OA) et [OB) partant d'un point commun O, le sommet.](img_un_angle_form_par_deux_rayons_oa_et_ob_partant_d_u_1764041243865.jpg)\n\n**2. Mesure et Types d'Angles**\nOn mesure un angle en degrés (°). Voici les types d'angles :\n\n| Type d'Angle | Mesure (\\alpha) | Description | Figure |\n|---|---|---|---|\n| **Angle Aigu** | 0° < \\alpha < 90° | Plus petit qu'un angle droit. | ![Un angle clairement inférieur à 90 degrés, comme un coin pointu.](img_un_angle_clairement_inf_rieur_90_degr_s_comme_un_c_1764041235839.png) |\n| **Angle Droit** | \\alpha = 90° | Forme un coin parfait, comme le coin d'un carré. | ![Un angle de 90 degrés, indiqué par un petit symbole de carré au sommet.](img_un_angle_de_90_degr_s_indiqu_par_un_petit_symbole__1764041230511.jpg) |\n| **Angle Obtus** | 90° < \\alpha < 180° | Plus grand qu'un angle droit mais plus petit qu'un angle plat. | ![Un angle clairement supérieur à 90 degrés mais pas une ligne droite, comme un livre ouvert largement.](img_un_angle_clairement_sup_rieur_90_degr_s_mais_pas_u_1764041224903.png) |\n| **Angle Plat** | \\alpha = 180° | Forme une ligne droite. | ![Un angle de 180 degrés formant une ligne droite parfaite avec le sommet au centre.](img_un_angle_de_180_degr_s_formant_une_ligne_droite_pa_1764041220434.png) |\n\n\n**Exemple d'application:**\nSur la figure ci-dessous, nommez :\n![Une figure géométrique complexe avec des points étiquetés P, Q, R, S, T, plusieurs droites, des segments, et des angles de différents types.](img_une_figure_g_om_trique_complexe_avec_des_points_ti_1764041215951.png)\n1.  Deux droites parallèles.\n2.  Deux droites perpendiculaires.\n3.  Un angle aigu.\n4.  Un angle obtus.\n5.  Le milieu du segment [PR].",
+        "ar": "### **التسلسل 1: المستقيمات، القطع والزوايا**\n\n#### **مقدمة**\nالهندسة هي فرع من الرياضيات يدرس النقط والمستقيمات والأشكال. لنبدأ بالعناصر الأساسية.\n\n--- \n\n#### **I. النقطة، المستقيم، والقطعة**\n\n**1. النقطة**\nالنقطة هي أصغر عنصر هندسي. نُمثلها بعلامة زائد (+) أو دائرة صغيرة (•) ونُسميها بحرف لاتيني كبير (A, B, C...). \n*مثال:* النقطة A. %%IMAGE_1%%\n\n**2. المستقيم**\nالمستقيم هو مجموعة غير منتهية من النقط المستقیمیة. وهو غير محدود من كلا الجانبين. نُسميه بحرف صغير بين قوسين (d) أو بنقطتين منه (AB).\n*مثال:* المستقيم (D) المار من النقطتين A و B. %%IMAGE_2%%\n\n*النقط المستقيمية:* تكون النقط مستقيمية إذا كانت تنتمي إلى نفس المستقيم. %%IMAGE_3%%\n\n**3. نصف المستقيم**\nنصف المستقيم هو جزء من مستقيم محدود بنقطة تسمى الأصل، وغير محدود من الجهة الأخرى. نرمز له بالرمز [AB)، حيث A هي الأصل.\n*مثال:* نصف المستقيم الذي أصله A ويمر من B. %%IMAGE_4%%\n\n**4. القطعة**\nالقطعة هي جزء من مستقيم محدود بنقطتين تسميان الطرفين. لها طول قابل للقياس. نرمز لها بالرمز [AB].\n*منتصف قطعة:* منتصف قطعة [AB] هو النقطة M التي تنتمي إلى القطعة وتبعد نفس المسافة عن A و B (AM = MB).\n%%IMAGE_5%%\n\n**جدول تلخيصي**\n| الكائن | الرمز | التعريف | التمثيل |\n|---|---|---|---|\n| المستقيم | (d) أو (AB) | خط غير محدود من كلا الجانبين. | خط به سهمان في كلا الطرفين |\n| نصف المستقيم | [AB) | خط محدود من الأصل A، وغير محدود من الجهة الأخرى. | خط به نقطة A وسهم من جهة B |\n| القطعة | [AB] | جزء من مستقيم محدود بالطرفين A و B. | خط به نقطة في كل طرف |\n\n--- \n\n#### **II. الأوضاع النسبية لمستقيمين**\n\n**1. المستقيمان المتقاطعان**\nيكون مستقيمان متقاطعين إذا كان لهما نقطة مشتركة واحدة فقط، تسمى نقطة التقاطع.\n%%IMAGE_6%%\n\n**2. المستقيمان المتعامدان**\nيكون مستقيمان متعامدين إذا كانا متقاطعين ويشكلان زاوية قائمة (90°). نكتب (D) ⊥ (L).\n%%IMAGE_7%%\n\n**3. المستقيمان المتوازيان**\nيكون مستقيمان متوازيين إذا كانا لا يتقاطعان أبدًا، حتى عند تمديدهما. المسافة بينهما ثابتة دائمًا. نكتب (D) // (L).\n%%IMAGE_8%%\n\n--- \n\n#### **III. الزوايا**\n\n**1. التعريف والترميز**\nتتكون الزاوية من نصفي مستقيم ([OA) و [OB)) لهما نفس الأصل (O). \n*   النقطة O هي **رأس** الزاوية.\n*   نصفا المستقيم [OA) و [OB) هما **ضلعا** الزاوية.\nنرمز لها بالرمز \\widehat{AOB} أو \\widehat{BOA}. %%IMAGE_9%%\n\n**2. قياس وأنواع الزوايا**\nنقيس الزاوية بالدرجات (°). في ما يلي أنواع الزوايا:\n\n| نوع الزاوية | القياس (\\alpha) | الوصف | الشكل |\n|---|---|---|---|\n| **الزاوية الحادة** | 0° < \\alpha < 90° | أصغر من الزاوية القائمة. | %%IMAGE_10%% |\n| **الزاوية القائمة** | \\alpha = 90° | تشكل ركنًا مثاليًا، مثل ركن مربع. | %%IMAGE_11%% |\n| **الزاوية المنفرجة** | 90° < \\alpha < 180° | أكبر من الزاوية القائمة وأصغر من الزاوية المستقيمة. | %%IMAGE_12%% |\n| **الزاوية المستقيمة** | \\alpha = 180° | تشكل خطًا مستقيمًا. | %%IMAGE_13%% |\n\n\n**مثال تطبيقي:**\nعلى الشكل أدناه، قم بتسمية:\n%%IMAGE_14%%\n1.  مستقيمين متوازيين.\n2.  مستقيمين متعامدين.\n3.  زاوية حادة.\n4.  زاوية منفرجة.\n5.  منتصف القطعة [PR].",
+        "en": "### **Sequence 1: Lines, Segments, and Angles**\n\n#### **Introduction**\nGeometry is the part of mathematics that studies points, lines, shapes, and figures. Let's start with the basic elements.\n\n--- \n\n#### **I. The Point, Line, and Segment**\n\n**1. The Point**\nA point is the smallest geometric element. It is represented by a cross (+) or a small circle (•) and is named with a capital letter (A, B, C...). \n*Example:* The point A. %%IMAGE_1%%\n\n**2. The Line**\nA line is an infinite set of collinear points. It is limitless on both sides. It is named with a lowercase letter in parentheses (d) or by two of its points (AB).\n*Example:* The line (D) passing through points A and B. %%IMAGE_2%%\n\n*Collinear points:* Points are said to be collinear if they belong to the same line. %%IMAGE_3%%\n\n**3. The Ray (or Half-Line)**\nA ray is a part of a line bounded by a point called the origin, and limitless on the other side. It is denoted as [AB), where A is the origin.\n*Example:* The ray with origin A passing through B. %%IMAGE_4%%\n\n**4. The Segment**\nA segment is a part of a line bounded by two points called endpoints. It has a measurable length. It is denoted as [AB].\n*Midpoint of a segment:* The midpoint of a segment [AB] is the point M that is on the segment and equidistant from A and B (AM = MB).\n%%IMAGE_5%%\n\n**Summary Table**\n| Object | Notation | Definition | Representation |\n|---|---|---|---|\n| Line | (d) or (AB) | A line that is limitless on both sides. | A line with arrows at both ends |\n| Ray | [AB) | A line limited by origin A, limitless on the other side. | A line with a point A and an arrow on the B side |\n| Segment | [AB] | A portion of a line limited by two endpoints A and B. | A line with a point at each end |\n\n--- \n\n#### **II. Relative Positions of Two Lines**\n\n**1. Intersecting Lines**\nTwo lines are intersecting if they have only one common point, called the point of intersection.\n%%IMAGE_6%%\n\n**2. Perpendicular Lines**\nTwo lines are perpendicular if they intersect and form a right angle (90°). We denote this as (D) ⊥ (L).\n%%IMAGE_7%%\n\n**3. Parallel Lines**\nTwo lines are parallel if they never cross, even when extended. The distance between them is always the same. We denote this as (D) // (L).\n%%IMAGE_8%%\n\n--- \n\n#### **III. Angles**\n\n**1. Definition and Notation**\nAn angle is formed by two rays ([OA) and [OB)) that have the same origin (O). \n*   The point O is the **vertex** of the angle.\n*   The rays [OA) and [OB) are the **sides** of the angle.\nIt is denoted as \\widehat{AOB} or \\widehat{BOA}. %%IMAGE_9%%\n\n**2. Measurement and Types of Angles**\nWe measure an angle in degrees (°). Here are the types of angles:\n\n| Angle Type | Measure (\\alpha) | Description | Figure |\n|---|---|---|---|\n| **Acute Angle** | 0° < \\alpha < 90° | Smaller than a right angle. | %%IMAGE_10%% |\n| **Right Angle** | \\alpha = 90° | Forms a perfect corner, like the corner of a square. | %%IMAGE_11%% |\n| **Obtuse Angle** | 90° < \\alpha < 180° | Larger than a right angle but smaller than a straight angle. | %%IMAGE_12%% |\n| **Straight Angle** | \\alpha = 180° | Forms a straight line. | %%IMAGE_13%% |\n\n\n**Application Example:**\nOn the figure below, name:\n%%IMAGE_14%%\n1.  Two parallel lines.\n2.  Two perpendicular lines.\n3.  An acute angle.\n4.  An obtuse angle.\n5.  The midpoint of the segment [PR]."
       },
-      "backgroundImage": ""
+      "backgroundImage": "img_background_1764041183578.png",
+      "backgroundImageSuggestion": "An abstract, minimalist background with faint, clean geometric lines and angle outlines.",
+      "youtubeVideoId": ""
     },
     {
       "id": "math-1ac-l3",
@@ -668,6 +670,111 @@
         "ar": "| العملية | النتيجة |\n|---|---|\n| `34 + 16 = 50` | 50 هو **المجموع** |\n| `12,5 \\times 4 = 50` | 50 هو **الجداء** |\n| `100 - 50 = 50` | 50 هو **الفرق** |\n| `200 \\div 4 = 50` | 50 هو **الخارج** |",
         "en": "| Operation | Result |\n|---|---|\n| `34 + 16 = 50` | 50 is the **Sum** |\n| `12.5 \\times 4 = 50` | 50 is the **Product** |\n| `100 - 50 = 50` | 50 is the **Difference** |\n| `200 \\div 4 = 50` | 50 is the **Quotient** |"
       }
+    },
+    {
+      "id": "e-1764035943677",
+      "status": "verified",
+      "topicId": "math-1ac-c2",
+      "lessonId": "math-1ac-l2",
+      "title": {
+        "fr": "Définitions et Notations",
+        "ar": "تعاريف ورموز",
+        "en": "Definitions and Notations"
+      },
+      "content": {
+        "fr": "Complétez le tableau suivant en utilisant les termes : Droite, Segment, Demi-droite.\n\n| Définition | Nom | Notation |\n|---|---|---|\n| Portion de droite limitée par deux extrémités A et B | ? | [AB] |\n| Ensemble infini de points alignés, illimité des deux côtés | ? | (AB) |\n| Partie d'une droite limitée par une origine A, illimitée de l'autre côté | ? | [AB) |",
+        "ar": "أكمل الجدول التالي باستخدام المصطلحات: مستقيم، قطعة، نصف مستقيم.\n\n| تعريف | الاسم | الرمز |\n|---|---|---|\n| جزء من مستقيم محدود بطرفين A و B | ؟ | [AB] |\n| مجموعة لا نهائية من النقط المستقيمة، غير محدودة من الجهتين | ؟ | (AB) |\n| جزء من مستقيم محدود بأصل A، وغير محدود من الجهة الأخرى | ؟ | [AB) |",
+        "en": "Complete the following table using the terms: Line, Segment, Half-line.\n\n| Definition | Name | Notation |\n|---|---|---|\n| Portion of a line limited by two endpoints A and B | ? | [AB] |\n| Infinite set of aligned points, unlimited on both sides | ? | (AB) |\n| Part of a line limited by an origin A, unlimited on the other side | ? | [AB) |"
+      },
+      "solution": {
+        "fr": "Voici le tableau complété :\n\n| Définition | Nom | Notation |\n|---|---|---|\n| Portion de droite limitée par deux extrémités A et B | **Segment** | [AB] |\n| Ensemble infini de points alignés, illimité des deux côtés | **Droite** | (AB) |\n| Partie d'une droite limitée par une origine A, illimitée de l'autre côté | **Demi-droite** | [AB) |",
+        "ar": "إليك الجدول كاملاً:\n\n| تعريف | الاسم | الرمز |\n|---|---|---|\n| جزء من مستقيم محدود بطرفين A و B | **قطعة** | [AB] |\n| مجموعة لا نهائية من النقط المستقيمة، غير محدودة من الجهتين | **مستقيم** | (AB) |\n| جزء من مستقيم محدود بأصل A، وغير محدود من الجهة الأخرى | **نصف مستقيم** | [AB) |",
+        "en": "Here is the completed table:\n\n| Definition | Name | Notation |\n|---|---|---|\n| Portion of a line limited by two endpoints A and B | **Segment** | [AB] |\n| Infinite set of aligned points, unlimited on both sides | **Line** | (AB) |\n| Part of a line limited by an origin A, unlimited on the other side | **Half-line** | [AB) |"
+      }
+    },
+    {
+      "id": "e-1764035943678",
+      "status": "verified",
+      "topicId": "math-1ac-c2",
+      "lessonId": "math-1ac-l2",
+      "title": {
+        "fr": "Identifier les éléments sur une figure",
+        "ar": "تحديد العناصر على الشكل",
+        "en": "Identifying Elements on a Figure"
+      },
+      "content": {
+        "fr": "![Une droite (d) avec trois points alignés A, B, et C dans cet ordre.](img_une_droite_d_avec_trois_points_align_s_a_b_et_c_da_1764041210434.png)\nÀ partir de la figure, donnez la notation correcte pour :\n1. La droite passant par A et C.\n2. Le segment dont les extrémités sont B et C.\n3. La demi-droite d'origine B passant par A.\n4. Le milieu du segment [AC], sachant que le point B est à égale distance de A et C.",
+        "ar": "%%IMAGE_1%%\nانطلاقاً من الشكل، أعطِ الترميز الصحيح لـ:\n1. المستقيم المار من A و C.\n2. القطعة التي طرفاها B و C.\n3. نصف المستقيم الذي أصله B ويمر من A.\n4. منتصف القطعة [AC]، علماً أن النقطة B تبعد نفس المسافة عن A و C.",
+        "en": "%%IMAGE_1%%\nFrom the figure, give the correct notation for:\n1. The line passing through A and C.\n2. The segment with endpoints B and C.\n3. The half-line with origin B passing through A.\n4. The midpoint of segment [AC], given that point B is equidistant from A and C."
+      },
+      "solution": {
+        "fr": "1. La droite se note (AC), (CA), (AB) ou (d).\n2. Le segment se note [BC] ou [CB].\n3. La demi-droite se note [BA).\n4. Le milieu du segment [AC] est le point B.",
+        "ar": "1. يرمز للمستقيم بـ (AC)، (CA)، (AB) أو (d).\n2. يرمز للقطعة بـ [BC] أو [CB].\n3. يرمز لنصف المستقيم بـ [BA).\n4. منتصف القطعة [AC] هو النقطة B.",
+        "en": "1. The line is noted as (AC), (CA), (AB), or (d).\n2. The segment is noted as [BC] or [CB].\n3. The half-line is noted as [BA).\n4. The midpoint of segment [AC] is point B."
+      }
+    },
+    {
+      "id": "e-1764035943681",
+      "status": "verified",
+      "topicId": "math-1ac-c2",
+      "lessonId": "math-1ac-l2",
+      "title": {
+        "fr": "Positions Relatives des Droites",
+        "ar": "الأوضاع النسبية للمستقيمات",
+        "en": "Relative Positions of Lines"
+      },
+      "content": {
+        "fr": "![Une figure montrant une droite (D1) et une droite (D2) qui sont parallèles. Une troisième droite (D3) est perpendiculaire à (D1) et (D2). Une quatrième droite (D4) est sécante à (D1) mais pas perpendiculaire.](img_une_figure_montrant_une_droite_d1_et_une_droite_d2_1764041203122.jpg)\nEn observant la figure, identifiez et nommez :\n1. Deux droites parallèles.\n2. Deux droites perpendiculaires.\n3. Deux droites sécantes non perpendiculaires.",
+        "ar": "%%IMAGE_1%%\nمن خلال ملاحظة الشكل، حدد وسمِّ:\n1. مستقيمين متوازيين.\n2. مستقيمين متعامدين.\n3. مستقيمين متقاطعين وغير متعامدين.",
+        "en": "%%IMAGE_1%%\nBy observing the figure, identify and name:\n1. Two parallel lines.\n2. Two perpendicular lines.\n3. Two intersecting lines that are not perpendicular."
+      },
+      "solution": {
+        "fr": "1. Droites parallèles : (D1) // (D2).\n2. Droites perpendiculaires : (D3) ⊥ (D1) et (D3) ⊥ (D2).\n3. Droites sécantes non perpendiculaires : (D4) et (D1).",
+        "ar": "1. مستقيمان متوازيان: (D1) // (D2).\n2. مستقيمان متعامدان: (D3) ⊥ (D1) و (D3) ⊥ (D2).\n3. مستقيمان متقاطعان وغير متعامدين: (D4) و (D1).",
+        "en": "1. Parallel lines: (D1) // (D2).\n2. Perpendicular lines: (D3) ⊥ (D1) and (D3) ⊥ (D2).\n3. Intersecting non-perpendicular lines: (D4) and (D1)."
+      }
+    },
+    {
+      "id": "e-1764035943682",
+      "status": "verified",
+      "topicId": "math-1ac-c2",
+      "lessonId": "math-1ac-l2",
+      "title": {
+        "fr": "Identifier les éléments d'un angle",
+        "ar": "تحديد عناصر الزاوية",
+        "en": "Identifying Angle Components"
+      },
+      "content": {
+        "fr": "![Un angle avec le sommet en M et deux demi-droites passant par les points L et N.](img_un_angle_avec_le_sommet_en_m_et_deux_demi_droites__1764041197364.png)\nPour l'angle représenté sur la figure, \\widehat{LMN} :\n1. Quel est son sommet ?\n2. Quels sont ses côtés ?\n3. Donnez une autre notation possible pour cet angle.",
+        "ar": "%%IMAGE_1%%\nبالنسبة للزاوية الممثلة في الشكل، \\widehat{LMN}:\n1. ما هو رأسها؟\n2. ما هما ضلعاها؟\n3. أعطِ ترميزًا آخر ممكنًا لهذه الزاوية.",
+        "en": "%%IMAGE_1%%\nFor the angle shown in the figure, \\widehat{LMN}:\n1. What is its vertex?\n2. What are its sides?\n3. Give another possible notation for this angle."
+      },
+      "solution": {
+        "fr": "1. Le sommet de l'angle est le point M.\n2. Les côtés de l'angle sont les demi-droites [ML) et [MN).\n3. Une autre notation possible est \\widehat{NML}.",
+        "ar": "1. رأس الزاوية هو النقطة M.\n2. ضلعا الزاوية هما نصفا المستقيم [ML) و [MN).\n3. ترميز آخر ممكن هو \\widehat{NML}.",
+        "en": "1. The vertex of the angle is point M.\n2. The sides of the angle are the half-lines [ML) and [MN).\n3. Another possible notation is \\widehat{NML}."
+      }
+    },
+    {
+      "id": "e-1764035943683",
+      "status": "verified",
+      "topicId": "math-1ac-c2",
+      "lessonId": "math-1ac-l2",
+      "title": {
+        "fr": "Classification des Angles",
+        "ar": "تصنيف الزوايا",
+        "en": "Classifying Angles"
+      },
+      "content": {
+        "fr": "Associez chaque mesure d'angle à son type correct : Aigu, Droit, Obtus, ou Plat.\n1. 135°\n2. 90°\n3. 180°\n4. 12°",
+        "ar": "صل كل قياس زاوية بنوعها الصحيح: حادة، قائمة، منفرجة، أو مستقيمة.\n1. 135°\n2. 90°\n3. 180°\n4. 12°",
+        "en": "Match each angle measurement to its correct type: Acute, Right, Obtuse, or Flat.\n1. 135°\n2. 90°\n3. 180°\n4. 12°"
+      },
+      "solution": {
+        "fr": "1. 135° est un angle **obtus** (car 90° < 135° < 180°).\n2. 90° est un angle **droit**.\n3. 180° est un angle **plat**.\n4. 12° est un angle **aigu** (car 0° < 12° < 90°).",
+        "ar": "1. 135° هي زاوية **منفرجة** (لأن 90° < 135° < 180°).\n2. 90° هي زاوية **قائمة**.\n3. 180° هي زاوية **مستقيمة**.\n4. 12° هي زاوية **حادة** (لأن 0° < 12° < 90°).",
+        "en": "1. 135° is an **obtuse** angle (because 90° < 135° < 180°).\n2. 90° is a **right** angle.\n3. 180° is a **flat** angle.\n4. 12° is an **acute** angle (because 0° < 12° < 90°)."
+      }
     }
   ],
   "summaries": [
@@ -701,6 +808,38 @@
         "fr": "### Les Quatre Opérations et leur Vocabulaire\n\n**1. Addition (+)**\n*   **Nombres** : Les termes\n*   **Résultat** : La somme\n*   **Propriétés** : Commutative, Associative\n\n**2. Soustraction (-)**\n*   **Nombres** : Les termes\n*   **Résultat** : La différence\n*   **Propriétés** : Aucune\n\n**3. Multiplication (×)**\n*   **Nombres** : Les facteurs\n*   **Résultat** : Le produit\n*   **Propriétés** : Commutative, Associative, Distributive\n\n**4. Division (÷)**\n*   **Nombres** : Dividende et diviseur\n*   **Résultat** : Le quotient (+ reste pour la division euclidienne)\n\n### Tableau Récapitulatif\n| Opération | Noms des termes | Nom du résultat |\n|---|---|---|\n| Addition (+) | Les termes | La somme |\n| Soustraction (-) | Les termes | La différence |\n| Multiplication (×) | Les facteurs | Le produit |\n| Division (÷) | Le dividende et le diviseur | Le quotient |",
         "ar": "### العمليات الأربع ومصطلحاتها\n\n**1. الجمع (+)**\n*   **الأعداد**: الحدان (أو الحدود)\n*   **النتيجة**: المجموع\n*   **الخصائص**: تبادلية، تجميعية\n\n**2. الطرح (-)**\n*   **الأعداد**: الحدان (أو الحدود)\n*   **النتيجة**: الفرق\n*   **الخصائص**: لا شيء\n\n**3. الضرب (×)**\n*   **الأعداد**: العاملان (أو العوامل)\n*   **النتيجة**: الجداء\n*   **الخصائص**: تبادلية، تجميعية، توزيعية\n\n**4. القسمة (÷)**\n*   **الأعداد**: المقسوم والمقسوم عليه\n*   **النتيجة**: الخارج (+ الباقي في القسمة الإقليدية)\n\n### جدول تلخيصي\n| العملية | أسماء الأعداد | اسم النتيجة |\n|---|---|---|\n| الجمع (+) | الحدان | المجموع |\n| الطرح (-) | الحدان | الفرق |\n| الضرب (×) | العاملان | الجداء |\n| القسمة (÷) | المقسوم والمقسوم عليه | الخارج |",
         "en": "### The Four Operations and their Vocabulary\n\n**1. Addition (+)**\n*   **Numbers**: The terms\n*   **Result**: The sum\n*   **Properties**: Commutative, Associative\n\n**2. Subtraction (-)**\n*   **Numbers**: The terms\n*   **Result**: The difference\n*   **Properties**: None\n\n**3. Multiplication (×)**\n*   **Numbers**: The factors\n*   **Result**: The product\n*   **Properties**: Commutative, Associative, Distributive\n\n**4. Division (÷)**\n*   **Numbers**: Dividend and divisor\n*   **Result**: The quotient (+ remainder for Euclidean division)\n\n### Summary Table\n| Operation | Names of terms | Name of result |\n|---|---|---|\n| Addition (+) | The terms | The sum |\n| Subtraction (-) | The terms | The difference |\n| Multiplication (×) | The factors | The product |\n| Division (÷) | The dividend and the divisor | The quotient |"
+      }
+    },
+    {
+      "id": "s-act-1764035943680",
+      "status": "verified",
+      "topicId": "math-1ac-c2",
+      "lessonId": "math-1ac-l2",
+      "title": {
+        "fr": "Bilan des activités",
+        "ar": "حصيلة الأنشطة",
+        "en": "Activities Summary"
+      },
+      "content": {
+        "fr": "Dans cette séquence, nous avons exploré les fondements de la géométrie :\n- **Définition des éléments de base :** Nous avons appris à identifier, nommer et représenter un point (A), une droite (d) ou (AB), une demi-droite [AB) et un segment [AB].\n- **Positions relatives des droites :** Nous avons différencié les droites sécantes (un point commun), perpendiculaires (un angle droit) et parallèles (aucun point commun).\n- **Introduction aux angles :** Nous avons défini un angle comme l'union de deux demi-droites de même origine (le sommet), et appris à le noter (\\widehat{AOB}).\n- **Classification des angles :** Nous avons appris à classer les angles selon leur mesure en degrés : aigu (< 90°), droit (= 90°), obtus (> 90°) et plat (= 180°).",
+        "ar": "في هذا المقطع، استكشفنا أسس الهندسة:\n- **تعريف العناصر الأساسية:** تعلمنا تحديد وتسمية وتمثيل النقطة (A)، المستقيم (d) أو (AB)، نصف المستقيم [AB) والقطعة [AB].\n- **الأوضاع النسبية للمستقيمات:** قمنا بالتمييز بين المستقيمات المتقاطعة (نقطة مشتركة واحدة)، المتعامدة (زاوية قائمة) والمتوازية (لا توجد نقطة مشتركة).\n- **مقدمة للزوايا:** عرفنا الزاوية كاتحاد نصفي مستقيم لهما نفس الأصل (الرأس)، وتعلمنا كيفية كتابتها (\\widehat{AOB}).\n- **تصنيف الزوايا:** تعلمنا تصنيف الزوايا حسب قياسها بالدرجات: حادة (< 90°)، قائمة (= 90°)، منفرجة (> 90°) ومستقيمة (= 180°).",
+        "en": "In this sequence, we explored the fundamentals of geometry:\n- **Defining Basic Elements:** We learned to identify, name, and represent a point (A), a line (d) or (AB), a ray [AB), and a segment [AB].\n- **Relative Positions of Lines:** We differentiated between intersecting lines (one common point), perpendicular lines (a right angle), and parallel lines (no common points).\n- **Introduction to Angles:** We defined an angle as the union of two rays with the same origin (the vertex), and learned how to denote it (\\widehat{AOB}).\n- **Classifying Angles:** We learned to classify angles by their measure in degrees: acute (< 90°), right (= 90°), obtuse (> 90°), and straight (= 180°)."
+      }
+    },
+    {
+      "id": "s-syn-1764035943680",
+      "status": "verified",
+      "topicId": "math-1ac-c2",
+      "lessonId": "math-1ac-l2",
+      "title": {
+        "fr": "Schéma de synthèse",
+        "ar": "خطاطة تركيبية",
+        "en": "Summary Diagram"
+      },
+      "content": {
+        "fr": "**Les Éléments Géométriques**\n\n**1. Points et Lignes**\n*   **Point (A, B...)** : Représente une position.\n*   **Droite (AB)** : Ligne infinie de points alignés.\n*   **Segment [AB]** : Partie de droite entre deux points (extrémités). A une longueur.\n*   **Demi-droite [AB)** : Partie de droite avec un point d'origine, infinie de l'autre côté.\n\n**2. Relations entre Droites**\n*   **Parallèles (//)** : Ne se coupent jamais.\n*   **Sécantes** : Se coupent en un seul point.\n    *   **Perpendiculaires (⊥)** : Se coupent en formant un angle droit (90°).\n\n**3. Les Angles (\\widehat{AOB})**\n*   **Définition** : Espace entre deux demi-droites ([OA) et [OB)) avec un sommet commun (O).\n*   **Classification par mesure** :\n    *   **Aigu** : entre 0° et 90°\n    *   **Droit** : égale à 90°\n    *   **Obtus** : entre 90° et 180°\n    *   **Plat** : égale à 180°",
+        "ar": "**العناصر الهندسية**\n\n**1. النقط والمستقيمات**\n*   **النقطة (A, B...)** : تمثل موقعًا.\n*   **المستقيم (AB)** : خط لا نهائي من النقط المستقيمة.\n*   **القطعة [AB]** : جزء من مستقيم بين نقطتين (طرفين). لها طول.\n*   **نصف المستقيم [AB)** : جزء من مستقيم له نقطة أصل، ولا نهائي من الجهة الأخرى.\n\n**2. العلاقات بين المستقيمات**\n*   **متوازيان (//)** : لا يتقاطعان أبدًا.\n*   **متقاطعان** : يتقاطعان في نقطة واحدة.\n    *   **متعامدان (⊥)** : يتقاطعان مكونين زاوية قائمة (90°).\n\n**3. الزوايا (\\widehat{AOB})**\n*   **تعريف** : الحيز بين نصفي مستقيم ([OA) و [OB)) لهما رأس مشترك (O).\n*   **التصنيف حسب القياس** :\n    *   **حادة** : بين 0° و 90°\n    *   **قائمة** : تساوي 90°\n    *   **منفرجة** : بين 90° و 180°\n    *   **مستقيمة** : تساوي 180°",
+        "en": "**Geometric Elements**\n\n**1. Points and Lines**\n*   **Point (A, B...)**: Represents a position.\n*   **Line (AB)**: Infinite line of aligned points.\n*   **Segment [AB]**: Part of a line between two points (endpoints). Has a length.\n*   **Ray [AB)**: Part of a line with an origin point, infinite on the other side.\n\n**2. Relationships Between Lines**\n*   **Parallel (//)**: Never intersect.\n*   **Intersecting**: Cross at a single point.\n    *   **Perpendicular (⊥)**: Intersect to form a right angle (90°).\n\n**3. Angles (\\widehat{AOB})**\n*   **Definition**: Space between two rays ([OA) and [OB)) with a common vertex (O).\n*   **Classification by measure**:\n    *   **Acute**: between 0° and 90°\n    *   **Right**: equals 90°\n    *   **Obtuse**: between 90° and 180°\n    *   **Straight**: equals 180°"
       }
     }
   ]
